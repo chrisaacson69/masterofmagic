@@ -238,9 +238,20 @@ class MarkovGenerator:
         return total
 
     @staticmethod
+    def figures_alive(unit: Unit, current_hp: int) -> int:
+        """How many figures are alive at a given HP total.
+        Damage spills: first figure dies when its HP is gone, then next, etc.
+        figures_alive = ceil(current_hp / hp_per_figure)"""
+        if current_hp <= 0:
+            return 0
+        return math.ceil(current_hp / unit.hp_per_figure)
+
+    @staticmethod
     def build_round_transition(
         attacker: Unit,
         defender: Unit,
+        attacker_hp: int | None = None,
+        defender_hp: int | None = None,
         is_initiator: bool = True,
     ) -> np.ndarray:
         """
@@ -248,23 +259,26 @@ class MarkovGenerator:
 
         Returns P(damage = d) for d in 0..max_possible_damage.
 
-        Combat phases (initiator):
-          1. Ranged phase — initiator fires ranged/breath, defender cannot counter
-          2. Melee phase — both sides engage in melee
+        attacker_hp: current HP of attacker (determines surviving figures).
+                     None = full health.
+        defender_hp: current HP of defender (determines surviving figures for
+                     area damage calculations). None = full health.
 
-        Combat phases (defender):
-          1. No ranged phase — defender doesn't get free ranged
-          2. Melee counter — defender fights back in melee only
-          3. Breath on defense — breath still fires during melee (but no free ranged)
-
-        is_initiator: True = this unit initiated combat (gets ranged phase)
-                      False = this unit is defending (melee counter only)
+        A single-figure fantastic unit deals the same damage at 1 HP as at 30 HP.
+        A 6-figure normal unit at 2 HP has only 2 figures swinging swords.
         """
-        att_figs = attacker.figures
-        att_strength = attacker.melee
-        total_swords = att_figs * att_strength
+        att_hp = attacker_hp if attacker_hp is not None else attacker.total_hp
+        def_hp = defender_hp if defender_hp is not None else defender.total_hp
 
-        # Melee physical damage (always happens for both sides)
+        att_figs = MarkovGenerator.figures_alive(attacker, att_hp)
+        def_figs = MarkovGenerator.figures_alive(defender, def_hp)
+
+        if att_figs <= 0:
+            return np.array([1.0])  # dead attacker deals no damage
+
+        # Melee: surviving figures * per-figure melee strength
+        total_swords = att_figs * attacker.melee
+
         melee_dist = MarkovGenerator.physical_damage_distribution(
             attack_strength=total_swords,
             tohit=attacker.base_tohit,
@@ -275,12 +289,11 @@ class MarkovGenerator:
             weapon_immunity=defender.weapon_immunity,
         )
 
-        # Ranged phase — only for initiator, fires BEFORE melee
+        # Ranged phase — only for initiator, figures-dependent
         if is_initiator and attacker.ranged > 0 and attacker.ranged_type > 0:
             total_ranged = att_figs * attacker.ranged
-            # Missile immunity: +10 shields for non-magical ranged
             ranged_weapon_imm = (
-                defender.missile_immunity and attacker.ranged_type == 1  # bow
+                defender.missile_immunity and attacker.ranged_type == 1
             )
             ranged_dist = MarkovGenerator.physical_damage_distribution(
                 attack_strength=total_ranged,
@@ -290,28 +303,26 @@ class MarkovGenerator:
             )
             melee_dist = np.convolve(melee_dist, ranged_dist)
 
-        # Breath attack — fires on approach (initiator) or during melee (both)
-        # Initiator gets breath as a free phase; defender's breath fires during
-        # melee counter. Both get it, but initiator's resolves first (handled
-        # by the engine's phase ordering, not here — we just include the damage).
+        # Breath attack — single-figure ability, NOT multiplied by attacker figs
+        # But area damage hits each DEFENDER figure independently
         if attacker.breath > 0:
             breath_dist = MarkovGenerator.area_damage_distribution(
                 attack_strength=attacker.breath,
                 tohit=attacker.base_tohit,
                 defense=defender.defense,
                 toblock=0.3,
-                num_figures=defender.figures,
+                num_figures=def_figs,
             )
             melee_dist = np.convolve(melee_dist, breath_dist)
 
-        # Immolation (area damage during melee — both attacker and defender)
+        # Immolation — area damage, hits each defender figure independently
         if attacker.immolation > 0:
             immo_dist = MarkovGenerator.area_damage_distribution(
                 attack_strength=attacker.immolation,
                 tohit=attacker.base_tohit,
                 defense=defender.defense,
                 toblock=0.3,
-                num_figures=defender.figures,
+                num_figures=def_figs,
             )
             melee_dist = np.convolve(melee_dist, immo_dist)
 
@@ -321,26 +332,37 @@ class MarkovGenerator:
     def build_transition_matrix(
         attacker: Unit,
         defender: Unit,
+        attacker_hp: int | None = None,
         is_initiator: bool = True,
     ) -> np.ndarray:
         """
-        Build full Markov transition matrix for defender's HP.
+        Build full Markov transition matrix for defender's HP,
+        given the attacker's current HP.
 
-        Matrix T where T[i][j] = P(defender goes from i HP to j HP)
-        after one attack by attacker at current figure count.
+        For single-figure units (fantastic creatures), this matrix is the same
+        regardless of attacker HP — they hit just as hard at 1 HP as at full.
 
-        is_initiator: whether the attacker initiated combat (gets ranged phase).
+        For multi-figure units, fewer figures = fewer swords = less damage.
+        The engine rebuilds this matrix as the attacker takes damage.
+
+        attacker_hp: attacker's current HP (None = full health).
         """
+        att_hp = attacker_hp if attacker_hp is not None else attacker.total_hp
         max_hp = defender.total_hp
         T = np.zeros((max_hp + 1, max_hp + 1))
 
         # Row 0: already dead, stays dead
         T[0][0] = 1.0
 
-        # For each possible current HP, compute damage distribution
+        # Compute damage distribution for this attacker HP level
+        # (same for all defender HP rows — defender HP only affects
+        # area damage figure count, handled inside build_round_transition)
         for hp in range(1, max_hp + 1):
             damage_dist = MarkovGenerator.build_round_transition(
-                attacker, defender, is_initiator=is_initiator
+                attacker, defender,
+                attacker_hp=att_hp,
+                defender_hp=hp,
+                is_initiator=is_initiator,
             )
             for d in range(len(damage_dist)):
                 new_hp = max(hp - d, 0)
@@ -405,15 +427,34 @@ class BattleEngine:
         hp_a_max = unit_a.total_hp
         hp_b_max = unit_b.total_hp
 
-        # Build transition matrices for each role combination:
-        # T_ab_init: A attacks B, A is initiator (gets ranged + breath free)
-        # T_ab_def:  A attacks B, A is defender (melee + breath only)
-        # T_ba_init: B attacks A, B is initiator
-        # T_ba_def:  B attacks A, B is defender
-        T_ab_init = MarkovGenerator.build_transition_matrix(unit_a, unit_b, is_initiator=True)
-        T_ab_def = MarkovGenerator.build_transition_matrix(unit_a, unit_b, is_initiator=False)
-        T_ba_init = MarkovGenerator.build_transition_matrix(unit_b, unit_a, is_initiator=True)
-        T_ba_def = MarkovGenerator.build_transition_matrix(unit_b, unit_a, is_initiator=False)
+        # Precompute transition matrices for each attacker HP level.
+        # For single-figure units, all HP levels produce the same matrix.
+        # For multi-figure units, each figure-count boundary changes the matrix.
+        #
+        # T_ab[hp_a] = transition matrix for B's HP when A attacks at hp_a
+        # We only need one matrix per distinct figure count, so cache by figures.
+
+        def build_matrices(attacker, defender, is_initiator):
+            """Build a dict mapping attacker_hp -> transition matrix."""
+            matrices = {}
+            last_figs = -1
+            last_matrix = None
+            for hp in range(0, attacker.total_hp + 1):
+                figs = MarkovGenerator.figures_alive(attacker, hp)
+                if figs != last_figs:
+                    last_figs = figs
+                    last_matrix = MarkovGenerator.build_transition_matrix(
+                        attacker, defender,
+                        attacker_hp=hp,
+                        is_initiator=is_initiator,
+                    )
+                matrices[hp] = last_matrix
+            return matrices
+
+        T_ab_init = build_matrices(unit_a, unit_b, is_initiator=True)
+        T_ab_def = build_matrices(unit_a, unit_b, is_initiator=False)
+        T_ba_init = build_matrices(unit_b, unit_a, is_initiator=True)
+        T_ba_def = build_matrices(unit_b, unit_a, is_initiator=False)
 
         # State: joint probability distribution over (hp_a, hp_b)
         state = np.zeros((hp_a_max + 1, hp_b_max + 1))
@@ -517,44 +558,32 @@ class BattleEngine:
         )
 
     @staticmethod
-    def _apply_attack_ab(state, T_ab, hp_a_max, hp_b_max):
-        """A attacks B: transition B's HP for each row where A is alive."""
+    def _apply_attack_ab(state, T_ab_by_hp, hp_a_max, hp_b_max):
+        """A attacks B: transition B's HP using A's HP-dependent matrix."""
         new_state = np.zeros_like(state)
         # Row 0 (A dead): no attack, state unchanged
         new_state[0, :] += state[0, :]
-        # Rows 1+ (A alive): B's HP transitions according to T_ab
+        # Rows 1+ (A alive): use the transition matrix for this HP level
         for i in range(1, hp_a_max + 1):
-            # state[i, :] is the distribution over B's HP when A has i HP
-            # Multiply by transition matrix to get new B HP distribution
             b_dist = state[i, :]
-            new_b_dist = b_dist @ T_ab  # matrix multiply: row vector × matrix
+            T = T_ab_by_hp[i]
+            new_b_dist = b_dist @ T
             new_state[i, :] += new_b_dist
         return new_state
 
     @staticmethod
-    def _apply_attack_ba(state, T_ba, hp_a_max, hp_b_max):
-        """B attacks A: transition A's HP for each column where B is alive."""
+    def _apply_attack_ba(state, T_ba_by_hp, hp_a_max, hp_b_max):
+        """B attacks A: transition A's HP using B's HP-dependent matrix."""
         new_state = np.zeros_like(state)
         # Col 0 (B dead): no attack, state unchanged
         new_state[:, 0] += state[:, 0]
-        # Cols 1+ (B alive): A's HP transitions according to T_ba
+        # Cols 1+ (B alive): use the transition matrix for this HP level
         for j in range(1, hp_b_max + 1):
             a_dist = state[:, j]
-            new_a_dist = a_dist @ T_ba
+            T = T_ba_by_hp[j]
+            new_a_dist = a_dist @ T
             new_state[:, j] += new_a_dist
         return new_state
-
-    @staticmethod
-    def _apply_simultaneous(state, T_ab, T_ba, hp_a_max, hp_b_max):
-        """Both attack simultaneously. Apply both transitions independently."""
-        # First A attacks B
-        intermediate = BattleEngine._apply_attack_ab(state, T_ab, hp_a_max, hp_b_max)
-        # Then B attacks A (using pre-damage state for B's figure count)
-        # For simultaneous, both use the state BEFORE this round's damage
-        # Approximation: apply sequentially (A then B). True simultaneous
-        # would require a joint 4D transition which is overkill for v1.
-        result = BattleEngine._apply_attack_ba(intermediate, T_ba, hp_a_max, hp_b_max)
-        return result
 
 
 # ---------------------------------------------------------------------------
