@@ -1,0 +1,131 @@
+A [[Damage Type]] is the effect (or effects) caused by an attack. Two attacks delivering the same [[Damage Type]] at the same target will have the same sort of effect on that target (though possibly at different magnitudes).
+
+Any attack made by one unit on another unit will deliver at least one [[Damage Type]]. Many spells that affect enemy units also execute an attack on their designated target(s), and thus also deliver one or more [[Damage Type]]s.
+
+[[Damage Type]]s are split into three main sub-categories: [[Physical Damage]], [[Area Damage]] and [[Special Damage]]. The Physical Damage category includes all [[Damage Type]]s that attempt to inflict {{Damage|Damage Points}} on the target in a linear fashion (one {{Figure|Figure}} after the other), and involve the common process of {{To Hit|To Hit}} and {{To Block|Defense}} rolls. Area Damage types are similar to Physical Damage, but are applied to every {{Figure|Figure}} separately when targeted at a {{MFU|Multi-Figure unit}}. The Special Damage category includes all other [[Damage Type]]s, i.e. those that behave differently from Physical Damage and Area Damage.
+
+Some [[Special Damage]] Types work as ''tandem components'' to other types of damage, and are largely responsible for the capability of some attacks to deliver more than one [[Damage Type]]. Attacks dealing these [[Damage Type]]s are naturally more dangerous than others.
+
+Finally, most [[Damage Type]]s can trigger one or more of the target's immunities (if it possesses any), making the target harder (or impossible) to harm with that particular type of damage.
+
+== Concept ==
+
+The ''Master of Magic Wiki'' attempts to deconstruct and analyze the rules of the game in a manner that is easier to understand, and with as few exceptions as possible. Therefore, the "Attack and Damage" system was devised, which categorizes each attack in the game based on how it is delivered (known as the "[[Attack Type]]") and by the effect it causes to the target (known as the "[[Damage Type]]").
+
+Thus, any attack in the game, regardless of its source or the method in which it is executed, can be said to deliver one or more '''Types of Damage'''. Depending on the delivered types, the attack can cause actual {{Damage|Damage}} to the target, kill {{Figure|figures}} outright, or inflict some other harm or effect.
+
+For the most part, [[Attack Type]]s deliver at least one particular [[Damage Type]] by default. For example, [[Melee Attack]]s will always deliver [[Melee Damage]] (a [[Physical Damage]] Type). 
+
+In addition, various [[Unit Abilities]] and [[Magical Item]]s can add one or more ''tandem components'' to an attack on top of its default [[Damage Type]]. For example, the [[File:Ability_Illusion.png|23px|link=Illusion]] [[Illusion]] ability adds [[Illusion Damage]] to each of a unit's attacks, on top of whatever [[Damage Type]]s those attacks deliver by default. Such complex attacks can have all sorts of compound effects on their targets, and are really what makes the combat system so interesting - and so difficult to understand.
+
+== Damage Types by Category ==
+
+[[Damage Type]]s come in three distinct flavors, and this Wiki splits them into three corresponding categories. They are known as [[Physical Damage]] types, [[Area Damage]] types, and [[Special Damage]] types. Physical Damage and Area Damage are two very-well-defined groups, with members of each group being similar to each other in terms of how they work. Members of the Special Damage group, however, are defined by belonging in neither of the other two groups.
+
+=== Physical Damage ===
+
+[[Physical Damage]] is a collective name that refers to a group of similar [[Damage Type]]s.
+
+All types of [[Physical Damage]] work by trying to inflict actual {{Damage|Damage Points}} on the target. To calculate the exact amount of {{Damage|Damage}}, the attacker must make a series of {{To Hit|To Hit}} rolls, determining the accuracy of the attack. The target then makes a series of {{To Block|Defense}} rolls, to determine how well the target managed to evade or block this incoming damage. Finally, the game applies {{Damage|Damage Points}} to the target unit based on the comparison between all of these rolls.
+
+There are 3 general types of [[Physical Damage]]:
+* [[Melee Damage]]
+* [[Ranged Damage]]
+* [[Magical Damage]]
+
+The specific type delivered by any attack depends on the [[Attack Type]]. Therefore, [[Melee Attack]]s deliver [[Melee Damage]], [[Ranged Attack]]s deliver [[Ranged Damage]], and spells and some [[Special Attack]] abilities deliver [[Magical Damage]].
+
+[[Ranged Damage]] and [[Magical Damage]] are then further split into "sub-types", depending on what additional kinds of immunities they trigger, if the target possesses any. [[Ranged Damage#Ranged Magical Damage|Ranged Magical Damage]] forms a crossover between the two types, and thus belongs to (and is described in) both.
+
+=== Area Damage ===
+
+The [[Area Damage]] group consists of only two [[Damage Type]]s. In essence, these are variations of [[Magical Damage]] Types ([[Fire Damage]] and [[Cold Damage]] respectively), with the difference being in their method of application.
+
+While [[Physical Damage]] is always applied to a single {{Figure|Figure}}, working through multiple figures one at a time, [[Area Damage]] is instead applied simultaneously to all {{Figure|Figures}} in {{MFU|Multi-Figure Units}}. Just like [[Physical Damage]] however, it is meant to cause actual {{Damage|Damage Points}} to the target. In fact, when it is directed at a {{SFU|Single-Figure unit}}, [[Area Damage]] behaves exactly like [[Physical Damage]].
+
+For {{MFU|Multi-Figure}} targets, it strikes each individual {{Figure|Figure}} within the target unit separately from the others. The process involves making separate {{To Hit|To Hit}} rolls against each figure, and then allowing each figure to make {{To Block|To Block}} rolls of its own. Once the "hits" and "blocks" are tallied and calculated for each figure, the resulting {{Damage|Damage}} is applied to the unit as a whole (starting with the "lead" figure, and killing off figures one by one).
+
+The two types of [[Area Damage]] are called "[[Immolation Damage]]" and "[[Blizzard Damage]]". The only difference between them is the type of immunity they trigger ([[File:Ability_FireImmunity.png|23px|link=Fire Immunity]] [[Fire Immunity]] or [[File:Ability_ColdImmunity.png|23px|link=Cold Immunity]] [[Cold Immunity]] respectively). Both types will also trigger a target's [[File:Ability_MagicImmunity.png|23px|link=Magic Immunity]] [[Magic Immunity]], if any, which makes the target completely immune to both of them.
+
+=== Special Damage ===
+
+[[Special Damage]] is a catch-all term that refers to all [[Damage Type]]s that do not fit into either the [[Physical Damage|Physical]] or [[Area Damage]] category. Therefore, all types of [[Special Damage]] will behave differently from [[Physical Damage|Physical]] and [[Area Damage]] in one or more ways.
+
+One type of [[Special Damage]], called [[Doom Damage]], works somewhat similarly to [[Physical Damage]] in that it will inflict actual {{Damage|Damage Points}} on the target. However it is different enough that it cannot be lumped together with any of the Physical Damage types.
+
+The majority of [[Special Damage]] types will actually force the target to make {{Resist|Resistance}} rolls instead of {{To Block|Defense}} rolls, as a means of determining how much harm (if any) is caused to that target. Several of these Special Damage types actually do not cause {{Damage|Damage Points}} in the usual sense, instead ''killing off'' one or more of the {{Figure|Figures}} in the target unit outright!
+
+Finally, a couple of [[Special Damage]] types do no harm on their own, but instead make the target easier to hit with another [[Damage Type]]. These are known as "tandem damage components", usually delivered in the same attack alongside [[Physical Damage]]. The tandem component is responsible for messing with the target's {{Defense|Defense}} score, thereby making it harder for the target to defend itself when subsequently struck by the Physical Damage component. In fact, [[Doom Damage]] can also be thought of as a "tandem component" to what would otherwise usually be simple [[Magical Damage]].
+
+Below is a list of all [[Special Damage]] types, as well as the manner in which they harm the target. It is worth noting that only the "tandem components" have anything to do with the target's {{Defense|Defense}}, the rest are either {{Resist|Resistance-based}} or apply their effect automatically.
+
+{| class="gradientable"
+|- class="firstrow"
+! style="font-size:90%;" | Name
+! style="font-size:90%;" | Effect
+|-
+| style="vertical-align:top;" nowrap="" | [[Armor Piercing Damage]]
+| style="vertical-align:top;" | Tandem component: Temporarily reduces the target's {{Defense|Defense}} by half, making it easier to strike the target with subsequent [[Physical Damage]].
+|-
+| &nbsp;
+| &nbsp;
+|-
+| style="vertical-align:top;" nowrap="" | [[Death Damage]]
+| style="vertical-align:top;" | Target {{Figure|Figure(s)}} must {{Resist|Resist}} or die.
+|-
+| &nbsp;
+| &nbsp;
+|-
+| style="vertical-align:top;" nowrap="" | [[Disintegration Damage]]
+| style="vertical-align:top;" | If target has less than {{Resist|10 Resistance}}, it is completely destroyed.
+|-
+| &nbsp;
+| &nbsp;
+|-
+| style="vertical-align:top;" nowrap="" | [[Dispel Evil Damage]]
+| style="vertical-align:top;" | Target {{Figure|Figure(s)}} must {{Resist|Resist}} or die. Works only against targets associated with the {{Death|Death}} or {{Chaos|Chaos}} realms.
+|-
+| &nbsp;
+| &nbsp;
+|-
+| style="vertical-align:top;" nowrap="" | [[Doom Damage]]
+| style="vertical-align:top;" | Inflicts a set amount of {{Damage|Damage Points}} on the target, with no {{To Hit|To Hit}} or {{To Block|To Block}} rolls involved.
+|-
+| &nbsp;
+| &nbsp;
+|-
+| style="vertical-align:top;" nowrap="" | [[Fear Damage]]
+| style="vertical-align:top;" | Each {{Figure|Figure}} in the target unit must {{Resist|Resist}} or be unable to [[Counter Attack]].
+|-
+| &nbsp;
+| &nbsp;
+|-
+| style="vertical-align:top;" nowrap="" | [[Illusion Damage]]
+| style="vertical-align:top;" | Tandem component: Temporarily nullifies the target's {{Defense|Defense}}, making it much easier to strike the target with subsequent [[Physical Damage]].
+|-
+| &nbsp;
+| &nbsp;
+|-
+| style="vertical-align:top;" nowrap="" | [[Life Stealing Damage]]
+| style="vertical-align:top;" | Target makes a single {{Resist|Resistance}} roll and suffers {{Damage|Damage}} accordingly. The attacker gains {{Hits|Hit Points}} proportionally. Target may rise as [[Undead]] if killed primarily by [[Life Stealing Damage]].
+|-
+| &nbsp;
+| &nbsp;
+|-
+| style="vertical-align:top;" nowrap="" | [[Poison Damage]]
+| style="vertical-align:top;" | Target makes a series of {{Resist|Resistance}} rolls and suffers {{Damage|Damage}} accordingly.
+|-
+| &nbsp;
+| &nbsp;
+|-
+| style="vertical-align:top;" nowrap="" | [[Power Drain Damage]]
+| style="vertical-align:top;" | Target loses between {{Mana|2-20 Mana}} randomly. Works only against targets possessing the [[Caster]] ability.
+|-
+| &nbsp;
+| &nbsp;
+|-
+| style="vertical-align:top;" nowrap="" | [[Stoning Damage]]
+| style="vertical-align:top;" | Target {{Figure|Figure(s)}} must {{Resist|Resist}} or die.
+|}
+[[Category:Damage Types]]
+[[Category:Combat]]
