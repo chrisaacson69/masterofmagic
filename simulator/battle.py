@@ -238,30 +238,33 @@ class MarkovGenerator:
         return total
 
     @staticmethod
-    def build_round_transition(attacker: Unit, defender: Unit) -> np.ndarray:
+    def build_round_transition(
+        attacker: Unit,
+        defender: Unit,
+        is_initiator: bool = True,
+    ) -> np.ndarray:
         """
         Build the damage distribution for one round: attacker attacks defender.
 
         Returns P(damage = d) for d in 0..max_possible_damage.
-        Combines melee/ranged + breath + special attacks.
 
-        For now: physical melee/ranged only. Breath and specials to be added.
+        Combat phases (initiator):
+          1. Ranged phase — initiator fires ranged/breath, defender cannot counter
+          2. Melee phase — both sides engage in melee
+
+        Combat phases (defender):
+          1. No ranged phase — defender doesn't get free ranged
+          2. Melee counter — defender fights back in melee only
+          3. Breath on defense — breath still fires during melee (but no free ranged)
+
+        is_initiator: True = this unit initiated combat (gets ranged phase)
+                      False = this unit is defending (melee counter only)
         """
-        # Determine active figures for attacker based on some assumed HP
-        # For the transition matrix, we compute per-figure-count distributions
-        # and the engine will select the right one based on current HP state.
-
-        # For simplicity in v1: compute at full strength (all figures alive)
-        # Each figure attacks independently with the unit's attack strength
         att_figs = attacker.figures
-        att_strength = attacker.melee  # per figure
-
-        # Total attack = figures * per-figure strength (each figure swings independently)
-        # But in MoM, it's not that simple — each figure makes `attack_strength` rolls
-        # So total swords = figures_alive * melee_strength
+        att_strength = attacker.melee
         total_swords = att_figs * att_strength
 
-        # Melee physical damage
+        # Melee physical damage (always happens for both sides)
         melee_dist = MarkovGenerator.physical_damage_distribution(
             attack_strength=total_swords,
             tohit=attacker.base_tohit,
@@ -272,7 +275,25 @@ class MarkovGenerator:
             weapon_immunity=defender.weapon_immunity,
         )
 
-        # Breath attack (area damage — hits each defender figure independently)
+        # Ranged phase — only for initiator, fires BEFORE melee
+        if is_initiator and attacker.ranged > 0 and attacker.ranged_type > 0:
+            total_ranged = att_figs * attacker.ranged
+            # Missile immunity: +10 shields for non-magical ranged
+            ranged_weapon_imm = (
+                defender.missile_immunity and attacker.ranged_type == 1  # bow
+            )
+            ranged_dist = MarkovGenerator.physical_damage_distribution(
+                attack_strength=total_ranged,
+                tohit=attacker.base_tohit,
+                defense=defender.defense + (10 if ranged_weapon_imm else 0),
+                toblock=0.3,
+            )
+            melee_dist = np.convolve(melee_dist, ranged_dist)
+
+        # Breath attack — fires on approach (initiator) or during melee (both)
+        # Initiator gets breath as a free phase; defender's breath fires during
+        # melee counter. Both get it, but initiator's resolves first (handled
+        # by the engine's phase ordering, not here — we just include the damage).
         if attacker.breath > 0:
             breath_dist = MarkovGenerator.area_damage_distribution(
                 attack_strength=attacker.breath,
@@ -281,25 +302,34 @@ class MarkovGenerator:
                 toblock=0.3,
                 num_figures=defender.figures,
             )
-            # Combine: total damage = melee damage + breath damage (independent)
             melee_dist = np.convolve(melee_dist, breath_dist)
+
+        # Immolation (area damage during melee — both attacker and defender)
+        if attacker.immolation > 0:
+            immo_dist = MarkovGenerator.area_damage_distribution(
+                attack_strength=attacker.immolation,
+                tohit=attacker.base_tohit,
+                defense=defender.defense,
+                toblock=0.3,
+                num_figures=defender.figures,
+            )
+            melee_dist = np.convolve(melee_dist, immo_dist)
 
         return melee_dist
 
     @staticmethod
-    def build_transition_matrix(attacker: Unit, defender: Unit) -> np.ndarray:
+    def build_transition_matrix(
+        attacker: Unit,
+        defender: Unit,
+        is_initiator: bool = True,
+    ) -> np.ndarray:
         """
         Build full Markov transition matrix for defender's HP.
 
         Matrix T where T[i][j] = P(defender goes from i HP to j HP)
         after one attack by attacker at current figure count.
 
-        Rows = current HP (0 to total_hp)
-        Cols = resulting HP (0 to total_hp)
-
-        The attacker's damage depends on how many of ITS figures are alive,
-        but for v1 we assume full-strength attacker. The engine handles
-        attrition by rebuilding per round.
+        is_initiator: whether the attacker initiated combat (gets ranged phase).
         """
         max_hp = defender.total_hp
         T = np.zeros((max_hp + 1, max_hp + 1))
@@ -308,12 +338,10 @@ class MarkovGenerator:
         T[0][0] = 1.0
 
         # For each possible current HP, compute damage distribution
-        # and fill transition probabilities
         for hp in range(1, max_hp + 1):
-            # Attacker's figures alive depends on attacker's current HP
-            # For v1, compute damage at full attacker strength
-            damage_dist = MarkovGenerator.build_round_transition(attacker, defender)
-
+            damage_dist = MarkovGenerator.build_round_transition(
+                attacker, defender, is_initiator=is_initiator
+            )
             for d in range(len(damage_dist)):
                 new_hp = max(hp - d, 0)
                 T[hp][new_hp] += damage_dist[d]
@@ -330,6 +358,7 @@ class BattleResult:
     """Result of a single battle between two units."""
     unit_a: str
     unit_b: str
+    mode: str     # "a_attacks", "b_attacks", "alternate"
     win_a: float  # probability A wins
     win_b: float  # probability B wins
     draw: float   # probability of mutual kill
@@ -340,12 +369,20 @@ class BattleResult:
 
 class BattleEngine:
     """
-    Resolve combat between two units using alternating Markov transitions.
+    Resolve combat between two units using Markov transitions.
 
-    Each round:
-    1. A attacks B (B's HP transitions)
-    2. B attacks A (A's HP transitions)
-    Repeat until one or both are dead.
+    Three modes:
+      "a_attacks" — A initiates: A gets ranged phase, A attacks first each round.
+                    B is the defender (melee counter only, no free ranged).
+      "b_attacks" — B initiates: mirror of above.
+      "alternate" — Each round alternates who initiates. Round 1: A attacks,
+                    Round 2: B attacks, etc. Balanced comparison for rankings.
+
+    Combat flow per round (for the initiator):
+      1. Ranged phase (initiator only — free damage, no counter)
+      2. Breath on approach (initiator — area damage, no counter)
+      3. First Strike melee (if applicable — resolves before normal melee)
+      4. Normal melee + counter-attack (both sides, simultaneous)
 
     State: (hp_a, hp_b) probability distribution.
     """
@@ -353,57 +390,108 @@ class BattleEngine:
     MAX_ROUNDS = 50  # safety cap
 
     @staticmethod
-    def fight(unit_a: Unit, unit_b: Unit) -> BattleResult:
+    def fight(
+        unit_a: Unit,
+        unit_b: Unit,
+        mode: str = "alternate",
+    ) -> BattleResult:
         """
         Run a full Markov battle between two units.
 
-        Handles first strike: if A has first strike (and B doesn't negate it),
-        A attacks first each round before B can counter.
+        mode: "a_attacks" — A is always the initiator
+              "b_attacks" — B is always the initiator
+              "alternate" — alternates each round (A first in round 1)
         """
         hp_a_max = unit_a.total_hp
         hp_b_max = unit_b.total_hp
 
-        # Build transition matrices
-        # T_ab[i][j] = P(B goes from i HP to j HP) when A attacks B
-        T_ab = MarkovGenerator.build_transition_matrix(unit_a, unit_b)
-        # T_ba[i][j] = P(A goes from i HP to j HP) when B attacks A
-        T_ba = MarkovGenerator.build_transition_matrix(unit_b, unit_a)
+        # Build transition matrices for each role combination:
+        # T_ab_init: A attacks B, A is initiator (gets ranged + breath free)
+        # T_ab_def:  A attacks B, A is defender (melee + breath only)
+        # T_ba_init: B attacks A, B is initiator
+        # T_ba_def:  B attacks A, B is defender
+        T_ab_init = MarkovGenerator.build_transition_matrix(unit_a, unit_b, is_initiator=True)
+        T_ab_def = MarkovGenerator.build_transition_matrix(unit_a, unit_b, is_initiator=False)
+        T_ba_init = MarkovGenerator.build_transition_matrix(unit_b, unit_a, is_initiator=True)
+        T_ba_def = MarkovGenerator.build_transition_matrix(unit_b, unit_a, is_initiator=False)
 
         # State: joint probability distribution over (hp_a, hp_b)
-        # Start at full HP with probability 1.0
         state = np.zeros((hp_a_max + 1, hp_b_max + 1))
         state[hp_a_max][hp_b_max] = 1.0
 
-        # Determine attack order
+        # First strike flags
         a_has_fs = unit_a.first_strike and not unit_b.negate_first_strike
         b_has_fs = unit_b.first_strike and not unit_a.negate_first_strike
 
         for round_num in range(1, BattleEngine.MAX_ROUNDS + 1):
-            # Check if combat is resolved
             alive_prob = state[1:, 1:].sum()
             if alive_prob < 1e-10:
                 break
 
-            if a_has_fs and not b_has_fs:
-                # A attacks first, then B (if alive) counters
-                state = BattleEngine._apply_attack_ab(state, T_ab, hp_a_max, hp_b_max)
-                state = BattleEngine._apply_attack_ba(state, T_ba, hp_a_max, hp_b_max)
-            elif b_has_fs and not a_has_fs:
-                # B attacks first, then A counters
-                state = BattleEngine._apply_attack_ba(state, T_ba, hp_a_max, hp_b_max)
-                state = BattleEngine._apply_attack_ab(state, T_ab, hp_a_max, hp_b_max)
+            # Determine who initiates this round
+            if mode == "a_attacks":
+                a_is_initiator = True
+            elif mode == "b_attacks":
+                a_is_initiator = False
+            else:  # alternate
+                a_is_initiator = (round_num % 2 == 1)
+
+            # Select the right transition matrices for this round
+            if a_is_initiator:
+                T_ab = T_ab_init  # A attacks B with initiator advantage
+                T_ba = T_ba_def   # B counters A as defender
             else:
-                # Simultaneous: both attack, resolve damage together
-                state = BattleEngine._apply_simultaneous(
-                    state, T_ab, T_ba, hp_a_max, hp_b_max
-                )
+                T_ab = T_ab_def   # A counters B as defender
+                T_ba = T_ba_init  # B attacks A with initiator advantage
+
+            # Phase ordering within the round:
+            # The initiator's ranged/breath is baked into their T matrix.
+            # First strike determines who resolves melee damage first.
+            #
+            # If A initiates and has first strike: A's full attack resolves,
+            # then B counters (if alive).
+            # If B is defending and has first strike: B strikes first in melee,
+            # but A still got the free ranged phase (already in T_ab).
+
+            if a_is_initiator:
+                # A initiated: A attacks first (ranged+breath+melee in T_ab)
+                # Then B counters (melee only in T_ba)
+                if a_has_fs and not b_has_fs:
+                    # A first strikes, then B counters
+                    state = BattleEngine._apply_attack_ab(state, T_ab, hp_a_max, hp_b_max)
+                    state = BattleEngine._apply_attack_ba(state, T_ba, hp_a_max, hp_b_max)
+                elif b_has_fs and not a_has_fs:
+                    # B has first strike on defense — B strikes first in melee,
+                    # but A still got ranged phase. Model: B counters first,
+                    # then A's melee resolves. But A's ranged already happened.
+                    # Approximation: apply B's counter first, then A's full attack.
+                    # This slightly overvalues defensive first strike since A's
+                    # ranged should have resolved before B's first strike melee.
+                    # TODO: split ranged and melee into separate phases
+                    state = BattleEngine._apply_attack_ba(state, T_ba, hp_a_max, hp_b_max)
+                    state = BattleEngine._apply_attack_ab(state, T_ab, hp_a_max, hp_b_max)
+                else:
+                    # No first strike advantage, or both have it
+                    # Initiator still goes first (they chose to engage)
+                    state = BattleEngine._apply_attack_ab(state, T_ab, hp_a_max, hp_b_max)
+                    state = BattleEngine._apply_attack_ba(state, T_ba, hp_a_max, hp_b_max)
+            else:
+                # B initiated: B attacks first, A counters
+                if b_has_fs and not a_has_fs:
+                    state = BattleEngine._apply_attack_ba(state, T_ba, hp_a_max, hp_b_max)
+                    state = BattleEngine._apply_attack_ab(state, T_ab, hp_a_max, hp_b_max)
+                elif a_has_fs and not b_has_fs:
+                    state = BattleEngine._apply_attack_ab(state, T_ab, hp_a_max, hp_b_max)
+                    state = BattleEngine._apply_attack_ba(state, T_ba, hp_a_max, hp_b_max)
+                else:
+                    state = BattleEngine._apply_attack_ba(state, T_ba, hp_a_max, hp_b_max)
+                    state = BattleEngine._apply_attack_ab(state, T_ab, hp_a_max, hp_b_max)
 
         # Extract results
-        win_a = state[1:, 0].sum()   # A alive, B dead
-        win_b = state[0, 1:].sum()   # B alive, A dead
-        draw = state[0, 0]            # both dead
+        win_a = state[1:, 0].sum()
+        win_b = state[0, 1:].sum()
+        draw = state[0, 0]
 
-        # Expected remaining HP when winning
         avg_hp_a = 0.0
         if win_a > 0:
             for i in range(1, hp_a_max + 1):
@@ -419,6 +507,7 @@ class BattleEngine:
         return BattleResult(
             unit_a=unit_a.name,
             unit_b=unit_b.name,
+            mode=mode,
             win_a=round(win_a, 6),
             win_b=round(win_b, 6),
             draw=round(draw, 6),
@@ -487,10 +576,17 @@ class Arena:
     """Run round-robin or targeted matchups across a pool of units."""
 
     @staticmethod
-    def round_robin(units: list[Unit], verbose: bool = True) -> list[ArenaResult]:
+    def round_robin(
+        units: list[Unit],
+        mode: str = "alternate",
+        verbose: bool = True,
+    ) -> list[ArenaResult]:
         """
         Run every unit against every other unit.
-        Returns per-unit summary stats.
+
+        mode: "alternate" — balanced (default for rankings)
+              "a_attacks" — first unit always initiates
+              "both"      — run both a_attacks and b_attacks, average results
         """
         n = len(units)
         results = {u.name: ArenaResult(
@@ -507,7 +603,23 @@ class Arena:
                 if verbose:
                     print(f"  [{count}/{total}] {units[i].name} vs {units[j].name}", end="")
 
-                battle = BattleEngine.fight(units[i], units[j])
+                if mode == "both":
+                    # Run both directions, average the win rates
+                    r1 = BattleEngine.fight(units[i], units[j], mode="a_attacks")
+                    r2 = BattleEngine.fight(units[i], units[j], mode="b_attacks")
+                    avg_win_a = (r1.win_a + r2.win_a) / 2
+                    avg_win_b = (r1.win_b + r2.win_b) / 2
+                    battle = BattleResult(
+                        unit_a=units[i].name, unit_b=units[j].name,
+                        mode="both",
+                        win_a=round(avg_win_a, 6), win_b=round(avg_win_b, 6),
+                        draw=round(1 - avg_win_a - avg_win_b, 6),
+                        avg_rounds=round((r1.avg_rounds + r2.avg_rounds) / 2),
+                        avg_hp_remaining_a=round((r1.avg_hp_remaining_a + r2.avg_hp_remaining_a) / 2, 2),
+                        avg_hp_remaining_b=round((r1.avg_hp_remaining_b + r2.avg_hp_remaining_b) / 2, 2),
+                    )
+                else:
+                    battle = BattleEngine.fight(units[i], units[j], mode=mode)
 
                 if verbose:
                     winner = units[i].name if battle.win_a > battle.win_b else units[j].name
@@ -535,9 +647,23 @@ class Arena:
         return sorted(results.values(), key=lambda r: r.avg_win_rate, reverse=True)
 
     @staticmethod
-    def matchup(unit_a: Unit, unit_b: Unit) -> BattleResult:
+    def matchup(unit_a: Unit, unit_b: Unit, mode: str = "alternate") -> BattleResult:
         """Single matchup between two units."""
-        return BattleEngine.fight(unit_a, unit_b)
+        return BattleEngine.fight(unit_a, unit_b, mode=mode)
+
+    @staticmethod
+    def full_matchup(unit_a: Unit, unit_b: Unit) -> dict:
+        """Run all modes and return the asymmetry analysis."""
+        r_alt = BattleEngine.fight(unit_a, unit_b, mode="alternate")
+        r_a_atk = BattleEngine.fight(unit_a, unit_b, mode="a_attacks")
+        r_b_atk = BattleEngine.fight(unit_a, unit_b, mode="b_attacks")
+        return {
+            "alternate": r_alt,
+            "a_attacks": r_a_atk,
+            "b_attacks": r_b_atk,
+            "attack_advantage_a": round(r_a_atk.win_a - r_b_atk.win_a, 4),
+            "attack_advantage_b": round(r_b_atk.win_b - r_a_atk.win_b, 4),
+        }
 
 
 # ---------------------------------------------------------------------------
@@ -550,8 +676,8 @@ def main():
     units = load_units()
     print(f"Loaded {len(units)} units\n")
 
-    if len(sys.argv) >= 3:
-        # Run a specific matchup
+    if len(sys.argv) >= 3 and sys.argv[1] != "test":
+        # Run a specific matchup with full asymmetry analysis
         name_a, name_b = sys.argv[1], sys.argv[2]
         if name_a not in units:
             print(f"Unknown unit: {name_a}")
@@ -561,14 +687,27 @@ def main():
             print(f"Unknown unit: {name_b}")
             return
 
-        result = Arena.matchup(units[name_a], units[name_b])
-        print(f"{result.unit_a} vs {result.unit_b}")
-        print(f"  A wins: {result.win_a * 100:.1f}%")
-        print(f"  B wins: {result.win_b * 100:.1f}%")
-        print(f"  Draw:   {result.draw * 100:.1f}%")
-        print(f"  Rounds: {result.avg_rounds}")
-        print(f"  Avg HP remaining (A wins): {result.avg_hp_remaining_a:.1f}")
-        print(f"  Avg HP remaining (B wins): {result.avg_hp_remaining_b:.1f}")
+        results = Arena.full_matchup(units[name_a], units[name_b])
+
+        print(f"{name_a} vs {name_b}")
+        print(f"{'='*55}")
+        for mode_name, label in [
+            ("a_attacks", f"{name_a} attacks"),
+            ("b_attacks", f"{name_b} attacks"),
+            ("alternate", "Alternating"),
+        ]:
+            r = results[mode_name]
+            print(f"\n  {label}:")
+            print(f"    {name_a} wins: {r.win_a * 100:>6.1f}%  (avg {r.avg_hp_remaining_a:.1f} HP left)")
+            print(f"    {name_b} wins: {r.win_b * 100:>6.1f}%  (avg {r.avg_hp_remaining_b:.1f} HP left)")
+            print(f"    Draw:         {r.draw * 100:>6.1f}%")
+            print(f"    Rounds: {r.avg_rounds}")
+
+        adv_a = results["attack_advantage_a"]
+        adv_b = results["attack_advantage_b"]
+        print(f"\n  Attack advantage:")
+        print(f"    {name_a}: {adv_a*100:+.1f}% when attacking vs defending")
+        print(f"    {name_b}: {adv_b*100:+.1f}% when attacking vs defending")
 
     elif len(sys.argv) == 2 and sys.argv[1] == "test":
         # Run a small test arena
