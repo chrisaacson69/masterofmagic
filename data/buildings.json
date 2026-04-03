@@ -1,0 +1,529 @@
+[
+  {
+    "infobox_type": "Town Building",
+    "race": "Gnolls",
+    "construction_cost": {
+      "production": 250
+    },
+    "upkeep": {
+      "gold": 3
+    },
+    "sells_for": {
+      "gold": 83
+    },
+    "effects": "* Increases a town's [[Power]] output by exactly {{Power|+3}}.\n* New units built here will have {{Melee|Magic|Magical Weapons}}, {{Melee|Mithril|Mithril Weapons}} or {{Melee|Adamantium|Adamantium Weapons}} depending on available resources.",
+    "name": "Alchemists' Guild",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Alchemists'_Guild"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "High Elves",
+    "construction_cost": {
+      "production": 300
+    },
+    "upkeep": {
+      "gold": 5
+    },
+    "sells_for": {
+      "gold": 100
+    },
+    "effects": "* Reduces [[Unrest]] by 1.\n* Produces an amount of {{Food|Food}} equal to the current number of [[Farmer]]s in this town.\n* Units garrisoned in this town heal at a basic rate of about 20-30% each turn.",
+    "name": "Animists' Guild",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Animists'_Guild"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "Gnolls",
+    "construction_cost": {
+      "production": 350
+    },
+    "upkeep": {
+      "gold": 4
+    },
+    "sells_for": {
+      "gold": 116
+    },
+    "name": "Armorers' Guild",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Armorers'_Guild"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "All",
+    "construction_cost": {
+      "production": 80
+    },
+    "upkeep": {
+      "gold": 2
+    },
+    "sells_for": {
+      "gold": 26
+    },
+    "name": "Armory",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Armory"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "High Elves",
+    "construction_cost": {
+      "production": 250
+    },
+    "upkeep": {
+      "gold": 3
+    },
+    "sells_for": {
+      "gold": 83
+    },
+    "effects": "Increases a town's {{Gold|Gold}} output by 50% of the current amount generated from [[Taxation]] and [[Mineral]]s.",
+    "name": "Bank",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Bank"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "All",
+    "construction_cost": {
+      "production": 30
+    },
+    "upkeep": {},
+    "sells_for": {
+      "gold": 10
+    },
+    "name": "Barracks",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Barracks"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "All",
+    "construction_cost": {
+      "production": 60
+    },
+    "upkeep": {
+      "gold": 1
+    },
+    "sells_for": {
+      "gold": 20
+    },
+    "name": "Builders' Hall",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Builders'_Hall"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "Halflings",
+    "construction_cost": {
+      "production": 800
+    },
+    "upkeep": {
+      "gold": 4
+    },
+    "sells_for": {
+      "gold": 266
+    },
+    "effects": "Reduces [[Unrest]] in this town by 1 and increases [[Power]] output by {{Power|+4}}.",
+    "name": "Cathedral",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Cathedral"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "All",
+    "construction_cost": {
+      "production": 150
+    },
+    "upkeep": {
+      "gold": 2
+    },
+    "sells_for": {
+      "gold": 25
+    },
+    "effects": "Increases town's enemy detection range to 3 tiles and has many ramifications on siege combat at this town: It protects friendly units, and obstructs enemy [[Walking]] units.",
+    "name": "City Walls",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/City_Walls"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "High Elves",
+    "construction_cost": {
+      "production": 600
+    },
+    "upkeep": {
+      "gold": 6
+    },
+    "sells_for": {
+      "gold": 200
+    },
+    "name": "Fantastic Stable",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Fantastic_Stable"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "All",
+    "construction_cost": {
+      "production": 100
+    },
+    "upkeep": {
+      "gold": 2
+    },
+    "sells_for": {
+      "gold": 33
+    },
+    "effects": "Increases [[Food]] production by exactly {{Food|+3}}, [[Maximum Population]] by 3, and [[Population Growth]] effectively by +40 or +50.",
+    "name": "Farmers' Market",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Farmers'_Market"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "All",
+    "construction_cost": {
+      "production": 200
+    },
+    "upkeep": {
+      "gold": 3
+    },
+    "sells_for": {
+      "gold": 66
+    },
+    "effects": "All new [[Normal Unit]]s produced in this town start with {{Exp|20 Experience points}}.",
+    "name": "Fighters' Guild",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Fighters'_Guild"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "Lizardmen",
+    "construction_cost": {
+      "production": 200
+    },
+    "upkeep": {
+      "gold": 2
+    },
+    "sells_for": {
+      "gold": 66
+    },
+    "effects": "Increases [[Food]] production by {{Food|+1}} or {{Food|+2}}, and increases the total {{Production|Production}} of all the town's citizens by 25%.",
+    "name": "Foresters' Guild",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Foresters'_Guild"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "All",
+    "construction_cost": {
+      "production": 40
+    },
+    "upkeep": {
+      "gold": 1
+    },
+    "sells_for": {
+      "gold": 13
+    },
+    "effects": "Increases [[Food]] production by exactly {{Food|+2}}, [[Maximum Population]] by 2, and [[Population Growth]] effectively by +30.",
+    "name": "Granary",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Granary"
+  },
+  {
+    "infobox_type": "| bodystyle  = width: 250px;",
+    "name": "Housing",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Housing"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "All",
+    "construction_cost": {
+      "production": 60
+    },
+    "upkeep": {
+      "gold": 1
+    },
+    "sells_for": {
+      "gold": 20
+    },
+    "effects": "Increases a town's [[Research Points]] output by {{Research|+2}}.",
+    "name": "Library",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Library"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "Barbarians",
+    "construction_cost": {
+      "production": 400
+    },
+    "upkeep": {
+      "gold": 4
+    },
+    "sells_for": {
+      "gold": 133
+    },
+    "name": "Maritime Guild",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Maritime_Guild"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "All",
+    "construction_cost": {
+      "production": 100
+    },
+    "upkeep": {
+      "gold": 1
+    },
+    "sells_for": {
+      "gold": 33
+    },
+    "effects": "Increases a town's {{Gold|Gold}} output by 50% of the current amount generated from [[Taxation]] and [[Mineral]]s.",
+    "name": "Marketplace",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Marketplace"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "High Elves",
+    "construction_cost": {
+      "production": 600
+    },
+    "upkeep": {
+      "gold": 5
+    },
+    "sells_for": {
+      "gold": 200
+    },
+    "effects": "Increases {{Production|Production}} by 50% of the total output of the town's citizens.",
+    "name": "Mechanicians' Guild",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Mechanicians'_Guild"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "High Elves",
+    "construction_cost": {
+      "production": 600
+    },
+    "upkeep": {
+      "gold": 5
+    },
+    "sells_for": {
+      "gold": 200
+    },
+    "effects": "Doubles the town's {{Gold|Gold}} income from [[Taxation]] and [[Mineral]] deposits.",
+    "name": "Merchants' Guild",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Merchants'_Guild"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "Lizardmen",
+    "construction_cost": {
+      "production": 300
+    },
+    "upkeep": {
+      "gold": 3
+    },
+    "sells_for": {
+      "gold": 100
+    },
+    "effects": "Increases {{Production|Production}} by 50% of the total output of the town's citizens.<br/>\n\nAlso increases the effects of most types of [[Mineral]]s in the town's vicinity by 50%, and some by 100%. [[Wild Game]] and [[Nightshade]] are not affected.",
+    "name": "Miners' Guild",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Miners'_Guild"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "High Men",
+    "construction_cost": {
+      "production": 500
+    },
+    "upkeep": {
+      "gold": 4
+    },
+    "sells_for": {
+      "gold": 166
+    },
+    "effects": "* Reduces [[Unrest]] in this town by 2.\n* Reveals all land tiles within 6 tiles of the town.\n* The town's [[Sight Range]] is increased to 4 tiles.",
+    "name": "Oracle",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Oracle"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "Barbarians",
+    "construction_cost": {
+      "production": 400
+    },
+    "upkeep": {
+      "gold": 3
+    },
+    "sells_for": {
+      "gold": 133
+    },
+    "effects": "Reduces [[Unrest]] in this town by 1 and increases [[Power]] output by {{Power|+3}}.",
+    "name": "Parthenon",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Parthenon"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "Gnolls",
+    "construction_cost": {
+      "production": 120
+    },
+    "upkeep": {
+      "gold": 2
+    },
+    "sells_for": {
+      "gold": 40
+    },
+    "effects": "Increases a town's [[Research Points]] output by {{Research|+3}}, and allows the use of [[Nightshade]] if available.",
+    "name": "Sages' Guild",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Sages'_Guild"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "Lizardmen",
+    "construction_cost": {
+      "production": 100
+    },
+    "upkeep": {
+      "gold": 2
+    },
+    "sells_for": {
+      "gold": 33
+    },
+    "effects": "Increases the total {{Production|Production}} of a town's citizens by 25%.",
+    "name": "Sawmill",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Sawmill"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "Barbarians",
+    "construction_cost": {
+      "production": 200
+    },
+    "upkeep": {
+      "gold": 2
+    },
+    "sells_for": {
+      "gold": 66
+    },
+    "name": "Ship Yard",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Ship_Yard"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "Lizardmen",
+    "construction_cost": {
+      "production": 100
+    },
+    "upkeep": {
+      "gold": 1
+    },
+    "sells_for": {
+      "gold": 33
+    },
+    "name": "Shipwrights' Guild",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Shipwrights'_Guild"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "All",
+    "construction_cost": {
+      "production": 100
+    },
+    "upkeep": {
+      "gold": 1
+    },
+    "sells_for": {
+      "gold": 33
+    },
+    "effects": "Reduces [[Unrest]] in this town by 1, increases [[Power]] output by {{Power|+1}}, and enables the use of [[Nightshade]] when available.",
+    "name": "Shrine",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Shrine"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "All",
+    "construction_cost": {
+      "production": 40
+    },
+    "upkeep": {
+      "gold": 1
+    },
+    "sells_for": {
+      "gold": 13
+    },
+    "name": "Smithy",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Smithy"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "Halflings",
+    "construction_cost": {
+      "production": 80
+    },
+    "upkeep": {
+      "gold": 2
+    },
+    "sells_for": {
+      "gold": 26
+    },
+    "name": "Stables",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Stables"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "Klackons",
+    "construction_cost": {
+      "production": 200
+    },
+    "upkeep": {
+      "gold": 2
+    },
+    "sells_for": {
+      "gold": 66
+    },
+    "effects": "Reduces [[Unrest]] in this town by 1 and increases [[Power]] output by {{Power|+2}}.",
+    "name": "Temple",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Temple"
+  },
+  {
+    "infobox_type": "| bodystyle  = width: 250px;",
+    "name": "Trade Goods",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Trade_Goods"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "High Elves",
+    "construction_cost": {
+      "production": 300
+    },
+    "upkeep": {
+      "gold": 3
+    },
+    "sells_for": {
+      "gold": 100
+    },
+    "effects": "Increases a town's [[Research Points]] output by {{Research|+5}}.",
+    "name": "University",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/University"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "High Elves",
+    "construction_cost": {
+      "production": 500
+    },
+    "upkeep": {
+      "gold": 5
+    },
+    "sells_for": {
+      "gold": 166
+    },
+    "effects": "All new [[Normal Unit]]s produced in this town start with {{Exp|61 Experience Points}}.",
+    "name": "War College",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/War_College"
+  },
+  {
+    "infobox_type": "Town Building",
+    "race": "High Elves",
+    "construction_cost": {
+      "production": 1000
+    },
+    "upkeep": {
+      "gold": 5,
+      "power": "3"
+    },
+    "sells_for": {
+      "gold": 333
+    },
+    "effects": "Increases a town's [[Research Points]] output by {{Research|+8}}.",
+    "name": "Wizards' Guild",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Wizards'_Guild"
+  }
+]

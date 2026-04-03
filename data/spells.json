@@ -1,0 +1,2452 @@
+[
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Very Rare",
+    "spell_type": "Combat Instant",
+    "casting_cost": {
+      "mana": 50
+    },
+    "research_cost": {
+      "research": 3000
+    },
+    "name": "Animate Dead",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Animate_Dead"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Rare",
+    "spell_type": "Combat Instant",
+    "casting_cost": {
+      "mana": 20
+    },
+    "research_cost": {
+      "research": 1120
+    },
+    "effects": "Each {{Figure|figure}} in the targeted [[Fantastic Unit]] must [[Resistance|Resist]] at a penalty of {{Resist|-3}} or be destroyed.\n\nEvery extra {{Mana|15}} invested into this spell reduces the target's Resistance score by a further {{Resist|-1}}.",
+    "name": "Banish",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Banish"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Very Rare",
+    "spell_type": "Combat Instant *",
+    "research_cost": {
+      "research": 3000
+    },
+    "effects": "Every enemy unit on the battlefield is struck by one of the following spell effects, selected at random:\n* No effect;\n* {{Life|link = Healing}};\n* {{Chaos|link = Chaos Channels}};\n* {{Chaos|link = Warp Creature}};\n* {{Chaos|link = Fire Bolt}} (strength {{Ranged|magic|15}});\n* {{Chaos|link = Warp Lightning}};\n* {{Chaos|link = Doom Bolt}};\n* {{Chaos|link = Disintegrate}}.",
+    "name": "Call Chaos",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Call_Chaos"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Uncommon",
+    "spell_type": "Combat Instant",
+    "casting_cost": {
+      "mana": 20
+    },
+    "research_cost": {
+      "research": 300
+    },
+    "effects": "A unit on the target tile has a 25% chance of being entirely destroyed.\nAny stone walls adjacent to the target are destroyed.\n[[Flying]] and [[Non-Corporeal]] units are immune to this spell.",
+    "name": "Cracks Call",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Cracks_Call"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Very Rare",
+    "spell_type": "Combat Instant",
+    "casting_cost": {
+      "mana": 50
+    },
+    "research_cost": {
+      "research": 2500
+    },
+    "effects": "Each {{Figure|figure}} in each enemy unit on the battlefield must make a [[Resistance]] roll at a penalty of {{Resist|-2}}. Any figure that fails this roll is instantly destroyed.",
+    "name": "Death Spell",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Death_Spell"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Arcane",
+    "spell_type": "Instant Spell / Combat Instant",
+    "casting_cost": {
+      "mana": 200
+    },
+    "research_cost": {
+      "research": 300
+    },
+    "effects": "Attempts to dispel all rival spells on the target overland tile. In combat, this is always the map square that the battle is taking place on.",
+    "name": "Disenchant Area",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Disenchant_Area"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Very Rare",
+    "spell_type": "Combat Instant",
+    "research_cost": {
+      "research": 2000
+    },
+    "effects": "If the target unit has {{Resist|9}} or less, it is entirely destroyed.\n\nTargets destroyed by [[Disintegrate]] cannot be brought back in any way.",
+    "name": "Disintegrate",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Disintegrate"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Uncommon",
+    "spell_type": "Combat Instant",
+    "casting_cost": {
+      "mana": 25
+    },
+    "research_cost": {
+      "research": 450
+    },
+    "effects": "Each {{Figure|figure}} in a target {{Death|Death}} or {{Chaos|Chaos}} unit must make a [[Resistance]] roll at {{Resist|-4}} or be destroyed.\n\n[[Undead]] figures must resist at {{Resist|-9}} instead.",
+    "name": "Dispel Evil",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Dispel_Evil"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Arcane",
+    "spell_type": "Combat Instant",
+    "research_cost": {
+      "research": 100
+    },
+    "effects": "Attempts to dispel all rival spells from a target unit.",
+    "name": "Dispel Magic",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Dispel_Magic"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Common",
+    "spell_type": "Combat Instant",
+    "casting_cost": {
+      "mana": 15
+    },
+    "research_cost": {
+      "research": 40
+    },
+    "effects": "A targeted section of [[City Walls|Wall]] is destroyed.",
+    "name": "Disrupt",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Disrupt"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Rare",
+    "spell_type": "Combat Instant",
+    "casting_cost": {
+      "mana": 40
+    },
+    "research_cost": {
+      "research": 1120
+    },
+    "effects": "Target unit receives exactly {{Damage|10 points of damage}} regardless of its defensive properties. Only [[Righteousness]] and [[Magic Immunity]] protects from this spell.",
+    "name": "Doom Bolt",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Doom_Bolt"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Common",
+    "spell_type": "Combat Instant",
+    "casting_cost": {
+      "mana": 15
+    },
+    "research_cost": {
+      "research": 20
+    },
+    "effects": "Turns a 5x5 tile section of the battlefield into mud. Normal {{Movement|Ground|Walking}} units must waste all their movement points to enter a mud tile.",
+    "name": "Earth to Mud",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Earth_to_Mud"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Common",
+    "spell_type": "Combat Instant",
+    "casting_cost": {
+      "mana": {
+        "min": 5,
+        "max": 25
+      }
+    },
+    "research_cost": {
+      "research": 60
+    },
+    "effects": "Strikes the target unit with a {{Ranged|Magic|5-25}} [[Fire Damage]] attack.",
+    "name": "Fire Bolt",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Fire_Bolt"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Uncommon",
+    "spell_type": "Combat Instant",
+    "casting_cost": {
+      "mana": {
+        "min": 15,
+        "max": 75
+      }
+    },
+    "research_cost": {
+      "research": 560
+    },
+    "effects": "The target is hit by an [[Area Damage]] attack with a strength of {{Ranged|Magic|5-25}} (delivering [[Immolation Damage]]).",
+    "name": "Fireball",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Fireball"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Rare",
+    "spell_type": "Combat Instant",
+    "casting_cost": {
+      "mana": 60
+    },
+    "research_cost": {
+      "research": 1600
+    },
+    "effects": "Every enemy unit on the battlefield is hit with a {{Ranged|Magic|15}}-strength [[Immolation Damage]] attack.",
+    "name": "Flame Strike",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Flame_Strike"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Common",
+    "spell_type": "Combat Instant",
+    "research_cost": {
+      "research": 100
+    },
+    "effects": "Heals the target unit by {{Hits|5 Hit Points}} - or by however many it would take to return the unit to full health, whichever is less.\n\nNeither the [[Undead]] nor any [[Fantastic Unit]]s belonging to the {{Death|Death Realm}} may be targeted by this spell.",
+    "name": "Healing",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Healing"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Rare",
+    "spell_type": "Combat Instant",
+    "research_cost": {
+      "research": 1700
+    },
+    "effects": "Each and every {{Figure|figure}} in each and every [[Fantastic Unit]] in the enemy army must make a [[Resistance]] roll at {{Resist|-2}}, or be destroyed immediately.\n\n[[Chaos Channels|Chaos Channeled]] units and the [[Undead]] are also affected - but the [[Undead]] must resist at {{Resist|-7}} (!) to avoid destruction.",
+    "name": "Holy Word",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Holy_Word"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Uncommon",
+    "spell_type": "Combat Instant",
+    "casting_cost": {
+      "mana": {
+        "min": 10,
+        "max": 50
+      }
+    },
+    "research_cost": {
+      "research": 400
+    },
+    "effects": "Strikes the target unit with a {{Ranged|Magic|5-45}} [[Cold Damage]] attack.",
+    "name": "Ice Bolt",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Ice_Bolt"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Common",
+    "spell_type": "Combat Instant",
+    "casting_cost": {
+      "mana": {
+        "min": 10,
+        "max": 50
+      }
+    },
+    "research_cost": {
+      "research": 160
+    },
+    "effects": "Target makes a [[Resistance]] roll, and suffers an amount of {{Damage|Damage}} based on how badly it failed that roll (if at all).\n\nFor every {{Damage|Damage}} point suffered, the caster gains {{Hits|1 Hit Point}}, or (if the caster is the wizard himself) +3 to his [[Spell Casting Skill]] pool permanently.\n\nExtra {{Mana|Mana}} may be invested to inflict a [[Resistance]] penalty on the target (usu. increasing the amount of damage caused).",
+    "name": "Life Drain",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Life_Drain"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Uncommon",
+    "spell_type": "Combat Instant",
+    "casting_cost": {
+      "mana": {
+        "min": 10,
+        "max": 50
+      }
+    },
+    "research_cost": {
+      "research": 300
+    },
+    "effects": "Strikes the target unit with a {{Ranged|Magic|5-45}} [[Armor Piercing Damage]] attack.",
+    "name": "Lightning Bolt",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Lightning_Bolt"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Rare",
+    "spell_type": "Combat Instant",
+    "casting_cost": {
+      "mana": 50
+    },
+    "research_cost": {
+      "research": 1200
+    },
+    "effects": "Creates a funnel of magical energy that moves semi-randomly across the battlefield.\n* Any unit the '''Vortex''' moves over takes {{Damage|5}} points of [[Doom Damage]].\n* Any unit the '''Vortex''' moves next to has a 33% chance of being struck by a {{Ranged|Magic|5}}-strength [[Armor Piercing Damage|Armor Piercing]] magical attack.\n* During sieges, the '''Vortex''' increases [[Town#Collateral Damage|collateral damage]] every time it moves onto a ''[[Town#The Town Proper|Town Proper]]'' tile.",
+    "name": "Magic Vortex",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Magic_Vortex"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Rare",
+    "spell_type": "Combat Instant",
+    "research_cost": {
+      "research": 1600
+    },
+    "effects": "Heals each and every friendly unit by {{Hits|5 Hit Points}} - or by however many it would take to return the unit to full health, whichever is less.\n\nNeither the [[Undead]] nor any [[Fantastic Unit]]s belonging to the {{Death|Death Realm}} are affected by this spell.",
+    "name": "Mass Healing",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Mass_Healing"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Rare",
+    "spell_type": "Combat Instant",
+    "casting_cost": {
+      "mana": 35
+    },
+    "research_cost": {
+      "research": 960
+    },
+    "effects": "Each {{Figure|figure}} in the target unit must [[Resistance|Resist]] or be destroyed.\n\nUnits with [[Stoning Immunity]] completely ignore this spell.",
+    "name": "Petrify",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Petrify"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Common",
+    "spell_type": "Combat Instant",
+    "casting_cost": {
+      "mana": 10
+    },
+    "research_cost": {
+      "research": 250
+    },
+    "effects": "Strikes the target unit with an [[Illusion Damage|Illusory]] {{Ranged|Magic|5-25}} attack.",
+    "name": "Psionic Blast",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Psionic_Blast"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Uncommon",
+    "spell_type": "Combat Instant",
+    "research_cost": {
+      "research": 620
+    },
+    "effects": "Returns a [[Normal Unit]] or [[Hero]] that was killed ''during this battle'' back to life.\n\nUnits return with half of their total {{Hits|Hit Points}}. For {{MFU|Multi-Figure units}} this means the raised unit gets half of its total {{Figure|figures}} back, each at full health.",
+    "name": "Raise Dead",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Raise_Dead"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Arcane",
+    "spell_type": "Combat Instant",
+    "research_cost": {
+      "research": 350
+    },
+    "effects": "Instantly returns a friendly [[Hero]] to the [[Town]] currently containing the wizard's [[Summoning Circle]].",
+    "name": "Recall Hero",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Recall_Hero"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Common",
+    "spell_type": "Combat Instant",
+    "casting_cost": {
+      "mana": 5
+    },
+    "research_cost": {
+      "research": 40
+    },
+    "effects": "Strikes a target unit belonging to the {{Chaos|Chaos}} or {{Death|Death}} realms with a {{Ranged|Magic|15}}-strength [[Magical Damage]] attack.",
+    "name": "Star Fires",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Star_Fires"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Uncommon",
+    "spell_type": "Town Enchantment / Combat Instant",
+    "casting_cost": {
+      "mana": 200
+    },
+    "upkeep": {
+      "mana": 5
+    },
+    "research_cost": {
+      "research": 680
+    },
+    "effects": "During combat at the enchanted town, only units with {{Life|link = True Sight}} may use a [[Ranged Attack]] from outside the 4x4 \"town-proper\" area at targets inside this area.",
+    "name": "Wall of Darkness",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Wall_of_Darkness"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Common",
+    "spell_type": "Town Enchantment / Combat Instant",
+    "casting_cost": {
+      "mana": 150
+    },
+    "upkeep": {
+      "mana": 2
+    },
+    "research_cost": {
+      "research": 160
+    },
+    "effects": "During combat at the enchanted town, any {{Movement|Water}}{{Movement|Ground|Ground}} units outside the wall attempting to move or attack into the 4x4 \"town-proper\" area are struck by a strength {{Ranged|Magic|5}} [[Immolation Damage]] attack.",
+    "name": "Wall of Fire",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Wall_of_Fire"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Rare",
+    "spell_type": "Combat Instant",
+    "casting_cost": {
+      "mana": 35
+    },
+    "research_cost": {
+      "research": 880
+    },
+    "effects": "Strikes the target unit with a succession of 10 [[Magical Damage|Magical]] [[Armor Piercing Damage]] attacks, starting with a {{Ranged|Magic|10}}-strength attack and diminishing by {{Ranged|Magic|-1}} with each subsequent attack.",
+    "name": "Warp Lightning",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Warp_Lightning"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Common",
+    "spell_type": "Combat Instant",
+    "casting_cost": {
+      "mana": 10
+    },
+    "research_cost": {
+      "research": 20
+    },
+    "effects": "Target [[Normal Unit]] or [[Hero]] with a {{Ranged|Bow|Ranged Missile Attack}} instantly loses all of its ammunition for the remainder of the battle.",
+    "name": "Warp Wood",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Warp_Wood"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Common",
+    "spell_type": "Combat Instant",
+    "casting_cost": {
+      "mana": 10
+    },
+    "research_cost": {
+      "research": 100
+    },
+    "effects": "Traps a corporeal unit in a sticky web, rendering it unable to move or attack until it destroys the web and, if applicable, removing its ability to {{Movement|f|fly}} for the remainder of the battle.",
+    "name": "Web",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Web"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Very Rare",
+    "spell_type": "Combat Instant",
+    "casting_cost": {
+      "mana": 40
+    },
+    "research_cost": {
+      "research": 2000
+    },
+    "effects": "Each {{Figure|figure}} in the targeted unit must make a [[Resistance]] roll at a penalty of {{Resist|-5}}. Any figure that fails this roll is instantly destroyed.",
+    "name": "Word of Death",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Word_of_Death"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Common",
+    "spell_type": "Instant Spell / Combat Instant",
+    "casting_cost": {
+      "mana": 20
+    },
+    "research_cost": {
+      "research": 160
+    },
+    "effects": "Instantly returns a friendly unit to the [[Town]] currently containing the wizard's [[Summoning Circle]].",
+    "name": "Word of Recall",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Word_of_Recall"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Uncommon",
+    "spell_type": "Combat Enchantment",
+    "research_cost": {
+      "research": 450
+    },
+    "effects": "Every enemy unit on the battlefield suffers the following penalties:\n* '''-1''' to all [[Attack Strength]]s (except for {{Ranged|magic|Spell Damage}});\n* {{Defense|-1}} [[Defense]];\n* {{Save|-2}} [[Resistance]].",
+    "name": "Black Prayer",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Black_Prayer"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Uncommon",
+    "spell_type": "Combat Enchantment",
+    "research_cost": {
+      "research": 300
+    },
+    "effects": "While active, inflicts a -10% damage penalty on every enemy unit.",
+    "name": "Blur",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Blur"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Very Rare",
+    "spell_type": "Combat Enchantment",
+    "research_cost": {
+      "research": 3000
+    },
+    "effects": "Every turn, between 3-5 [[Magical Damage|Magical]] attacks are made against enemy units on the battlefield. Each attack has a strength of {{Ranged|Magic|8}} and is [[Armor Piercing Damage|Armor Piercing]].",
+    "name": "Call Lightning",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Call_Lightning"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Common",
+    "spell_type": "Combat Enchantment",
+    "research_cost": {
+      "research": 190
+    },
+    "effects": "Any spell cast by the opposing force must roll against [[Counter Magic]]'s current strength or be dispelled.\n\nEach attempt by the enemy to cast any spell - whether successful or not - reduces [[Counter Magic]]'s strength by 5.",
+    "name": "Counter Magic",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Counter_Magic"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Common",
+    "spell_type": "Combat Enchantment",
+    "research_cost": {
+      "research": 250
+    },
+    "effects": "All [[Fantastic Unit]]s of the {{Death|link = Death}} [[Realm]] receive {{Defense|+1}}, {{Resist|+1}}, and a universal [[Attack Strength]] bonus of '''+1''', while those of {{Life|link = Life}} suffer equivalent penalties of '''-1'''.",
+    "name": "Darkness",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Darkness"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Very Rare",
+    "spell_type": "Combat Enchantment",
+    "research_cost": {
+      "research": 2250
+    },
+    "effects": "Reduces the Movement Points per turn of each enemy unit by 1 point. Units with 0 Movement Points cannot move or attack, but may [[Counter Attack]].\n\n[[Flying]] and [[Non-Corporeal]] units ignore the effects of this spell.",
+    "name": "Entangle",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Entangle"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Very Rare",
+    "spell_type": "Combat Enchantment",
+    "research_cost": {
+      "research": 1850
+    },
+    "effects": "All friendly units on the battlefield receive the following bonuses:\n* {{Melee|+2 Melee Strength}};\n* {{Defense|+2 Defense}};\n* {{To Hit|+10% To Hit}};\n* {{To Block|+10% To Block}};\n* {{Resist|+3 Resistance}}.\nAll enemy units on the battlefield receive a {{To Hit|-10% To Hit}} penalty to their [[Melee Attack]]s.",
+    "name": "High Prayer",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/High_Prayer"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Common",
+    "spell_type": "Combat Enchantment",
+    "research_cost": {
+      "research": 220
+    },
+    "effects": "At the start of each turn, each and every enemy spellcasting unit loses {{Mana|5}}. The opponent wizard, if there is one, also loses {{Mana|5}} per turn.\n\nFurthermore, enemy units with a {{Ranged|Magic|Magical Ranged Attack}} who use ammunition will lose one point of ammunition each turn.",
+    "name": "Mana Leak",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Mana_Leak"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Very Rare",
+    "spell_type": "Combat Enchantment",
+    "research_cost": {
+      "research": 2500
+    },
+    "effects": "All friendly units on the battlefield gain [[Invisibility]], hiding them from enemy view during the battle.\n\nEnemy units attempting to attack an Invisible unit in combat receive a {{To Hit|-10% To Hit}} penalty.",
+    "name": "Mass Invisibility",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Mass_Invisibility"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Rare",
+    "spell_type": "Combat Enchantment",
+    "research_cost": {
+      "research": 960
+    },
+    "effects": "All friendly [[Normal Unit]]s and [[Hero]]es receive the following bonuses:\n* {{Melee|Normal|+1}}\n* {{Ranged|Bow|+1}}\n* {{Thrown|+1}} (if the unit possesses a Thrown Attack at all)\n* The unit now has a {{Melee|Magic|Magical Melee Attack}} if it did not already have a better one.",
+    "name": "Metal Fires",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Metal_Fires"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Uncommon",
+    "spell_type": "Combat Enchantment",
+    "research_cost": {
+      "research": 800
+    },
+    "effects": "All friendly units on the battlefield receive the following bonuses:\n* {{To Hit|+10% To Hit}};\n* {{To Block|+10% To Block}};\n* {{Resist|+1 Resistance}}.\nAll enemy units on the battlefield receive a {{To Hit|-10% To Hit}} penalty to their [[Melee Attack]]s.",
+    "name": "Prayer",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Prayer"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Common",
+    "spell_type": "Combat Enchantment",
+    "research_cost": {
+      "research": 190
+    },
+    "effects": "At the start of each turn, each and every enemy unit must make a [[Resistance]] roll at a bonus of {{Resist|+1}}. Any unit that fails this roll may not move, attack, or cast spells this turn. Terrorized units may still [[Counter Attack]].",
+    "name": "Terror",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Terror"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Common",
+    "spell_type": "Combat Enchantment",
+    "research_cost": {
+      "research": 190
+    },
+    "effects": "All [[Fantastic Unit]]s of the {{Life|link = Life}} [[Realm]] receive {{Defense|+1}}, {{Resist|+1}}, and a universal [[Attack Strength]] bonus of '''+1''', while those of {{Death|link = Death}} suffer equivalent penalties of '''-1'''.",
+    "name": "True Light",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/True_Light"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Rare",
+    "spell_type": "Combat Enchantment",
+    "research_cost": {
+      "research": 1500
+    },
+    "effects": "All [[Normal Unit]]s, all [[Hero]]es and all [[Fantastic Creature]]s that do not belong to the {{Chaos|Chaos Realm}} receive a {{To Hit|-20% To Hit}} penalty.",
+    "name": "Warp Reality",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Warp_Reality"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Rare",
+    "spell_type": "Combat Enchantment",
+    "research_cost": {
+      "research": 960
+    },
+    "effects": "Each turn, each and every {{Figure|figure}} in each enemy unit must make a [[Resistance]] roll at a bonus of {{Resist|+1}}. For each figure that fails this roll, its unit suffers {{Damage|1}}.",
+    "name": "Wrack",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Wrack"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Uncommon",
+    "spell_type": "Unit Enchantment",
+    "research_cost": {
+      "research": 740
+    },
+    "effects": "The enchanted unit's [[Melee Attack]] strength is doubled, while its [[Defense]] score is reduced to exactly {{Defense|0}}.",
+    "name": "Berserk",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Berserk"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Uncommon",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 100
+    },
+    "upkeep": {
+      "mana": 1
+    },
+    "research_cost": {
+      "research": 500
+    },
+    "effects": "Target [[Normal Unit]], [[Hero]] or [[Undead]] receives the following bonuses:\n* {{Melee|Normal|+2}} [[Attack Strength#Melee Strength|Melee Strength]];\n* {{Ranged|General|+1}} Ranged [[Attack Strength]] (including short-range, if applicable);\n* {{Defense|+1}} [[Defense]];\n* {{Resist|+1}} [[Resistance]];\n* {{Hits|+1}} [[Hit Points]] per {{Figure|figure}}.\n\nIf a Normal Unit or Hero is targeted by this spell, they become Undead permanently.",
+    "name": "Black Channels",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Black_Channels"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Common",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 25
+    },
+    "upkeep": {
+      "mana": 1
+    },
+    "research_cost": {
+      "research": 20
+    },
+    "effects": "Enchanted unit receives {{Defense|+3}} and {{Resist|+3}} against all attacks and spells associated with the {{Chaos|link = Chaos}} and {{Death|link = Death}} [[Realm]]s.",
+    "name": "Bless",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Bless"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Uncommon",
+    "spell_type": "Unit Enchantment / Instant Spell",
+    "casting_cost": {
+      "mana": 50
+    },
+    "research_cost": {
+      "research": 400
+    },
+    "effects": "Target [[Normal Unit]] or [[Hero]] is now considered to be a [[Fantastic Unit]] from the {{Chaos|Chaos Realm}}.\n\nIn addition, the unit permanently receives ''one'' of the following bonuses:\n* {{Defense|+6}} *\n* {{Breath|Fire|2}}\n* {{Movement|Air|2}}\n\nA unit may only be targeted by [[Chaos Channels]] once. The effect is permanent and cannot be dispelled.",
+    "name": "Chaos Channels",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Chaos_Channels"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Common",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 60
+    },
+    "upkeep": {
+      "mana": 1
+    },
+    "research_cost": {
+      "research": 80
+    },
+    "effects": "When the enchanted unit engages an enemy in melee combat, each {{Figure|figure}} in the enemy unit must succeed a {{Resist|Resistance}} roll or be unable to inflict any Melee Damage.",
+    "name": "Cloak of Fear",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Cloak_of_Fear"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Common",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 75
+    },
+    "upkeep": {
+      "mana": 1
+    },
+    "research_cost": {
+      "research": 130
+    },
+    "effects": "When the enchanted unit attacks a target with a {{Ranged|Bow|Ranged Missile}}, {{Thrown|Thrown}} or {{Melee|Normal|Melee}} attack, each of the target's {{Defense|Shields}} has -10% chance to block a hit.\n\nThe enchanted unit now has a {{Melee|Magic|Magical Melee Attack}} if it does not already have a better one.",
+    "name": "Eldritch Weapon",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Eldritch_Weapon"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Rare",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 175
+    },
+    "upkeep": {
+      "mana": 5
+    },
+    "research_cost": {
+      "research": 880
+    },
+    "effects": "Grants the target unit {{Resist|+10}} and {{Defense|+10}} against any effect or direct damage from {{Nature|link = Nature}} and {{Chaos|link = Chaos}} sources.",
+    "name": "Elemental Armor",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Elemental_Armor"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Common",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 30
+    },
+    "upkeep": {
+      "mana": 1
+    },
+    "research_cost": {
+      "research": 60
+    },
+    "effects": "Target unit's [[Movement Allowance]] is increased by 1 both on the overland map and in combat.",
+    "name": "Endurance",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Endurance"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Uncommon",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 125
+    },
+    "upkeep": {
+      "mana": 2
+    },
+    "research_cost": {
+      "research": 450
+    },
+    "effects": "The enchanted unit gets the following bonuses:\n* {{Melee|Normal|+2}}\n* {{Ranged|Bow|+2}}\n* {{Thrown|+2}} (if the unit possesses a [[Thrown Attack]])\n* Ignore [[Weapon Immunity]]",
+    "name": "Flame Blade",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Flame_Blade"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Uncommon",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 125
+    },
+    "upkeep": {
+      "mana": 3
+    },
+    "research_cost": {
+      "research": 560
+    },
+    "effects": "Changes a unit's Movement type to {{Movement|Air|Flying}}.\n\nIf the unit previously had a movement allowance of less than {{Movement|Ground|3}} or {{Movement|Water|3}}, its movement allowance is increased to {{Movement|Air|3}}.\n\nIf the unit previously had a scouting range of 1, its scouting range is now 2.",
+    "name": "Flight",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Flight"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Common",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 40
+    },
+    "upkeep": {
+      "mana": 1
+    },
+    "research_cost": {
+      "research": 80
+    },
+    "effects": "Grants a unit {{Melee|Normal|+1}} ''per figure''.\nIf the unit has a [[Thrown Attack]], its strength is also increased by {{Thrown|+1}} ''per figure''.",
+    "name": "Giant Strength",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Giant_Strength"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Common",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 50
+    },
+    "upkeep": {
+      "mana": 2
+    },
+    "research_cost": {
+      "research": 80
+    },
+    "effects": "Grants [[Missile Immunity]] to a unit, protecting it from {{Ranged|Bow|Ranged Missile Attacks}}.",
+    "name": "Guardian Wind",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Guardian_Wind"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Rare",
+    "spell_type": "Unit Enchantment",
+    "research_cost": {
+      "research": 1700
+    },
+    "effects": "The enchanted unit gets double its normal [[Movement Allowance]] every turn.\n\nAdditionally, every time the unit is ordered to perform a [[Melee Attack]] or [[Ranged Attack]], it will immediately perform another one for free. This also applies when [[Counter Attack]]ing!",
+    "name": "Haste",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Haste"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Common",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 100
+    },
+    "upkeep": {
+      "mana": 2
+    },
+    "research_cost": {
+      "research": 250
+    },
+    "effects": "Target [[Normal Unit]]'s or [[Hero]]'s [[Experience Level]] is raised to \"Elite\" (or \"Commander\", for Heroes), with all the accompanying bonuses applied. The unit remains at this level as long as [[Heroism]] is in effect.\n\nWhen the unit gets 120 Experience Points - enough to reach \"Elite\" (or \"Commander\") level on its own merits - the spell dissipates.",
+    "name": "Heroism",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Heroism"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Common",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 90
+    },
+    "upkeep": {
+      "mana": 2
+    },
+    "research_cost": {
+      "research": 130
+    },
+    "effects": "Target receives exactly {{Defense|+2}} to its [[Defense]] score.\n\nThis spell may only be cast on [[Normal Unit]]s and [[Hero]]es.",
+    "name": "Holy Armor",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Holy_Armor"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Common",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 50
+    },
+    "upkeep": {
+      "mana": 1
+    },
+    "research_cost": {
+      "research": 80
+    },
+    "effects": "Target [[Normal Unit]] or [[Hero]] receives {{To Hit|+10% To Hit}} with [[Melee Attack|Melee-]] and non-magical [[Ranged Attack]]s, and can ignore the effect of [[File:Ability_WeaponImmunity.png|20px|link=Weapon Immunity]] [[Weapon Immunity]].",
+    "name": "Holy Weapon",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Holy_Weapon"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Uncommon",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 150
+    },
+    "upkeep": {
+      "mana": 2
+    },
+    "research_cost": {
+      "research": 740
+    },
+    "effects": "Grants the target unit the [[File:Ability_Immolation.png|20px|link=Immolation]] [[Immolation]] ability (a strength {{Ranged|Magic|4}} [[Area Damage]] attack triggered as a [[Touch Attack]]).",
+    "name": "Immolation (Spell)",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Immolation_(Spell)"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Rare",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 175
+    },
+    "upkeep": {
+      "mana": 10
+    },
+    "research_cost": {
+      "research": 960
+    },
+    "effects": "Renders a unit invisible, hiding it from enemy view both on the overland map and during combat.\n\nEnemy units attempting to attack the '''Invisible''' unit in combat receive a {{To Hit|-10% To Hit}} penalty.",
+    "name": "Invisibility (Spell)",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Invisibility_(Spell)"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Rare",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 200
+    },
+    "upkeep": {
+      "mana": 5
+    },
+    "research_cost": {
+      "research": 1040
+    },
+    "effects": "The first two {{Damage|Points of Damage}} inflicted on the enchanted unit from any source are blocked automatically.\n\nIn addition, the unit receives the [[Weapon Immunity]] ability.",
+    "name": "Invulnerability",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Invulnerability"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Rare",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 200
+    },
+    "upkeep": {
+      "mana": 5
+    },
+    "research_cost": {
+      "research": 1120
+    },
+    "effects": "Grants a unit {{Defense|+5}} ''per figure''.",
+    "name": "Iron Skin",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Iron_Skin"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Rare",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 200
+    },
+    "upkeep": {
+      "mana": 4
+    },
+    "research_cost": {
+      "research": 880
+    },
+    "effects": "Target unit receives the following bonuses:\n* {{Melee|Normal|+3 Melee Strength}};\n* {{Resist|+3 Resistance}};\n* {{Hits|+3 Hits}} per {{Figure|figure}};\n* {{Ranged|Bow|+3}}, {{Ranged|Rock|+3}} or {{Thrown|+3}} (if applicable).",
+    "name": "Lionheart",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Lionheart"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Rare",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 250
+    },
+    "upkeep": {
+      "mana": 5
+    },
+    "research_cost": {
+      "research": 1600
+    },
+    "effects": "Grants the unit the [[File:Ability_MagicImmunity.png|20px|link=Magic Immunity]] [[Magic Immunity]] ability, protecting it from most spells, special abilities, and {{Ranged|Magic|Magical}} Ranged Attacks.",
+    "name": "Magic Immunity (Spell)",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Magic_Immunity_(Spell)"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Uncommon",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 50
+    },
+    "upkeep": {
+      "mana": 1
+    },
+    "research_cost": {
+      "research": 560
+    },
+    "effects": "Allows a {{Movement|Ground|Walking}} unit to move on the campaign map using only 1/2 movement point per tile.",
+    "name": "Path Finding",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Path_Finding"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Uncommon",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 150
+    },
+    "upkeep": {
+      "mana": 5
+    },
+    "research_cost": {
+      "research": 680
+    },
+    "effects": "Enchanted unit may switch between the two [[Plane]]s freely, as long as it can legally enter the destination tile on the other plane. \n\nAny tile which the unit cannot normally enter by moving into it is illegal, as is any tile containing enemy units or towns (including [[Encounter]] zones).",
+    "name": "Planar Travel",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Planar_Travel"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Very Rare",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 300
+    },
+    "upkeep": {
+      "mana": 10
+    },
+    "research_cost": {
+      "research": 1850
+    },
+    "effects": "Grants the target the equivalent of the [[File:Ability_Regeneration.png|16px|link=Regeneration]]&nbsp;[[Regeneration]] ability. In combat:\n* The unit is healed by {{Hits|1}} each turn during combat.\n* The unit is fully healed at the end of each combat.\n* If the unit is destroyed, but its side wins the battle, it is automatically resurrected and fully healed.\nOverland:\n* The unit is fully healed at the end of each game turn.\n* The unit ignores [[Physical Damage]] caused by overland spells.",
+    "name": "Regeneration (Spell)",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Regeneration_(Spell)"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Common",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 25
+    },
+    "upkeep": {
+      "mana": 1
+    },
+    "research_cost": {
+      "research": 40
+    },
+    "effects": "Grants the target unit {{Resist|+3}} and {{Defense|+3}} against any effect or direct damage from {{Nature|link = Nature}} and {{Chaos|link = Chaos}} sources.",
+    "name": "Resist Elements",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Resist_Elements"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Common",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 25
+    },
+    "upkeep": {
+      "mana": 1
+    },
+    "research_cost": {
+      "research": 20
+    },
+    "effects": "Grants the enchanted unit a {{Resist|+5}} bonus when attempting to resist harmful effects associated with any magical [[Realm]].",
+    "name": "Resist Magic",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Resist_Magic"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Rare",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 200
+    },
+    "upkeep": {
+      "mana": 2
+    },
+    "research_cost": {
+      "research": 1120
+    },
+    "effects": "The enchanted unit becomes invulnerable to the following:\n* Almost all {{Chaos|Chaos}} and {{Death|Death}} spells.\n* All {{Chaos|Chaos}}- and {{Death|Death}}-related [[Special Attack]]s.\n* All {{Chaos|Chaos}}-related {{Ranged|Magic|Ranged Magical Attacks}}.",
+    "name": "Righteousness",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Righteousness"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Uncommon",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 100
+    },
+    "upkeep": {
+      "mana": 1
+    },
+    "research_cost": {
+      "research": 450
+    },
+    "effects": "* Protects all other [[Unit Enchantment]]s cast on the target unit from being dispelled.\n\n* Protects a [[Fantastic Unit]] from {{Sorcery|[[Banish]]}}, {{Sorcery|[[Great Unsummoning]]}}, {{Life|[[Dispel Evil]]}}, and {{Life|[[Holy Word]]}}.\n\n[[Spell Lock]] is considered to have a [[Casting Cost]] of {{Mana|150}} whenever calculating the difficulty of dispelling it (thus making it much more resistant to dispelling than it otherwise ought to be).",
+    "name": "Spell Lock",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Spell_Lock"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Common",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 50
+    },
+    "upkeep": {
+      "mana": 1
+    },
+    "research_cost": {
+      "research": 160
+    },
+    "effects": "Grants a unit {{Defense|+1}} ''per figure''.",
+    "name": "Stone Skin",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Stone_Skin"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Uncommon",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 100
+    },
+    "upkeep": {
+      "mana": 2
+    },
+    "research_cost": {
+      "research": 300
+    },
+    "effects": "The enchanted unit receives the [[Illusions Immunity]] ability, allowing it to see [[Invisibility|Invisible]] units, defend normally against [[Illusion Damage]], and make [[Ranged Attack]]s into a [[Wall of Darkness]].",
+    "name": "True Sight",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/True_Sight"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Common",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 50
+    },
+    "upkeep": {
+      "mana": 1
+    },
+    "research_cost": {
+      "research": 190
+    },
+    "effects": "Grants the {{Movement|w|swimming}} [[Movement Type]]",
+    "name": "Water Walking",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Water_Walking"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Rare",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 250
+    },
+    "upkeep": {
+      "mana": 10
+    },
+    "research_cost": {
+      "research": 1040
+    },
+    "effects": "Allows the enchanted unit (and all units stacked with it!), to {{Movement|Air|Fly}} on the overland map.",
+    "name": "Wind Walking (Spell)",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Wind_Walking_(Spell)"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Rare",
+    "spell_type": "Unit Enchantment",
+    "casting_cost": {
+      "mana": 150
+    },
+    "upkeep": {
+      "mana": 3
+    },
+    "research_cost": {
+      "research": 880
+    },
+    "effects": "Target unit gains the [[Non-Corporeal]] ability, allowing it to move at a rate of 0.5 Movement Point per tile on any [[Terrain]], and protecting it from several spells that only affect [[Walking]] units. In addition, the unit gains [[Weapon Immunity]].",
+    "name": "Wraith Form",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Wraith_Form"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Rare",
+    "spell_type": "Town Enchantment",
+    "casting_cost": {
+      "mana": 300
+    },
+    "upkeep": {
+      "mana": 5
+    },
+    "research_cost": {
+      "research": 1300
+    },
+    "effects": "Any [[Normal Unit]] produced by the enchanted [[Town]] is created with {{Exp|120 Experience Points}}, giving it a starting rank of {{ExpLevel|elite|Elite}} (with all the appropriate bonuses for that level).",
+    "name": "Altar of Battle",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Altar_of_Battle"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Very Rare",
+    "spell_type": "Town Enchantment",
+    "casting_cost": {
+      "mana": 350
+    },
+    "upkeep": {
+      "mana": 5
+    },
+    "research_cost": {
+      "research": 2250
+    },
+    "effects": "Friendly units in the enchanted town may move to the other [[Plane]] freely, as long as combat will not result in their arriving in the corresponding tile on the other plane.\n\nFriendly units in the other plane, on the same tile corresponding to the enchanted town, may move to the town's plane freely.",
+    "name": "Astral Gate",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Astral_Gate"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Rare",
+    "spell_type": "Town Enchantment",
+    "casting_cost": {
+      "mana": 150
+    },
+    "upkeep": {
+      "mana": 3
+    },
+    "research_cost": {
+      "research": 1200
+    },
+    "effects": "Every battle taking place at the target town will be under an effect similar to a [[Darkness]] spell.",
+    "name": "Cloud of Shadow",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Cloud_of_Shadow"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Very Rare",
+    "spell_type": "Town Enchantment",
+    "casting_cost": {
+      "mana": 400
+    },
+    "upkeep": {
+      "mana": 8
+    },
+    "research_cost": {
+      "research": 3000
+    },
+    "effects": "All [[Town Curse]]s are removed from the targeted town. Rivals may not cast any more Town Curses on this town. Some rival [[Instant Spell]]s and [[Global Enchantment]]s can no longer have any effect this town either.\n\nAt the start of each turn, any and all [[Corruption|Corrupted]] tiles within the town's catchment area are automatically [[Purification|Purified]].",
+    "name": "Consecration",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Consecration"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Common",
+    "spell_type": "Town Enchantment",
+    "casting_cost": {
+      "mana": 30
+    },
+    "upkeep": {},
+    "research_cost": {
+      "research": 60
+    },
+    "effects": "The enchanted town produces an extra amount of {{Power|Power}} equal to the amount currently generated by its [[Shrine]], [[Temple]], [[Parthenon]] and [[Cathedral]] (if any).\n\nThe town's [[Unrest]] level also rises by +1, and its [[Population Growth]] is reduced by about 25%.",
+    "name": "Dark Rituals",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Dark_Rituals"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Very Rare",
+    "spell_type": "Town Enchantment",
+    "casting_cost": {
+      "mana": 250
+    },
+    "upkeep": {
+      "mana": 5
+    },
+    "research_cost": {
+      "research": 4000
+    },
+    "effects": "Allows units to travel instantaneously between the enchanted [[Town]] and any other Town on the same [[Plane]] containing an [[Earth Gate]].",
+    "name": "Earth Gate",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Earth_Gate"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Very Rare",
+    "spell_type": "Town Enchantment",
+    "casting_cost": {
+      "mana": 500
+    },
+    "upkeep": {
+      "mana": 25
+    },
+    "research_cost": {
+      "research": 4000
+    },
+    "effects": "During combat at the affected [[Town]], units without {{Movement|Air|Flying}} ability may not enter or leave the 4x4 tile area representing the town proper.",
+    "name": "Flying Fortress",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Flying_Fortress"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Rare",
+    "spell_type": "Town Enchantment",
+    "casting_cost": {
+      "mana": 300
+    },
+    "upkeep": {
+      "mana": 3
+    },
+    "research_cost": {
+      "research": 1600
+    },
+    "effects": "Grants the targeted [[Town]] the following bonuses:\n* [[Maximum Population]] increased by 50%.\n* [[Unrest]] level is reduced by 2.\n* {{Production|+3% Production}} bonus for every [[Forest]] tile in the town's vicinity.\n* Each [[Desert]] in the town's vicinity has a 10% chance each turn of turning into [[Grassland]].\n* Each [[Volcano]] in the town's vicinity has a 10% chance each turn of turning into a [[Hill]].\n* Each [[Corruption|Corrupted]] land tile in the town's vicinity has a 20% chance each turn of being [[Purification|Purified]].",
+    "name": "Gaia's Blessing",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Gaia's_Blessing"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Uncommon",
+    "spell_type": "Town Enchantment",
+    "casting_cost": {
+      "mana": 150
+    },
+    "upkeep": {
+      "mana": 2
+    },
+    "research_cost": {
+      "research": 740
+    },
+    "effects": "Every battle taking place at the target town will be under an effect similar to a [[True Light]] spell.",
+    "name": "Heavenly Light",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Heavenly_Light"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Very Rare",
+    "spell_type": "Town Enchantment",
+    "casting_cost": {
+      "mana": 350
+    },
+    "upkeep": {
+      "mana": 2
+    },
+    "research_cost": {
+      "research": 2000
+    },
+    "effects": "Each of the enchanted [[Town]]'s citizens yields twice as much {{Production|Production}} as normal.",
+    "name": "Inspirations",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Inspirations"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Uncommon",
+    "spell_type": "Town Enchantment",
+    "casting_cost": {
+      "mana": 75
+    },
+    "upkeep": {
+      "mana": 1
+    },
+    "research_cost": {
+      "research": 350
+    },
+    "effects": "Reveals all unexplored map squares up to 5 tiles away from the target Town.\n\nThe enchanted Town detects any non-[[Invisibility|Invisible]] enemy unit approaching to within 5 tiles from any direction.",
+    "name": "Nature's Eye",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Nature's_Eye"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Rare",
+    "spell_type": "Town Enchantment",
+    "casting_cost": {
+      "mana": 250
+    },
+    "upkeep": {
+      "mana": 2
+    },
+    "research_cost": {
+      "research": 1200
+    },
+    "effects": "Enchanted [[Town]]'s {{Gold|Gold}} output is increased by 100%.",
+    "name": "Prosperity",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Prosperity"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Very Rare",
+    "spell_type": "Town Enchantment",
+    "casting_cost": {
+      "mana": 350
+    },
+    "upkeep": {
+      "mana": 5
+    },
+    "research_cost": {
+      "research": 2000
+    },
+    "effects": "Protects a [[Town]] from [[Fantastic Unit]]s and overland spells of a single magical [[Realm]].\n\nUp to 5 different [[Spell Ward]]s may be cast simultaneously on the same Town, each protecting it from a different Realm.",
+    "name": "Spell Ward",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Spell_Ward"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Rare",
+    "spell_type": "Town Enchantment",
+    "casting_cost": {
+      "mana": 300
+    },
+    "upkeep": {
+      "mana": 8
+    },
+    "research_cost": {
+      "research": 1500
+    },
+    "effects": "Bestows the enchanted [[Town]] with the following bonuses:\n* [[Population Growth]] is doubled.\n* [[Unrest]] is reduced to 0.\n* Any unit starting its turn in this town is fully healed with all {{Figure|figures}} restored to life.",
+    "name": "Stream of Life",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Stream_of_Life"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Very Rare",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 1250
+    },
+    "upkeep": {
+      "mana": 40
+    },
+    "research_cost": {
+      "research": 6000
+    },
+    "effects": "Every turn, a random number of [[Volcano]]es are created somewhere in the world. [[Volcano]]es provide no {{Food|Food}} or other bonuses to nearby towns.\n\nEach [[Volcano]] raised by this spell provides {{Power|+1 Power}} to [[Armageddon]]'s caster.\n\nTiles in the catchment areas around towns belonging to [[Armageddon]]'s caster are unaffected by the spell.\n\nThe [[Unrest]]-quelling effects of buildings in all enemy towns are ''nullified''.\n\n[[Unrest]] in all enemy towns further rises by <span style=\"color:white\">'''2'''</span>.",
+    "name": "Armageddon",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Armageddon"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Uncommon",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 400
+    },
+    "upkeep": {
+      "mana": 5
+    },
+    "research_cost": {
+      "research": 740
+    },
+    "effects": "The caster's [[Diplomacy|Diplomatic Relations]] with every other wizard will change by +10 initially and +1 each turn.",
+    "name": "Aura of Majesty",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Aura_of_Majesty"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Arcane",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 500
+    },
+    "upkeep": {
+      "mana": 3
+    },
+    "research_cost": {
+      "research": 700
+    },
+    "effects": "Reveals all rival and neutral [[Town]] on both [[Plane]]s.",
+    "name": "Awareness",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Awareness"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Very Rare",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 1000
+    },
+    "upkeep": {
+      "mana": 40
+    },
+    "research_cost": {
+      "research": 3500
+    },
+    "effects": "Every unit (in the entire game) associated with the {{Chaos|link = Chaos|Chaos Realm}} receives the following bonuses:\n* {{Melee|Normal|+2}}\n* {{Ranged|Bow|+2}} / {{Ranged|Rock|+2}} / {{Ranged|Magic|+2}}\n* {{Breath|Fire|+2}} / {{Thrown|+2}} / [[File:Ability_DoomGaze.png|16px|link=Doom Gaze]]&nbsp;<span style=\"color:white;\">'''+2'''</span>\nHowever, each bonus only applies to units already possessing the relevant [[Attack Type]].",
+    "name": "Chaos Surge",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Chaos_Surge"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Very Rare",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 1250
+    },
+    "upkeep": {
+      "mana": 10
+    },
+    "research_cost": {
+      "research": 6000
+    },
+    "effects": "Each and every unit receives a {{Hits|+25% Hits Points}} bonus (or {{Hits|+1}}, whichever is ''greater''). \n\nIn {{MFU|Multi-Figure units}}, this bonus applies to each individual {{Figure|figure}}.",
+    "name": "Charm of Life",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Charm_of_Life"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Very Rare",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 1100
+    },
+    "upkeep": {
+      "mana": 10
+    },
+    "research_cost": {
+      "research": 4500
+    },
+    "effects": "All friendly [[Normal Unit]]s and [[Hero]]es are 1 [[Experience Level]] higher than they otherwise would be. \n\nThis allows \"Elite\" [[Normal Unit]]s to reach the otherwise unreachable \"Ultra-Elite\" level. With the [[Warlord]] [[Retort]], [[Normal Unit]]s may now reach \"Champion\" level.",
+    "name": "Crusade",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Crusade"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Arcane",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 200
+    },
+    "upkeep": {
+      "mana": 3
+    },
+    "research_cost": {
+      "research": 400
+    },
+    "effects": "Shows which spell each rival wizard is casting, displayed above the wizard's portrait in the \"Magic\" menu.\n\nSome rival spells will display their relevant animation as soon as they are done casting.",
+    "name": "Detect Magic",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Detect_Magic"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Very Rare",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 1100
+    },
+    "upkeep": {
+      "mana": 15
+    },
+    "research_cost": {
+      "research": 4000
+    },
+    "effects": "Every [[Normal Unit]] created in the caster's [[Town]]s immediately comes under the effect of the [[Chaos Channels]] spell, receiving one of the following permanent effects at random:\n* {{Defense|+2}} *\n* [[Fire Breath]] 2\n* {{Movement|Air|2}}\nThe unit also becomes associated with the {{Chaos|Chaos Realm}}.\n\nA unit may only be targeted by [[Chaos Channels]] once. The effect is permanent and cannot be dispelled.",
+    "name": "Doom Mastery",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Doom_Mastery"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Very Rare",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 1000
+    },
+    "upkeep": {
+      "mana": 15
+    },
+    "research_cost": {
+      "research": 4000
+    },
+    "effects": "Every battle is automatically affected by an equivalent of the {{Death|link = Darkness}} spell, which gives a wide array of bonuses to all {{Death|link = Death}} creatures, and a similar array of penalties to {{Life|link = Life}} creatures.\nOnly battles taking place in [[Town]]s protected by {{Life|link = Heavenly Light}} are exempt from this effect.",
+    "name": "Eternal Night",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Eternal_Night"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Very Rare",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 1100
+    },
+    "upkeep": {
+      "mana": 10
+    },
+    "research_cost": {
+      "research": 4500
+    },
+    "effects": "All {{Life|Life}} and {{Nature|Nature}} spells' [[Casting Cost]]s are increased by 50%. This applies to all wizards, both on the overland map and during combat.",
+    "name": "Evil Omens",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Evil_Omens"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Very Rare",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 1000
+    },
+    "upkeep": {
+      "mana": 20
+    },
+    "research_cost": {
+      "research": 2500
+    },
+    "effects": "Each turn, anywhere between 3 and 6 random land tiles on the overland map are [[Corruption|Corrupted]].\n\nTiles within the catchment areas of [[Town]]s belonging to [[Great Wasting]]'s caster are not affected.\n\nThe [[Unrest]]-quelling effects of buildings in all enemy towns are ''nullified''.\n\n[[Unrest]] in all enemy towns further rises by <span style=\"color:white\">'''1'''</span>.",
+    "name": "Great Wasting",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Great_Wasting"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Very Rare",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 1000
+    },
+    "upkeep": {
+      "mana": 10
+    },
+    "research_cost": {
+      "research": 4500
+    },
+    "effects": "Fully heals each of the casting Wizard's units each turn.",
+    "name": "Herb Mastery",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Herb_Mastery"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Very Rare",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 900
+    },
+    "upkeep": {
+      "mana": 10
+    },
+    "research_cost": {
+      "research": 2500
+    },
+    "effects": "Each and every friendly [[Normal Unit]] and [[Hero]] is under the effect of a [[Holy Weapon]] spell, receiving a {{To Hit|+10% To Hit}} bonus. Each of these units may now attack [[Weapon Immunity|Weapon Immune]] units without triggering their special [[Defense]] bonuses.",
+    "name": "Holy Arms",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Holy_Arms"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Common",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 150
+    },
+    "upkeep": {
+      "mana": 3
+    },
+    "research_cost": {
+      "research": 160
+    },
+    "effects": "The casting wizard receives -1 to [[Unrest]] in all cities and a {{Fame|+10 Fame}} bonus while the spell is in effect.",
+    "name": "Just Cause",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Just_Cause"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Very Rare",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 1000
+    },
+    "upkeep": {
+      "mana": 10
+    },
+    "research_cost": {
+      "research": 3500
+    },
+    "effects": "Whenever any rival completes casting an overland {{Death|Death}} spell, that spell is immediately subjected to a 500-strength dispelling attempt.",
+    "name": "Life Force",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Life_Force"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Very Rare",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 900
+    },
+    "upkeep": {
+      "mana": 10
+    },
+    "research_cost": {
+      "research": 2250
+    },
+    "effects": "The following effects occur each turn:\n* Every unit that is not within a [[Town]] is struck by a strength {{Ranged|Magic|4}} [[Immolation Damage]] attack. Units garrisoned inside towns  (and [[Encounter Zone]] guardians) are unaffected.\n* Every [[Town Building|Building]] in every Town (except for the caster's own) has 1% chance of collapsing. [[Outpost]]s are completely destroyed by this effect.",
+    "name": "Meteor Storm",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Meteor_Storm"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Very Rare",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 800
+    },
+    "upkeep": {
+      "mana": 7
+    },
+    "research_cost": {
+      "research": 2500
+    },
+    "effects": "Permanently reveals all unexplored tiles on the overland map (in both [[Arcanus]] and [[Myrror]]).\n\nReveals all enemy [[Town]]s and units except [[Invisibility|Invisible]] ones.",
+    "name": "Nature Awareness",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Nature_Awareness"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Very Rare",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 1250
+    },
+    "upkeep": {
+      "mana": 10
+    },
+    "research_cost": {
+      "research": 6000
+    },
+    "effects": "Each time a rival [[Wizard]] casts a spell from the  {{Death|link = Death}} or {{Chaos|link = Chaos}} [[Realm]]s, the following effects strike each and every one of that wizard's [[Town]]s:\n* Each [[Town Building|Building]] in each Town has a 5% chance of being destroyed.\n* Each unit garrisoned in each Town has a 15% chance of being destroyed.\n{{Movement|f|Flying}} and [[Non-Corporeal]] units are immune to the destruction caused by this spell.",
+    "name": "Nature's Wrath",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Nature's_Wrath"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Uncommon",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 500
+    },
+    "upkeep": {
+      "mana": 5
+    },
+    "research_cost": {
+      "research": 500
+    },
+    "effects": "While the spell is in effect it is virtually impossible for any Wizard to move any units from one [[Plane]] to the other.",
+    "name": "Planar Seal",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Planar_Seal"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Very Rare",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 1250
+    },
+    "upkeep": {
+      "mana": 50
+    },
+    "research_cost": {
+      "research": 5000
+    },
+    "effects": "While [[Suppress Magic]] is in effect, any overland spell cast by a rival wizard must resist a dispelling attempt at strength 500, or fizzle immediately.",
+    "name": "Suppress Magic",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Suppress_Magic"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Very Rare",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 1500
+    },
+    "upkeep": {
+      "mana": 200,
+      "modified": true
+    },
+    "research_cost": {
+      "research": 6000
+    },
+    "effects": "While [[Time Stop]] is in effect, all rival [[Wizard]]s skip their turns.\n\n[[Time Stop]]'s caster may cast spells and move units as normal each turn. However, Production in [[Town]]s, consumption of {{Food|Food}}, as well as generation of {{Mana|Mana}} and {{Research|Research Points}} stops entirely.\n\n[[Time Stop]]'s caster does not pay any [[Upkeep Cost]]s for anything - except [[Time Stop]]'s own {{Mana|200}} per turn.",
+    "name": "Time Stop",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Time_Stop"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Very Rare",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 1000
+    },
+    "upkeep": {
+      "mana": 10
+    },
+    "research_cost": {
+      "research": 4000
+    },
+    "effects": "Whenever any rival completes casting an overland {{Chaos|Chaos}} spell, that spell is immediately subjected to a 500-strength dispelling attempt.",
+    "name": "Tranquility",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Tranquility"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Uncommon",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 400
+    },
+    "upkeep": {
+      "mana": 5
+    },
+    "research_cost": {
+      "research": 620
+    },
+    "effects": "All of the casting Wizard's Ships (see list in article) receive +50% [[Movement Allowance]].\n\nAll Ships belonging to rival Wizards receive -50% [[Movement Allowance]].",
+    "name": "Wind Mastery",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Wind_Mastery"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Rare",
+    "spell_type": "Global Enchantment",
+    "casting_cost": {
+      "mana": 800
+    },
+    "upkeep": {
+      "mana": 40
+    },
+    "research_cost": {
+      "research": 1500
+    },
+    "effects": "At the end of every battle won by [[Zombie Mastery]]'s caster, any [[Normal Unit]] (whether friendly or enemy) that died during the battle is brought back as a unit of [[Zombies]].",
+    "name": "Zombie Mastery",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Zombie_Mastery"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Rare",
+    "spell_type": "Instant Spell",
+    "casting_cost": {
+      "mana": 200
+    },
+    "research_cost": {
+      "research": 1400
+    },
+    "effects": "Each {{Figure|Figure}} inside each unit in the targeted enemy stack must [[Resistance]] at a penalty of {{Resist|-1}} or be destroyed instantly.",
+    "name": "Black Wind",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Black_Wind"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Very Rare",
+    "spell_type": "Instant Spell|Instant",
+    "casting_cost": {
+      "mana": 500
+    },
+    "research_cost": {
+      "research": 5000
+    },
+    "effects": "The target [[Town]] suffers the following effects, unless protected by {{Life|link = Consecration}} or {{Sorcery|link = Spell Ward|Chaos Ward}}:\n*Each [[Town Building]] has a 50% chance to be destroyed;\n*Every 1000 residents above the first have a 50% chance of being slain;\n*Every tile in a 5×5 area centered on the Town has a 50% chance of becoming [[Corruption|Corrupted]].\n*Every garrisoned unit is struck with a strength {{Ranged|magic|10}} [[Doom Damage]] attack;\n*If the target is an [[Outpost]], it is removed from the map.",
+    "name": "Call the Void",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Call_the_Void"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Uncommon",
+    "spell_type": "Instant Spell|Instant",
+    "casting_cost": {
+      "mana": 50
+    },
+    "research_cost": {
+      "research": 500
+    },
+    "effects": "Changes a single overland map tile from one type of terrain to another, generally towards [[Grassland]] or [[Forest]]s.\n\nSome tile types may not be targeted by this spell.",
+    "name": "Change Terrain",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Change_Terrain"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Common",
+    "spell_type": "Instant Spell|Instant",
+    "casting_cost": {
+      "mana": 40
+    },
+    "research_cost": {
+      "research": 100
+    },
+    "effects": "[[Corruption|Corrupts]] a target overland map tile; that tile ceases to provide any {{Food|Food}}, {{Gold|Gold}} or {{Production}} to any nearby town.\n\n[[Purification]] can restore the tile to its normal state.",
+    "name": "Corruption (Spell)",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Corruption_(Spell)"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Arcane",
+    "spell_type": "Instant Spell",
+    "casting_cost": "Varies",
+    "upkeep": {},
+    "research_cost": {
+      "research": 1000
+    },
+    "effects": "Allows the wizard to create a [[Magical Item]] with custom-selected properties. The spell's [[Casting Cost]] depends entirely on the item and its bonuses.\n\n[[Create Artifact]] imposes no limits on what bonuses can be imbued into the item it creates. Spell-like abilities are still limited by the type and number of [[Spellbook]]s the caster possesses.",
+    "name": "Create Artifact",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Create_Artifact"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Very Rare",
+    "spell_type": "Instant Spell",
+    "casting_cost": {
+      "mana": 250
+    },
+    "research_cost": {
+      "research": 1850
+    },
+    "effects": "Target wizard loses 1% to 10% of his current [[Spell Casting Skill]].",
+    "name": "Cruel Unminding",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Cruel_Unminding"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Very Rare",
+    "spell_type": "Instant Spell",
+    "casting_cost": {
+      "mana": 500
+    },
+    "research_cost": {
+      "research": 5000
+    },
+    "effects": "Each and every enemy [[Normal Unit]] and [[Hero]] on both [[Plane]]s must succeed a [[Resistance]] roll or be destroyed immediately.",
+    "name": "Death Wish",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Death_Wish"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Arcane",
+    "spell_type": "Instant Spell",
+    "casting_cost": {
+      "mana": 200
+    },
+    "research_cost": {
+      "research": 750
+    },
+    "effects": "Attempts to dispel a single [[Global Enchantment]] cast by a rival wizard.",
+    "name": "Disjunction",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Disjunction"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Uncommon",
+    "spell_type": "Instant Spell|Instant",
+    "casting_cost": {
+      "mana": 50
+    },
+    "research_cost": {
+      "research": 300
+    },
+    "effects": "The targeted rival wizard loses between {{Mana|50}} and {{Mana|150}}, or as much {{Mana|Mana}} as that wizard has left in his/her Mana pool (whichever is less).",
+    "name": "Drain Power",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Drain_Power"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Common",
+    "spell_type": "Instant Spell",
+    "casting_cost": {
+      "mana": 30
+    },
+    "research_cost": {
+      "research": 250
+    },
+    "effects": "* Permanently reveals all geographical features in a 10x12 rectangular area of the selected [[Plane]].",
+    "name": "Earth Lore",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Earth_Lore"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Rare",
+    "spell_type": "Instant Spell|Instant",
+    "casting_cost": {
+      "mana": 200
+    },
+    "research_cost": {
+      "research": 1300
+    },
+    "effects": "Strikes the target [[Town]] with the following effects:\n* Each [[Town Building]] has a 15% chance of being destroyed;\n* Any non-{{Movement|f|flying}}, corporeal unit in the garrison has a 25% chance of being destroyed.",
+    "name": "Earthquake",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Earthquake"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Arcane",
+    "spell_type": "Instant Spell",
+    "casting_cost": "Varies",
+    "upkeep": {},
+    "research_cost": {
+      "research": 450
+    },
+    "effects": "Allows the wizard to create one item with custom-selected properties. The spell's [[Casting Cost]] depends entirely on the item and its bonuses.\n\nUnlike the stronger [[Create Artifact]] spell, [[Enchant Item]] places many limits on the types and strengths of the bonuses an item can receive.",
+    "name": "Enchant Item",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Enchant_Item"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Uncommon",
+    "spell_type": "Instant Spell",
+    "casting_cost": {
+      "mana": 100
+    },
+    "research_cost": {
+      "research": 500
+    },
+    "effects": "Turns all [[Road]]s in a 5x5 tile area of the overland map into [[Enchanted Road]]s.\n\n{{Note}} All roads in the plane of [[Myrror]] are already enchanted by default, and do not benefit further from this spell.",
+    "name": "Enchant Road",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Enchant_Road"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Rare",
+    "spell_type": "Instant Spell|Instant",
+    "casting_cost": {
+      "mana": 250
+    },
+    "research_cost": {
+      "research": 1400
+    },
+    "effects": "Strikes all enemy units in the targeted stack with an {{Ranged|Magic|8}}-strength [[Immolation Damage]] attack.",
+    "name": "Fire Storm",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Fire_Storm"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Very Rare",
+    "spell_type": "Instant Spell",
+    "casting_cost": {
+      "mana": 1000
+    },
+    "research_cost": {
+      "research": 3000
+    },
+    "effects": "''Each and every'' [[Fantastic Unit]] in the world, whether enemy or friendly (except those guarding [[Encounter]] zones), must make a [[Resistance]] roll at a penalty of {{Resist|-3}}. Any unit that fails this roll is immediately destroyed.",
+    "name": "Great Unsummoning",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Great_Unsummoning"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Rare",
+    "spell_type": "Instant Spell|Instant",
+    "casting_cost": {
+      "mana": 200
+    },
+    "research_cost": {
+      "research": 1200
+    },
+    "effects": "Strikes all enemy units in the targeted stack with a {{Ranged|Magic|6}}-strength [[Blizzard Damage]] attack.",
+    "name": "Ice Storm",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Ice_Storm"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Rare",
+    "spell_type": "Summoning Spell / Instant Spell",
+    "casting_cost": {
+      "mana": 500
+    },
+    "research_cost": {
+      "research": 960
+    },
+    "effects": "Summons [[Torin the Chosen]] to the current location of your [[Summoning Circle]].\n\nIf [[Torin]] dies, casting [[Incarnation]] again will revive him, keeping most of his statistics intact.",
+    "name": "Incarnation",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Incarnation"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Uncommon",
+    "spell_type": "Summoning Spell / Instant Spell",
+    "casting_cost": {
+      "mana": 180
+    },
+    "research_cost": {
+      "research": 400
+    },
+    "effects": "Target friendly [[Normal Unit]] is instantly and permanently transformed into a unit of [[Werewolves]].",
+    "name": "Lycanthropy",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Lycanthropy"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Rare",
+    "spell_type": "Instant Spell|Instant",
+    "casting_cost": {
+      "mana": 200
+    },
+    "research_cost": {
+      "research": 1500
+    },
+    "effects": "Moves the casting Wizard's [[Fortress]] to the targeted [[Town]].\n\nIf the [[Summoning Circle]] and [[Fortress]] were in the same town prior to casting this spell, the Summoning Circle is also moved to the same destination.",
+    "name": "Move Fortress",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Move_Fortress"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Uncommon",
+    "spell_type": "Instant Spell|Instant",
+    "casting_cost": {
+      "mana": 75
+    },
+    "research_cost": {
+      "research": 740
+    },
+    "effects": "Heals all units in a targeted stack to full health, instantly.\n\nDoes not affect the [[Undead]] or any [[Fantastic Creature]]s from the {{Death|Death Realm}}.",
+    "name": "Nature's Cures",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Nature's_Cures"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Uncommon",
+    "spell_type": "Instant Spell|Instant",
+    "casting_cost": {
+      "mana": 125
+    },
+    "research_cost": {
+      "research": 350
+    },
+    "effects": "The targeted stack is teleported to the same location on the other [[Plane]].\n\nThe spell fails if the destination tile either contains enemy units, or is water tile that the stack (as a whole) could not normally enter.",
+    "name": "Plane Shift (Spell)",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Plane_Shift_(Spell)"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Chaos",
+    "rarity": "Uncommon",
+    "spell_type": "Instant Spell|Instant",
+    "casting_cost": {
+      "mana": 200
+    },
+    "research_cost": {
+      "research": 680
+    },
+    "effects": "Turns a targeted tile into a [[Volcano]], potentially destroying specific assets in that tile, and subsequently providing a permanent {{Power|+1 Power}} to the spell's caster.",
+    "name": "Raise Volcano",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Raise_Volcano"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Life",
+    "rarity": "Uncommon",
+    "spell_type": "Instant Spell",
+    "casting_cost": {
+      "mana": 250
+    },
+    "research_cost": {
+      "research": 400
+    },
+    "effects": "One dead [[Hero]] returns to life with full health. This Hero regains the same {{ExpLevel|Experience Level}} he had when he died.",
+    "name": "Resurrection",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Resurrection"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Very Rare",
+    "spell_type": "Instant Spell",
+    "casting_cost": {
+      "mana": 1000
+    },
+    "research_cost": {
+      "research": 3500
+    },
+    "name": "Spell Binding",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Spell_Binding"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Uncommon",
+    "spell_type": "Instant Spell",
+    "casting_cost": {
+      "mana": 50,
+      "modified": true
+    },
+    "research_cost": {
+      "research": 680
+    },
+    "effects": "Counters an enemy overland spell while it is being cast.\n\nTo successfully counter a spell, [[Spell Blast]]'s caster must pay an additional amount of {{Mana|Mana}} equal to the amount already spent by the target spell's caster.",
+    "name": "Spell Blast",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Spell_Blast"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Arcane",
+    "spell_type": "Instant Spell",
+    "casting_cost": {
+      "mana": 5000
+    },
+    "research_cost": {
+      "research": 60000
+    },
+    "effects": "The caster wins the game immediately.",
+    "name": "Spell of Mastery",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Spell_of_Mastery"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Arcane",
+    "spell_type": "Instant Spell",
+    "casting_cost": {
+      "mana": 1000
+    },
+    "research_cost": {
+      "research": 20,
+      "modified": true
+    },
+    "effects": "The caster is returned from banishment. The caster's new [[Fortress]] and [[Summoning Circle]] are placed at a targeted friendly [[Town]].",
+    "name": "Spell of Return",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Spell_of_Return"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Sorcery",
+    "rarity": "Rare",
+    "spell_type": "Instant Spell",
+    "casting_cost": {
+      "mana": 250
+    },
+    "research_cost": {
+      "research": 1500
+    },
+    "effects": "Each unit in the targeted map tile remains motionless during its controller's next turn.\n\nWhile a unit is affected by [[Stasis]], it must make a [[Resistance]] roll at {{Resist|-5}} at the start of each subsequent turn:\n*Failure means the unit remains motionless for another turn, and remains under the effect of [[Stasis]].\n*Success means the [[Stasis]] effect is immediately dispelled from this unit, and it can move.",
+    "name": "Stasis",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Stasis"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Uncommon",
+    "spell_type": "Instant Spell",
+    "casting_cost": {
+      "mana": 100
+    },
+    "research_cost": {
+      "research": 620
+    },
+    "effects": "Target wizard's [[Diplomacy|Diplomatic Relations]] with all other wizards worsen by 25 points.\n\nRelations between the targeted wizard and [[Subversion]]'s caster are not affected.",
+    "name": "Subversion",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Subversion"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Arcane",
+    "spell_type": "Instant Spell",
+    "casting_cost": {
+      "mana": 50
+    },
+    "upkeep": {},
+    "research_cost": {
+      "research": 150
+    },
+    "effects": "Moves the wizard's [[Summoning Circle]] to the targeted town. All [[Summoning Spell]]s will now create their summoned units here.",
+    "name": "Summoning Circle (Spell)",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Summoning_Circle_(Spell)"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Uncommon",
+    "spell_type": "Instant Spell|Instant",
+    "casting_cost": {
+      "mana": 60
+    },
+    "research_cost": {
+      "research": 680
+    },
+    "effects": "Changes the [[Terrain Special]] in a targeted tile:\n* [[Coal]] is changed into [[Gems]] (and vice versa).\n* [[Iron Ore]] is changed into [[Gold Ore]] (and vice versa).\n* [[Silver Ore]] is changed into [[Mithril Ore]] (and vice versa).\nOther [[Terrain Special]]s may not be targeted.",
+    "name": "Transmute",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Transmute"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Nature",
+    "rarity": "Common",
+    "spell_type": "Instant Spell|Instant",
+    "casting_cost": {
+      "mana": 50
+    },
+    "research_cost": {
+      "research": 60
+    },
+    "effects": "* Builds permanent [[City Walls]] in the targeted [[Town]].",
+    "name": "Wall of Stone",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Wall_of_Stone"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Death",
+    "rarity": "Rare",
+    "spell_type": "Instant Spell",
+    "casting_cost": {
+      "mana": 75
+    },
+    "research_cost": {
+      "research": 1300
+    },
+    "effects": "Target [[Node]] controlled by a rival wizard now produces {{Power|-5}} instead of the amount it was originally produced.\n\nThis node may not change hands until it is [[Disenchant Area|Disenchanted]].",
+    "name": "Warp Node",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Warp_Node"
+  }
+]

@@ -1,0 +1,9320 @@
+[
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Draconians",
+    "requires": [
+      "Ship Yard"
+    ],
+    "build_cost": {
+      "production": 200
+    },
+    "upkeep": {
+      "gold": 4,
+      "food": 1
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 4
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 5
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Rock",
+      "strength": 10
+    },
+    "defense": 5,
+    "resist": 8,
+    "hits": 20,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 10
+      },
+      {
+        "name": "Scouting"
+      },
+      {
+        "name": "Wall Crusher"
+      }
+    ],
+    "name": "Air Ship",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Air_Ship"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Barbarians",
+    "requires": [
+      "Barracks",
+      "Sawmill"
+    ],
+    "build_cost": {
+      "production": 30
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Bow",
+      "strength": 1
+    },
+    "defense": 1,
+    "resist": 5,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 8
+      }
+    ],
+    "name": "Barbarian Bowmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Barbarian_Bowmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Barbarian",
+    "requires": [
+      "Barracks",
+      "Stables"
+    ],
+    "build_cost": {
+      "production": 60
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "defense": 2,
+    "resist": 5,
+    "hits": 3,
+    "abilities": [
+      {
+        "name": "First Strike"
+      },
+      {
+        "name": "Thrown",
+        "strength": 1
+      }
+    ],
+    "name": "Barbarian Cavalry",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Barbarian_Cavalry"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Barbarian",
+    "requires": [],
+    "build_cost": {
+      "production": 60
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "defense": 1,
+    "resist": 5,
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "Create Outpost"
+      }
+    ],
+    "name": "Barbarian Settlers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Barbarian_Settlers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Barbarians",
+    "requires": [
+      "Shrine"
+    ],
+    "build_cost": {
+      "production": 50
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 2
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 2
+    },
+    "defense": 3,
+    "resist": 7,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "Healer"
+      },
+      {
+        "name": "Purify"
+      }
+    ],
+    "name": "Barbarian Shamans",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Barbarian_Shamans"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Barbarians",
+    "requires": [],
+    "build_cost": {
+      "production": 15
+    },
+    "upkeep": {
+      "food": 1
+    },
+    "figures": {
+      "figures": 8,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "defense": 2,
+    "resist": 5,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Thrown",
+        "strength": 1
+      }
+    ],
+    "name": "Barbarian Spearmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Barbarian_Spearmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Barbarians",
+    "requires": [
+      "Barracks",
+      "Smithy"
+    ],
+    "build_cost": {
+      "production": 30
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "defense": 2,
+    "resist": 5,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Large Shield"
+      },
+      {
+        "name": "Thrown",
+        "strength": 1
+      }
+    ],
+    "name": "Barbarian Swordsmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Barbarian_Swordsmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Beastmen",
+    "requires": [
+      "Barracks",
+      "Sawmill"
+    ],
+    "build_cost": {
+      "production": 60
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 2
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Bow",
+      "strength": 1
+    },
+    "defense": 1,
+    "resist": 5,
+    "hits": 2,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 8
+      }
+    ],
+    "name": "Beastmen Bowmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Beastmen_Bowmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Beastmen",
+    "requires": [
+      "Builders' Hall"
+    ],
+    "build_cost": {
+      "production": 60
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 2
+    },
+    "defense": 1,
+    "resist": 5,
+    "hits": 2,
+    "abilities": [
+      {
+        "name": "Construction"
+      },
+      {
+        "name": "Wall Crusher"
+      }
+    ],
+    "name": "Beastmen Engineers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Beastmen_Engineers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Beastmen",
+    "requires": [
+      "Armory"
+    ],
+    "build_cost": {
+      "production": 80
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 5
+    },
+    "defense": 3,
+    "resist": 5,
+    "hits": 2,
+    "name": "Beastmen Halberdiers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Beastmen_Halberdiers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Beastmen",
+    "requires": [
+      "Wizards' Guild"
+    ],
+    "build_cost": {
+      "production": 180
+    },
+    "upkeep": {
+      "gold": 4,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 2
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 5
+    },
+    "defense": 3,
+    "resist": 9,
+    "hits": 2,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "Missile Immunity"
+      },
+      {
+        "name": "Fireball Spell",
+        "strength": 1
+      }
+    ],
+    "name": "Beastmen Magicians",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Beastmen_Magicians"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Beastmen",
+    "requires": [
+      "Parthenon"
+    ],
+    "build_cost": {
+      "production": 150
+    },
+    "upkeep": {
+      "gold": 3,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 4
+    },
+    "defense": 4,
+    "resist": 8,
+    "hits": 2,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "Healer"
+      },
+      {
+        "name": "Purify"
+      },
+      {
+        "name": "Healing Spell",
+        "strength": 1
+      }
+    ],
+    "name": "Beastmen Priests",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Beastmen_Priests"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Beastmen",
+    "requires": [],
+    "build_cost": {
+      "production": 120
+    },
+    "upkeep": {
+      "gold": 3,
+      "food": 1
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "defense": 1,
+    "resist": 5,
+    "hits": 20,
+    "abilities": [
+      {
+        "name": "Create Outpost"
+      }
+    ],
+    "name": "Beastmen Settlers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Beastmen_Settlers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Beastmen",
+    "requires": [],
+    "build_cost": {
+      "production": 20
+    },
+    "upkeep": {
+      "food": 1
+    },
+    "figures": {
+      "figures": 8,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 2
+    },
+    "defense": 2,
+    "resist": 5,
+    "hits": 2,
+    "name": "Beastmen Spearmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Beastmen_Spearmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Beastmen",
+    "requires": [
+      "Barracks",
+      "Smithy"
+    ],
+    "build_cost": {
+      "production": 40
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "defense": 2,
+    "resist": 5,
+    "hits": 2,
+    "abilities": [
+      {
+        "name": "Large Shield"
+      }
+    ],
+    "name": "Beastmen Swordsmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Beastmen_Swordsmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Barbarians",
+    "requires": [
+      "Armorers' Guild"
+    ],
+    "build_cost": {
+      "production": 120
+    },
+    "upkeep": {
+      "gold": 3,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 7,
+      "modified": true
+    },
+    "defense": 3,
+    "resist": {
+      "value": 7,
+      "modified": true
+    },
+    "hits": 3,
+    "abilities": [
+      {
+        "name": "Thrown",
+        "strength": 3
+      }
+    ],
+    "name": "Berserkers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Berserkers"
+  },
+  {
+    "infobox_type": "Normal Unit Archetype",
+    "requires": [
+      "Barracks",
+      "Sawmill"
+    ],
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "build_cost": {
+      "production": 30
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Bow",
+      "strength": 1
+    },
+    "defense": 1,
+    "resist": 4,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 8
+      }
+    ],
+    "name": "Bowmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Bowmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "High Elves",
+    "requires": [
+      "Mechanicians' Guild"
+    ],
+    "build_cost": {
+      "production": 100
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Rock",
+      "strength": 10
+    },
+    "defense": 2,
+    "resist": 4,
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 10
+      },
+      {
+        "name": "Wall Crusher"
+      },
+      {
+        "name": "Long Range"
+      }
+    ],
+    "name": "Catapult",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Catapult"
+  },
+  {
+    "infobox_type": "Normal Unit Archetype",
+    "requires": [
+      "Barracks",
+      "Stables"
+    ],
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "build_cost": {
+      "production": 40
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "defense": 2,
+    "resist": 4,
+    "hits": 3,
+    "abilities": [
+      {
+        "name": "First Strike"
+      }
+    ],
+    "name": "Cavalry",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Cavalry"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Beastmen",
+    "requires": [
+      "Barracks",
+      "Stables"
+    ],
+    "build_cost": {
+      "production": 100
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Bow",
+      "strength": 2
+    },
+    "defense": 3,
+    "resist": 5,
+    "hits": 3,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 6
+      }
+    ],
+    "name": "Centaurs",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Centaurs"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Dark Elves",
+    "requires": [
+      "Barracks",
+      "Stables"
+    ],
+    "build_cost": {
+      "production": 100
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 1
+    },
+    "defense": 2,
+    "resist": 7,
+    "hits": 3,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "First Strike"
+      }
+    ],
+    "name": "Dark Elf Cavalry",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Dark_Elf_Cavalry"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Dark Elves",
+    "requires": [
+      "Armory"
+    ],
+    "build_cost": {
+      "production": 100
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 1
+    },
+    "defense": 3,
+    "resist": 7,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      }
+    ],
+    "name": "Dark Elf Halberdiers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Dark_Elf_Halberdiers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Dark Elves",
+    "requires": [
+      "Parthenon"
+    ],
+    "build_cost": {
+      "production": 200
+    },
+    "upkeep": {
+      "gold": 4,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 6
+    },
+    "defense": 4,
+    "resist": 10,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "Healer"
+      },
+      {
+        "name": "Purify"
+      },
+      {
+        "name": "Healing Spell",
+        "strength": 1
+      }
+    ],
+    "name": "Dark Elf Priests",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Dark_Elf_Priests"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Dark Elves",
+    "requires": [],
+    "build_cost": {
+      "production": 150
+    },
+    "upkeep": {
+      "gold": 3,
+      "food": 1
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "defense": 1,
+    "resist": 7,
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "Create Outpost"
+      }
+    ],
+    "name": "Dark Elf Settlers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Dark_Elf_Settlers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Dark Elves",
+    "requires": [],
+    "build_cost": {
+      "production": 25
+    },
+    "upkeep": {
+      "food": 1
+    },
+    "figures": {
+      "figures": 8,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 1
+    },
+    "defense": 2,
+    "resist": 7,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      }
+    ],
+    "name": "Dark Elf Spearmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Dark_Elf_Spearmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Dark Elves",
+    "requires": [
+      "Barracks",
+      "Smithy"
+    ],
+    "build_cost": {
+      "production": 50
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 1
+    },
+    "defense": 2,
+    "resist": 7,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "Large Shield"
+      }
+    ],
+    "name": "Dark Elf Swordsmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Dark_Elf_Swordsmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Draconians",
+    "requires": [
+      "Barracks",
+      "Stables"
+    ],
+    "build_cost": {
+      "production": 160
+    },
+    "upkeep": {
+      "gold": 4,
+      "food": 1
+    },
+    "figures": {
+      "figures": 2,
+      "multi": true
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 3
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 8
+    },
+    "defense": 3,
+    "resist": 9,
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "Scouting"
+      },
+      {
+        "name": "Fire Breath",
+        "strength": 6
+      }
+    ],
+    "name": "Doom Drakes",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Doom_Drakes"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Draconians",
+    "requires": [
+      "Barracks",
+      "Sawmill"
+    ],
+    "build_cost": {
+      "production": 45
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Bow",
+      "strength": 1
+    },
+    "defense": 2,
+    "resist": 6,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 8
+      }
+    ],
+    "name": "Draconian Bowmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Draconian_Bowmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Draconians",
+    "requires": [
+      "Builders' Hall"
+    ],
+    "build_cost": {
+      "production": 100
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "defense": 2,
+    "resist": 6,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Construction"
+      },
+      {
+        "name": "Wall Crusher"
+      },
+      {
+        "name": "Fire Breath",
+        "strength": 1
+      }
+    ],
+    "name": "Draconian Engineers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Draconian_Engineers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Draconians",
+    "requires": [
+      "Armory"
+    ],
+    "build_cost": {
+      "production": 100
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "defense": 4,
+    "resist": 6,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Fire Breath",
+        "strength": 1
+      }
+    ],
+    "name": "Draconian Halberdiers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Draconian_Halberdiers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Draconians",
+    "requires": [
+      "Wizards' Guild"
+    ],
+    "build_cost": {
+      "production": 180
+    },
+    "upkeep": {
+      "gold": 4,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 5
+    },
+    "defense": 4,
+    "resist": 10,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "Missile Immunity"
+      },
+      {
+        "name": "Fireball Spell",
+        "strength": 1
+      }
+    ],
+    "name": "Draconian Magicians",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Draconian_Magicians"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Draconians",
+    "requires": [],
+    "build_cost": {
+      "production": 150
+    },
+    "upkeep": {
+      "gold": 3,
+      "food": 1
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 1
+    },
+    "defense": 2,
+    "resist": 6,
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "Create Outpost"
+      }
+    ],
+    "name": "Draconian Settlers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Draconian_Settlers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Draconians",
+    "requires": [
+      "Shrine"
+    ],
+    "build_cost": {
+      "production": 75
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 2
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 2
+    },
+    "defense": 4,
+    "resist": 8,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "Healer"
+      },
+      {
+        "name": "Purify"
+      }
+    ],
+    "name": "Draconian Shamans",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Draconian_Shamans"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Draconians",
+    "requires": [],
+    "build_cost": {
+      "production": 25
+    },
+    "upkeep": {
+      "food": 1
+    },
+    "figures": {
+      "figures": 8,
+      "multi": true
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "defense": 3,
+    "resist": 6,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Fire Breath",
+        "strength": 1
+      }
+    ],
+    "name": "Draconian Spearmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Draconian_Spearmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Draconians",
+    "requires": [
+      "Barracks",
+      "Smithy"
+    ],
+    "build_cost": {
+      "production": 50
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "defense": 3,
+    "resist": 6,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Large Shield"
+      },
+      {
+        "name": "Fire Breath",
+        "strength": 1
+      }
+    ],
+    "name": "Draconian Swordsmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Draconian_Swordsmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Lizardmen",
+    "requires": [
+      "Armorers' Guild",
+      "Stables"
+    ],
+    "build_cost": {
+      "production": 100
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Water",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 10,
+      "modified": true
+    },
+    "defense": 8,
+    "resist": {
+      "value": 8,
+      "modified": true
+    },
+    "hits": 15,
+    "abilities": [
+      {
+        "name": "Fire Breath"
+      }
+    ],
+    "name": "Dragon Turtle",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Dragon_Turtle"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Dwarves",
+    "requires": [
+      "Builders' Hall"
+    ],
+    "build_cost": {
+      "production": 40
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "defense": 1,
+    "resist": 8,
+    "hits": 3,
+    "abilities": [
+      {
+        "name": "Construction"
+      },
+      {
+        "name": "Mountaineer"
+      },
+      {
+        "name": "Wall Crusher"
+      }
+    ],
+    "name": "Dwarf Engineers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Dwarf_Engineers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Dwarves",
+    "requires": [
+      "Armory"
+    ],
+    "build_cost": {
+      "production": 100
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "defense": 3,
+    "resist": 8,
+    "hits": 3,
+    "abilities": [
+      {
+        "name": "Mountaineer"
+      }
+    ],
+    "name": "Dwarf Halberdiers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Dwarf_Halberdiers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Dwarves",
+    "requires": [],
+    "build_cost": {
+      "production": 150
+    },
+    "upkeep": {
+      "gold": 3,
+      "food": 1
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "defense": 1,
+    "resist": 8,
+    "hits": 30,
+    "abilities": [
+      {
+        "name": "Create Outpost"
+      }
+    ],
+    "name": "Dwarf Settlers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Dwarf_Settlers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Dwarves",
+    "requires": [
+      "Barracks",
+      "Smithy"
+    ],
+    "build_cost": {
+      "production": 50
+    },
+    "upkeep": {
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "defense": 2,
+    "resist": 8,
+    "hits": 3,
+    "abilities": [
+      {
+        "name": "Mountaineer"
+      },
+      {
+        "name": "Large Shield"
+      }
+    ],
+    "name": "Dwarf Swordsmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Dwarf_Swordsmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "High Elves",
+    "requires": [
+      "Armorers' Guild"
+    ],
+    "build_cost": {
+      "production": 160
+    },
+    "upkeep": {
+      "gold": 4,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 5,
+      "modified": true
+    },
+    "defense": 4,
+    "resist": {
+      "value": 9,
+      "modified": true
+    },
+    "hits": 3,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+20%"
+      },
+      {
+        "name": "Forester"
+      },
+      {
+        "name": "Armor Piercing"
+      },
+      {
+        "name": "First Strike"
+      }
+    ],
+    "name": "Elven Lords",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Elven_Lords"
+  },
+  {
+    "infobox_type": "Normal Unit Archetype",
+    "requires": [
+      "Builders' Hall"
+    ],
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "build_cost": {
+      "production": 40
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "defense": 1,
+    "resist": 4,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Construction"
+      },
+      {
+        "name": "Wall Crusher"
+      }
+    ],
+    "name": "Engineers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Engineers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Barbarians",
+    "requires": [
+      "Shipyard"
+    ],
+    "build_cost": {
+      "production": 100
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ship",
+      "speed": 3,
+      "modified": true
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 8
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Bow",
+      "strength": 2
+    },
+    "defense": 4,
+    "resist": 6,
+    "hits": 20,
+    "abilities": [
+      {
+        "name": "Transport",
+        "strength": 5
+      }
+    ],
+    "name": "Galley",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Galley"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Gnolls",
+    "requires": [
+      "Barracks",
+      "Sawmill"
+    ],
+    "build_cost": {
+      "production": 30
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Bow",
+      "strength": 1
+    },
+    "defense": 1,
+    "resist": 4,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 8
+      }
+    ],
+    "name": "Gnoll Bowmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Gnoll_Bowmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Gnolls",
+    "requires": [
+      "Armory"
+    ],
+    "build_cost": {
+      "production": 40
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 6
+    },
+    "defense": 3,
+    "resist": 4,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Negate First Strike"
+      }
+    ],
+    "name": "Gnoll Halberdiers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Gnoll_Halberdiers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Gnolls",
+    "requires": [],
+    "build_cost": {
+      "production": 60
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 2
+    },
+    "defense": 1,
+    "resist": 4,
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "Create Outpost"
+      }
+    ],
+    "name": "Gnoll Settlers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Gnoll_Settlers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Gnolls",
+    "requires": [],
+    "build_cost": {
+      "production": 10
+    },
+    "upkeep": {
+      "food": 1
+    },
+    "figures": {
+      "figures": 8,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "defense": 2,
+    "resist": 4,
+    "hits": 1,
+    "name": "Gnoll Spearmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Gnoll_Spearmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Gnolls",
+    "requires": [
+      "Barracks",
+      "Smithy"
+    ],
+    "build_cost": {
+      "production": 20
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 5
+    },
+    "defense": 2,
+    "resist": 4,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Large Shield"
+      }
+    ],
+    "name": "Gnoll Swordsmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Gnoll_Swordsmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Dwarves",
+    "requires": [
+      "Armorers' Guild"
+    ],
+    "build_cost": {
+      "production": 200
+    },
+    "upkeep": {
+      "gold": 4,
+      "food": 1
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 12,
+      "modified": true
+    },
+    "defense": 8,
+    "resist": {
+      "value": 15,
+      "modified": true
+    },
+    "hits": 20,
+    "abilities": [
+      {
+        "name": "Poison Immunity"
+      },
+      {
+        "name": "Death Immunity"
+      }
+    ],
+    "name": "Golem",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Golem"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Nomads",
+    "requires": [
+      "Fantastic Stable"
+    ],
+    "build_cost": {
+      "production": 200
+    },
+    "upkeep": {
+      "gold": 4,
+      "food": 1
+    },
+    "figures": {
+      "figures": 2,
+      "multi": true
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 9,
+      "modified": true
+    },
+    "defense": 5,
+    "resist": {
+      "value": 7,
+      "modified": true
+    },
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "Armor Piercing"
+      },
+      {
+        "name": "First Strike"
+      }
+    ],
+    "name": "Griffins",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Griffins"
+  },
+  {
+    "infobox_type": "Normal Unit Archetype",
+    "requires": [
+      "Armory"
+    ],
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "build_cost": {
+      "production": 40
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "defense": 3,
+    "resist": 4,
+    "hits": 1,
+    "name": "Halberdiers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Halberdiers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Halflings",
+    "requires": [
+      "Barracks",
+      "Sawmill"
+    ],
+    "build_cost": {
+      "production": 45
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Bow",
+      "strength": 1
+    },
+    "defense": 1,
+    "resist": 6,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 8
+      },
+      {
+        "name": "Lucky"
+      }
+    ],
+    "name": "Halfling Bowmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Halfling_Bowmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Halflings",
+    "requires": [],
+    "build_cost": {
+      "production": 90
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "defense": 1,
+    "resist": 6,
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "Create Outpost"
+      },
+      {
+        "name": "Lucky"
+      }
+    ],
+    "name": "Halfling Settlers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Halfling_Settlers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Halflings",
+    "requires": [
+      "Shrine"
+    ],
+    "build_cost": {
+      "production": 75
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 2
+    },
+    "defense": 3,
+    "resist": 8,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "Healer"
+      },
+      {
+        "name": "Purify"
+      },
+      {
+        "name": "Lucky"
+      }
+    ],
+    "name": "Halfling Shamans",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Halfling_Shamans"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Halflings",
+    "requires": [],
+    "build_cost": {
+      "production": 15
+    },
+    "upkeep": {
+      "food": 1
+    },
+    "figures": {
+      "figures": 8,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "defense": 2,
+    "resist": 6,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Lucky"
+      }
+    ],
+    "name": "Halfling Spearmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Halfling_Spearmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Halflings",
+    "requires": [
+      "Barracks",
+      "Smithy"
+    ],
+    "build_cost": {
+      "production": 30
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 8,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 2
+    },
+    "defense": 2,
+    "resist": 6,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Large Shield"
+      },
+      {
+        "name": "Lucky"
+      }
+    ],
+    "name": "Halfling Swordsmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Halfling_Swordsmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Dwarves",
+    "requires": [
+      "Fighters' Guild"
+    ],
+    "build_cost": {
+      "production": 160
+    },
+    "upkeep": {
+      "gold": 4,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 8,
+      "modified": true
+    },
+    "defense": 4,
+    "resist": {
+      "value": 9,
+      "modified": true
+    },
+    "hits": 4,
+    "abilities": [
+      {
+        "name": "Mountaineer"
+      }
+    ],
+    "name": "Hammerhands",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Hammerhands"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "High Elves",
+    "requires": [
+      "Barracks",
+      "Stables"
+    ],
+    "build_cost": {
+      "production": 60
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "defense": 2,
+    "resist": 6,
+    "hits": 3,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Forester"
+      },
+      {
+        "name": "First Strike"
+      }
+    ],
+    "name": "High Elf Cavalry",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/High_Elf_Cavalry"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "High Elves",
+    "requires": [
+      "Armory"
+    ],
+    "build_cost": {
+      "production": 60
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "defense": 3,
+    "resist": 6,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Forester"
+      }
+    ],
+    "name": "High Elf Halberdiers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/High_Elf_Halberdiers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "High Elves",
+    "requires": [
+      "Wizards' Guild"
+    ],
+    "build_cost": {
+      "production": 180
+    },
+    "upkeep": {
+      "gold": 4,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 5
+    },
+    "defense": 3,
+    "resist": 10,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Forester"
+      },
+      {
+        "name": "Missile Immunity"
+      },
+      {
+        "name": "Fireball Spell",
+        "strength": 1
+      }
+    ],
+    "name": "High Elf Magicians",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/High_Elf_Magicians"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "High Elves",
+    "requires": [],
+    "build_cost": {
+      "production": 90
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "defense": 1,
+    "resist": 6,
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Create Outpost"
+      },
+      {
+        "name": "Forester"
+      }
+    ],
+    "name": "High Elf Settlers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/High_Elf_Settlers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "High Elves",
+    "requires": [],
+    "build_cost": {
+      "production": 15
+    },
+    "upkeep": {
+      "food": 1
+    },
+    "figures": {
+      "figures": 8,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "defense": 2,
+    "resist": 6,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Forester"
+      }
+    ],
+    "name": "High Elf Spearmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/High_Elf_Spearmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "High Elves",
+    "requires": [
+      "Barracks",
+      "Smithy"
+    ],
+    "build_cost": {
+      "production": 30
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "defense": 2,
+    "resist": 6,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Forester"
+      },
+      {
+        "name": "Large Shield"
+      }
+    ],
+    "name": "High Elf Swordsmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/High_Elf_Swordsmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "High Men",
+    "requires": [
+      "Barracks",
+      "Sawmill"
+    ],
+    "build_cost": {
+      "production": 30
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Bow",
+      "strength": 1
+    },
+    "defense": 1,
+    "resist": 4,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 8
+      }
+    ],
+    "name": "High Men Bowmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/High_Men_Bowmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "High Men",
+    "requires": [
+      "Barracks",
+      "Stables"
+    ],
+    "build_cost": {
+      "production": 40
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "defense": 2,
+    "resist": 4,
+    "hits": 3,
+    "abilities": [
+      {
+        "name": "First Strike"
+      }
+    ],
+    "name": "High Men Cavalry",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/High_Men_Cavalry"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "High Men",
+    "requires": [
+      "Builders' Hall"
+    ],
+    "build_cost": {
+      "production": 40
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "defense": 1,
+    "resist": 4,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Construction"
+      },
+      {
+        "name": "Wall Crusher"
+      }
+    ],
+    "name": "High Men Engineers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/High_Men_Engineers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "High Men",
+    "requires": [
+      "Wizards' Guild"
+    ],
+    "build_cost": {
+      "production": 120
+    },
+    "upkeep": {
+      "gold": 3,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 5
+    },
+    "defense": 3,
+    "resist": 8,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "Missile Immunity"
+      },
+      {
+        "name": "Fireball Spell",
+        "strength": 1
+      }
+    ],
+    "name": "High Men Magicians",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/High_Men_Magicians"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "High Men",
+    "requires": [
+      "Fighters' Guild"
+    ],
+    "build_cost": {
+      "production": 80
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 8,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 5,
+      "modified": true
+    },
+    "defense": 3,
+    "resist": {
+      "value": 5,
+      "modified": true
+    },
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Negate First Strike"
+      },
+      {
+        "name": "Armor Piercing"
+      }
+    ],
+    "name": "High Men Pikemen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/High_Men_Pikemen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "High Men",
+    "requires": [
+      "Parthenon"
+    ],
+    "build_cost": {
+      "production": 100
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 4
+    },
+    "defense": 4,
+    "resist": 7,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "Healer"
+      },
+      {
+        "name": "Purify"
+      },
+      {
+        "name": "Healing Spell",
+        "strength": 1
+      }
+    ],
+    "name": "High Men Priests",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/High_Men_Priests"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "High Men",
+    "requires": [],
+    "build_cost": {
+      "production": 60
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "defense": 1,
+    "resist": 4,
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "Create Outpost"
+      }
+    ],
+    "name": "High Men Settlers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/High_Men_Settlers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "High Men",
+    "requires": [],
+    "build_cost": {
+      "production": 10
+    },
+    "upkeep": {
+      "food": 1
+    },
+    "figures": {
+      "figures": 8,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "defense": 2,
+    "resist": 4,
+    "hits": 1,
+    "name": "High Men Spearmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/High_Men_Spearmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "High Men",
+    "requires": [
+      "Barracks",
+      "Smithy"
+    ],
+    "build_cost": {
+      "production": 20
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "defense": 2,
+    "resist": 4,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Large Shield"
+      }
+    ],
+    "name": "High Men Swordsmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/High_Men_Swordsmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Nomads",
+    "requires": [
+      "Barracks",
+      "Stables"
+    ],
+    "build_cost": {
+      "production": 60
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Bow",
+      "strength": 2
+    },
+    "defense": 2,
+    "resist": 4,
+    "hits": 3,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 8
+      }
+    ],
+    "name": "Horsebowmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Horsebowmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Lizardmen",
+    "requires": [
+      "Fighters' Guild"
+    ],
+    "build_cost": {
+      "production": 80
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Water",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4,
+      "modified": true
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Bow",
+      "strength": 3,
+      "modified": true
+    },
+    "defense": 4,
+    "resist": 5,
+    "hits": 2,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 6
+      }
+    ],
+    "name": "Javelineers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Javelineers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Klackons",
+    "requires": [
+      "Builders' Hall"
+    ],
+    "build_cost": {
+      "production": 80
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "defense": 1,
+    "resist": 5,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Construction"
+      },
+      {
+        "name": "Wall Crusher"
+      }
+    ],
+    "name": "Klackon Engineers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Klackon_Engineers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Klackons",
+    "requires": [
+      "Armory"
+    ],
+    "build_cost": {
+      "production": 80
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "defense": 5,
+    "resist": 5,
+    "hits": 1,
+    "name": "Klackon Halberdiers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Klackon_Halberdiers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Klackons",
+    "requires": [],
+    "build_cost": {
+      "production": 120
+    },
+    "upkeep": {
+      "gold": 3,
+      "food": 1
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "defense": 1,
+    "resist": 5,
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "Create Outpost"
+      }
+    ],
+    "name": "Klackon Settlers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Klackon_Settlers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Klackons",
+    "requires": [],
+    "build_cost": {
+      "production": 20
+    },
+    "upkeep": {
+      "food": 1
+    },
+    "figures": {
+      "figures": 8,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "defense": 4,
+    "resist": 5,
+    "hits": 1,
+    "name": "Klackon Spearmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Klackon_Spearmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Klackons",
+    "requires": [
+      "Barracks",
+      "Smithy"
+    ],
+    "build_cost": {
+      "production": 40
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "defense": 4,
+    "resist": 5,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Large Shield"
+      }
+    ],
+    "name": "Klackon Swordsmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Klackon_Swordsmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Lizardmen",
+    "requires": [
+      "Armory"
+    ],
+    "build_cost": {
+      "production": 40
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Water",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "defense": 4,
+    "resist": 4,
+    "hits": 2,
+    "abilities": [
+      {
+        "name": "Negate First Strike"
+      }
+    ],
+    "name": "Lizardmen Halberdiers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Lizardmen_Halberdiers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Lizardmen",
+    "requires": [],
+    "build_cost": {
+      "production": 120
+    },
+    "upkeep": {
+      "gold": 3,
+      "food": 1
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Water",
+      "speed": 1
+    },
+    "defense": 2,
+    "resist": 4,
+    "hits": 20,
+    "abilities": [
+      {
+        "name": "Create Outpost"
+      }
+    ],
+    "name": "Lizardmen Settlers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Lizardmen_Settlers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Lizardmen",
+    "requires": [
+      "Shrine"
+    ],
+    "build_cost": {
+      "production": 60
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Water",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 2
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 2
+    },
+    "defense": 3,
+    "resist": 6,
+    "hits": 2,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "Healer"
+      },
+      {
+        "name": "Purify"
+      }
+    ],
+    "name": "Lizardmen Shamans",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Lizardmen_Shamans"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Lizardmen",
+    "requires": [],
+    "build_cost": {
+      "production": 10
+    },
+    "upkeep": {
+      "food": 1
+    },
+    "figures": {
+      "figures": 8,
+      "multi": true
+    },
+    "movement": {
+      "type": "Water",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "defense": 3,
+    "resist": 4,
+    "hits": 2,
+    "name": "Lizardmen Spearmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Lizardmen_Spearmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Lizardmen",
+    "requires": [
+      "Barracks",
+      "Smithy"
+    ],
+    "build_cost": {
+      "production": 20
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Water",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "defense": 3,
+    "resist": 4,
+    "hits": 2,
+    "abilities": [
+      {
+        "name": "Large Shield"
+      }
+    ],
+    "name": "Lizardmen Swordsmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Lizardmen_Swordsmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "High Elves",
+    "requires": [
+      "Barracks",
+      "Sawmill"
+    ],
+    "build_cost": {
+      "production": 80
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Bow",
+      "strength": 3
+    },
+    "defense": 2,
+    "resist": 6,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 8
+      },
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Forester"
+      }
+    ],
+    "name": "Longbowmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Longbowmen"
+  },
+  {
+    "infobox_type": "Normal Unit Archetype",
+    "requires": [
+      "Wizards' Guild"
+    ],
+    "upkeep": {
+      "gold": 3,
+      "food": 1
+    },
+    "build_cost": {
+      "production": 120
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 5
+    },
+    "defense": 3,
+    "resist": 8,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "Missile Immunity"
+      },
+      {
+        "name": "Fireball Spell"
+      }
+    ],
+    "name": "Magicians",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Magicians"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Beastmen",
+    "requires": [
+      "Barracks",
+      "Animists' Guild"
+    ],
+    "build_cost": {
+      "production": 160
+    },
+    "upkeep": {
+      "gold": 4,
+      "food": 1
+    },
+    "figures": {
+      "figures": 2,
+      "multi": true
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 5
+    },
+    "defense": 3,
+    "resist": 6,
+    "hits": 7,
+    "abilities": [
+      {
+        "name": "Poison Touch",
+        "strength": 6
+      },
+      {
+        "name": "Scouting"
+      }
+    ],
+    "name": "Manticores",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Manticores"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Beastmen",
+    "requires": [
+      "Armorers' Guild"
+    ],
+    "build_cost": {
+      "production": 200
+    },
+    "upkeep": {
+      "gold": 4,
+      "food": 1
+    },
+    "figures": {
+      "figures": 2,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 12,
+      "modified": true
+    },
+    "defense": 4,
+    "resist": {
+      "value": 7,
+      "modified": true
+    },
+    "hits": 12,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+20%"
+      },
+      {
+        "name": "Large Shield"
+      }
+    ],
+    "name": "Minotaurs",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Minotaurs"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Dark Elves",
+    "requires": [
+      "Fighters' Guild"
+    ],
+    "build_cost": {
+      "production": 120
+    },
+    "upkeep": {
+      "gold": 3,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4,
+      "modified": true
+    },
+    "defense": 3,
+    "resist": {
+      "value": 7,
+      "modified": true
+    },
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Invisibility"
+      },
+      {
+        "name": "Poison Touch",
+        "strength": 1
+      }
+    ],
+    "name": "Nightblades",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Nightblades"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Dark Elves",
+    "requires": [
+      "Fantastic Stable"
+    ],
+    "build_cost": {
+      "production": 160
+    },
+    "upkeep": {
+      "gold": 4,
+      "food": 1
+    },
+    "figures": {
+      "figures": 2,
+      "multi": true
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 3
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 8,
+      "modified": true
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 5,
+      "modified": true
+    },
+    "defense": 4,
+    "resist": {
+      "value": 8,
+      "modified": true
+    },
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "Scouting"
+      }
+    ],
+    "name": "Nightmares",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Nightmares"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Nomads",
+    "requires": [
+      "Barracks",
+      "Sawmill"
+    ],
+    "build_cost": {
+      "production": 30
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Bow",
+      "strength": 1
+    },
+    "defense": 1,
+    "resist": 4,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 8
+      }
+    ],
+    "name": "Nomad Bowmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Nomad_Bowmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Nomads",
+    "requires": [
+      "Fighters' Guild"
+    ],
+    "build_cost": {
+      "production": 80
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 8,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 5,
+      "modified": true
+    },
+    "defense": 3,
+    "resist": {
+      "value": 5,
+      "modified": true
+    },
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Negate First Strike"
+      },
+      {
+        "name": "Armor Piercing"
+      }
+    ],
+    "name": "Nomad Pikemen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Nomad_Pikemen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "High Men",
+    "requires": [
+      "Parthenon"
+    ],
+    "build_cost": {
+      "production": 100
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 4
+    },
+    "defense": 4,
+    "resist": 7,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "Healer"
+      },
+      {
+        "name": "Purify"
+      },
+      {
+        "name": "Healing Spell",
+        "strength": 1
+      }
+    ],
+    "name": "Nomad Priests",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Nomad_Priests"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Nomads",
+    "requires": [],
+    "build_cost": {
+      "production": 60
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "defense": 1,
+    "resist": 4,
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "Create Outpost"
+      }
+    ],
+    "name": "Nomad Settlers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Nomad_Settlers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Nomads",
+    "requires": [],
+    "build_cost": {
+      "production": 10
+    },
+    "upkeep": {
+      "food": 1
+    },
+    "figures": {
+      "figures": 8,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "defense": 2,
+    "resist": 4,
+    "hits": 1,
+    "name": "Nomad Spearmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Nomad_Spearmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Nomads",
+    "requires": [
+      "Barracks",
+      "Smithy"
+    ],
+    "build_cost": {
+      "production": 20
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "defense": 2,
+    "resist": 4,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Large Shield"
+      }
+    ],
+    "name": "Nomad Swordsmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Nomad_Swordsmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Orcs",
+    "requires": [
+      "Barracks",
+      "Sawmill"
+    ],
+    "build_cost": {
+      "production": 30
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Bow",
+      "strength": 1
+    },
+    "defense": 1,
+    "resist": 4,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 8
+      }
+    ],
+    "name": "Orc Bowmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Orc_Bowmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Orcs",
+    "requires": [
+      "Barracks",
+      "Stables"
+    ],
+    "build_cost": {
+      "production": 40
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "defense": 2,
+    "resist": 4,
+    "hits": 3,
+    "name": "Orc Cavalry",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Orc_Cavalry"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Orcs",
+    "requires": [
+      "Builders' Hall"
+    ],
+    "build_cost": {
+      "production": 40
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "defense": 1,
+    "resist": 4,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Construction"
+      },
+      {
+        "name": "Wall Crusher"
+      }
+    ],
+    "name": "Orc Engineers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Orc_Engineers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Orcs",
+    "requires": [
+      "Armory"
+    ],
+    "build_cost": {
+      "production": 40
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "defense": 3,
+    "resist": 4,
+    "hits": 1,
+    "name": "Orc Halberdiers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Orc_Halberdiers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Orcs",
+    "requires": [
+      "Wizards' Guild"
+    ],
+    "build_cost": {
+      "production": 120
+    },
+    "upkeep": {
+      "gold": 3,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 5
+    },
+    "defense": 3,
+    "resist": 8,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "Missile Immunity"
+      },
+      {
+        "name": "Fireball Spell",
+        "strength": 1
+      }
+    ],
+    "name": "Orc Magicians",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Orc_Magicians"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Orcs",
+    "requires": [],
+    "build_cost": {
+      "production": 60
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "defense": 1,
+    "resist": 4,
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "Create Outpost"
+      }
+    ],
+    "name": "Orc Settlers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Orc_Settlers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Orcs",
+    "requires": [
+      "Shrine"
+    ],
+    "build_cost": {
+      "production": 60
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 2
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 2
+    },
+    "defense": 3,
+    "resist": 6,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "Healer"
+      },
+      {
+        "name": "Purify"
+      }
+    ],
+    "name": "Orc Shamans",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Orc_Shamans"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Orcs",
+    "requires": [],
+    "build_cost": {
+      "production": 10
+    },
+    "upkeep": {
+      "food": 1
+    },
+    "figures": {
+      "figures": 8,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "defense": 2,
+    "resist": 4,
+    "hits": 1,
+    "name": "Orc Spearmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Orc_Spearmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Orcs",
+    "requires": [
+      "Barracks",
+      "Smithy"
+    ],
+    "build_cost": {
+      "production": 20
+    },
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "defense": 2,
+    "resist": 4,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Large Shield"
+      }
+    ],
+    "name": "Orc Swordsmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Orc_Swordsmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "High Men",
+    "requires": [
+      "Armorers' Guild",
+      "Cathedral"
+    ],
+    "build_cost": {
+      "production": 200
+    },
+    "upkeep": {
+      "gold": 4,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 6,
+      "modified": true
+    },
+    "defense": 5,
+    "resist": {
+      "value": 8,
+      "modified": true
+    },
+    "hits": 4,
+    "abilities": [
+      {
+        "name": "Magic Immunity"
+      },
+      {
+        "name": "Holy Bonus",
+        "strength": 1
+      },
+      {
+        "name": "Armor Piercing"
+      },
+      {
+        "name": "First Strike"
+      }
+    ],
+    "name": "Paladins",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Paladins"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "High Elves",
+    "requires": [
+      "Fantastic Stable"
+    ],
+    "build_cost": {
+      "production": 160
+    },
+    "upkeep": {
+      "gold": 4,
+      "food": 1
+    },
+    "figures": {
+      "figures": 2,
+      "multi": true
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 3
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 5,
+      "modified": true
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Bow",
+      "strength": 3,
+      "modified": true
+    },
+    "defense": 4,
+    "resist": {
+      "value": 8,
+      "modified": true
+    },
+    "hits": 5,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 8
+      },
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Scouting"
+      }
+    ],
+    "name": "Pegasai",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Pegasai"
+  },
+  {
+    "infobox_type": "Normal Unit Archetype",
+    "requires": [
+      "Fighters' Guild"
+    ],
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "build_cost": {
+      "production": 80
+    },
+    "figures": {
+      "figures": 8,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 5,
+      "modified": true
+    },
+    "defense": 3,
+    "resist": {
+      "value": 5,
+      "modified": true
+    },
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Negate First Strike"
+      },
+      {
+        "name": "Armor Piercing"
+      }
+    ],
+    "name": "Pikemen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Pikemen"
+  },
+  {
+    "infobox_type": "Normal Unit Archetype",
+    "requires": [
+      "Parthenon"
+    ],
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "build_cost": {
+      "production": 100
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 4
+    },
+    "defense": 4,
+    "resist": 7,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "Healer"
+      },
+      {
+        "name": "Purify"
+      },
+      {
+        "name": "Healing Spell"
+      }
+    ],
+    "name": "Priests",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Priests"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Nomads",
+    "requires": [
+      "Barracks",
+      "Animists' Guild"
+    ],
+    "build_cost": {
+      "production": 120
+    },
+    "upkeep": {
+      "gold": 3,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Bow",
+      "strength": 3
+    },
+    "defense": 4,
+    "resist": 6,
+    "hits": 2,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 8
+      },
+      {
+        "name": "Pathfinding"
+      }
+    ],
+    "name": "Rangers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Rangers"
+  },
+  {
+    "infobox_type": "Normal Unit Archetype",
+    "requires": [],
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "build_cost": {
+      "production": 60
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "defense": 1,
+    "resist": 4,
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "Create Outpost"
+      }
+    ],
+    "name": "Settlers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Settlers"
+  },
+  {
+    "infobox_type": "Normal Unit Archetype",
+    "requires": [
+      "Shrine"
+    ],
+    "upkeep": {
+      "gold": 1,
+      "food": 1
+    },
+    "build_cost": {
+      "production": 50
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 2
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 2
+    },
+    "defense": 3,
+    "resist": 6,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "Healer"
+      },
+      {
+        "name": "Purify"
+      }
+    ],
+    "name": "Shamans",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Shamans"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Halflings",
+    "requires": [
+      "Armory"
+    ],
+    "build_cost": {
+      "production": 100
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 8,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Sling",
+      "strength": 2
+    },
+    "defense": 2,
+    "resist": 6,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 6
+      },
+      {
+        "name": "Lucky"
+      }
+    ],
+    "name": "Slingers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Slingers"
+  },
+  {
+    "infobox_type": "Normal Unit Archetype",
+    "requires": [],
+    "upkeep": {
+      "food": 1
+    },
+    "build_cost": {
+      "production": 10
+    },
+    "figures": {
+      "figures": 8,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "defense": 2,
+    "resist": 4,
+    "hits": 1,
+    "name": "Spearmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Spearmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Klackons",
+    "requires": [
+      "Armorers' Guild",
+      "Stables"
+    ],
+    "build_cost": {
+      "production": 160
+    },
+    "upkeep": {
+      "gold": 4,
+      "food": 1
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 15,
+      "modified": true
+    },
+    "defense": 7,
+    "resist": {
+      "value": 6,
+      "modified": true
+    },
+    "hits": 20,
+    "abilities": [
+      {
+        "name": "Fire Breath"
+      }
+    ],
+    "name": "Stag Beetle",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Stag_Beetle"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Dwarves",
+    "requires": [
+      "Miners' Guild"
+    ],
+    "build_cost": {
+      "production": 180
+    },
+    "upkeep": {
+      "gold": 4,
+      "food": 1
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Rock",
+      "strength": 12
+    },
+    "defense": 2,
+    "resist": 9,
+    "hits": 12,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 10
+      },
+      {
+        "name": "Mountaineer"
+      }
+    ],
+    "name": "Steam Cannon",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Steam_Cannon"
+  },
+  {
+    "infobox_type": "Normal Unit Archetype",
+    "requires": [
+      "Barracks",
+      "Smithy"
+    ],
+    "upkeep": {
+      "food": 1,
+      "gold": 1
+    },
+    "build_cost": {
+      "production": 20
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "defense": 2,
+    "resist": 4,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Large Shield"
+      }
+    ],
+    "name": "Swordsmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Swordsmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Lizardmen",
+    "requires": [
+      "Shipwrights' Guild"
+    ],
+    "build_cost": {
+      "production": 60
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ship",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 6
+    },
+    "defense": 4,
+    "resist": 4,
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "Transport",
+        "strength": 2
+      }
+    ],
+    "name": "Trireme",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Trireme"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Trolls",
+    "requires": [
+      "Armory"
+    ],
+    "build_cost": {
+      "production": 120
+    },
+    "upkeep": {
+      "gold": 3,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 6
+    },
+    "defense": 3,
+    "resist": 7,
+    "hits": 4,
+    "abilities": [
+      {
+        "name": "Regeneration"
+      },
+      {
+        "name": "Negate First Strike"
+      }
+    ],
+    "name": "Troll Halberdiers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Troll_Halberdiers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Trolls",
+    "requires": [],
+    "build_cost": {
+      "production": 180
+    },
+    "upkeep": {
+      "gold": 4,
+      "food": 1
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "defense": 1,
+    "resist": 7,
+    "hits": 40,
+    "abilities": [
+      {
+        "name": "Create Outpost"
+      },
+      {
+        "name": "Regeneration"
+      }
+    ],
+    "name": "Troll Settlers",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Troll_Settlers"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Trolls",
+    "requires": [
+      "Shrine"
+    ],
+    "build_cost": {
+      "production": 180
+    },
+    "upkeep": {
+      "gold": 4,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 2
+    },
+    "defense": 3,
+    "resist": 8,
+    "hits": 4,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "Healer"
+      },
+      {
+        "name": "Purify"
+      },
+      {
+        "name": "Regeneration"
+      }
+    ],
+    "name": "Troll Shamans",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Troll_Shamans"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Trolls",
+    "requires": [],
+    "build_cost": {
+      "production": 30
+    },
+    "upkeep": {
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "defense": 2,
+    "resist": 7,
+    "hits": 4,
+    "abilities": [
+      {
+        "name": "Regeneration"
+      }
+    ],
+    "name": "Troll Spearmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Troll_Spearmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Trolls",
+    "requires": [
+      "Barracks",
+      "Smithy"
+    ],
+    "build_cost": {
+      "production": 60
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 5
+    },
+    "defense": 2,
+    "resist": 7,
+    "hits": 4,
+    "abilities": [
+      {
+        "name": "Large Shield"
+      },
+      {
+        "name": "Regeneration"
+      }
+    ],
+    "name": "Troll Swordsmen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Troll_Swordsmen"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Troll",
+    "requires": [
+      "Armorers' Guild",
+      "Stables"
+    ],
+    "build_cost": {
+      "production": 240
+    },
+    "upkeep": {
+      "gold": 5,
+      "food": 1
+    },
+    "figures": {
+      "figures": 2,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 10,
+      "modified": true
+    },
+    "defense": 6,
+    "resist": {
+      "value": 9,
+      "modified": true
+    },
+    "hits": 12,
+    "abilities": [
+      {
+        "name": "Wall Crusher"
+      },
+      {
+        "name": "First Strike"
+      }
+    ],
+    "name": "War Mammoths",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/War_Mammoths"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Troll",
+    "requires": [
+      "Fighters' Guild"
+    ],
+    "build_cost": {
+      "production": 160
+    },
+    "upkeep": {
+      "gold": 4,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 8,
+      "modified": true
+    },
+    "defense": 4,
+    "resist": {
+      "value": 8,
+      "modified": true
+    },
+    "hits": 5,
+    "abilities": [
+      {
+        "name": "Regeneration"
+      }
+    ],
+    "name": "War Trolls",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/War_Trolls"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Dark Elves",
+    "requires": [
+      "Wizards' Guild"
+    ],
+    "build_cost": {
+      "production": 240
+    },
+    "upkeep": {
+      "gold": 5,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 7
+    },
+    "defense": 4,
+    "resist": 9,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "Missile Immunity"
+      },
+      {
+        "name": "Doom Bolt Spell",
+        "strength": 1
+      }
+    ],
+    "name": "Warlocks",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Warlocks"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Barbarians",
+    "requires": [
+      "Maritime Guild"
+    ],
+    "build_cost": {
+      "production": 160
+    },
+    "upkeep": {
+      "gold": 4,
+      "food": 1
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ship",
+      "speed": 4
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 10
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Rock",
+      "strength": 10
+    },
+    "defense": 5,
+    "resist": 7,
+    "hits": 30,
+    "abilities": [
+      {
+        "name": "Transport",
+        "strength": 3
+      },
+      {
+        "name": "Long Range"
+      }
+    ],
+    "name": "Warship",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Warship"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Gnolls",
+    "requires": [
+      "Barracks",
+      "Stables"
+    ],
+    "build_cost": {
+      "production": 100
+    },
+    "upkeep": {
+      "gold": 2,
+      "food": 1
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 3
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 7
+    },
+    "defense": 3,
+    "resist": 4,
+    "hits": 5,
+    "name": "Wolf Riders",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Wolf_Riders"
+  },
+  {
+    "infobox_type": "Normal Unit",
+    "race": "Orcs",
+    "requires": [
+      "Fantastic Stable"
+    ],
+    "build_cost": {
+      "production": 200
+    },
+    "upkeep": {
+      "gold": 4,
+      "food": 1
+    },
+    "figures": {
+      "figures": 2,
+      "multi": true
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 3
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 5,
+      "modified": true
+    },
+    "defense": 5,
+    "resist": {
+      "value": 7,
+      "modified": true
+    },
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "Poison Touch",
+        "strength": 6
+      }
+    ],
+    "name": "Wyvern Riders",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Wyvern_Riders"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Sorcery",
+    "rarity": "Rare",
+    "casting_cost": {
+      "mana": 50
+    },
+    "research_cost": {
+      "research": 1300
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 5
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 15
+    },
+    "defense": 8,
+    "resist": 9,
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Invisibility"
+      },
+      {
+        "name": "Poison Immunity"
+      },
+      {
+        "name": "Stoning Immunity"
+      },
+      {
+        "name": "Weapon Immunity"
+      }
+    ],
+    "name": "Air Elemental",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Air_Elemental"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Life",
+    "rarity": "Rare",
+    "casting_cost": {
+      "mana": 550
+    },
+    "upkeep": {
+      "mana": 15
+    },
+    "research_cost": {
+      "research": 1400
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 3
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 13
+    },
+    "defense": 7,
+    "resist": 8,
+    "hits": 15,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+20%"
+      },
+      {
+        "name": "Illusions Immunity"
+      },
+      {
+        "name": "Holy Bonus",
+        "strength": 1
+      },
+      {
+        "name": "Dispel Evil (Ability)"
+      }
+    ],
+    "name": "Angel",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Angel"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Life",
+    "rarity": "Very Rare",
+    "casting_cost": {
+      "mana": 950
+    },
+    "upkeep": {
+      "mana": 20
+    },
+    "research_cost": {
+      "research": 5000
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 4
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 15
+    },
+    "defense": 10,
+    "resist": 12,
+    "hits": 18,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+30%"
+      },
+      {
+        "name": "Caster",
+        "mana": 40
+      },
+      {
+        "name": "Illusions Immunity"
+      },
+      {
+        "name": "Holy Bonus",
+        "strength": 2
+      }
+    ],
+    "name": "Arch Angel",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Arch_Angel"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Nature",
+    "rarity": "Uncommon",
+    "casting_cost": {
+      "mana": 325
+    },
+    "upkeep": {
+      "mana": 7
+    },
+    "research_cost": {
+      "research": 800
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 15
+    },
+    "defense": 4,
+    "resist": 7,
+    "hits": 30,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Stoning Gaze",
+        "strength": 1
+      }
+    ],
+    "name": "Basilisk",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Basilisk"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Nature",
+    "rarity": "Very Rare",
+    "casting_cost": {
+      "mana": 700
+    },
+    "upkeep": {
+      "mana": 15
+    },
+    "research_cost": {
+      "research": 2000
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 25
+    },
+    "defense": 9,
+    "resist": 10,
+    "hits": 45,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+20%"
+      }
+    ],
+    "name": "Behemoth",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Behemoth"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Chaos",
+    "rarity": "Rare",
+    "casting_cost": {
+      "mana": 500
+    },
+    "upkeep": {
+      "mana": 12
+    },
+    "research_cost": {
+      "research": 1040
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "defense": 6,
+    "resist": 10,
+    "hits": 15,
+    "abilities": [
+      {
+        "name": "Cause Fear"
+      },
+      {
+        "name": "Poison Touch",
+        "strength": 4
+      },
+      {
+        "name": "Doom Gaze",
+        "strength": 4
+      },
+      {
+        "name": "Death Gaze",
+        "strength": 4
+      },
+      {
+        "name": "Stoning Gaze",
+        "strength": 4
+      }
+    ],
+    "name": "Chaos Spawn",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Chaos_Spawn"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Chaos",
+    "rarity": "Uncommon",
+    "casting_cost": {
+      "mana": 350
+    },
+    "upkeep": {
+      "mana": 10
+    },
+    "research_cost": {
+      "research": 800
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 7
+    },
+    "defense": 5,
+    "resist": 8,
+    "hits": 8,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Fire Breath",
+        "strength": 4
+      }
+    ],
+    "name": "Chimeras",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Chimeras"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Nature",
+    "rarity": "Uncommon",
+    "casting_cost": {
+      "mana": 275
+    },
+    "upkeep": {
+      "mana": 8
+    },
+    "research_cost": {
+      "research": 620
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "defense": 3,
+    "resist": 7,
+    "hits": 3,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Stoning Touch",
+        "strength": 3
+      }
+    ],
+    "name": "Cockatrices",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Cockatrices"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Nature",
+    "rarity": "Very Rare",
+    "casting_cost": {
+      "mana": 800
+    },
+    "upkeep": {
+      "mana": 17
+    },
+    "research_cost": {
+      "research": 3500
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 20
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Rock",
+      "strength": 20
+    },
+    "defense": 10,
+    "resist": 15,
+    "hits": 30,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 2
+      },
+      {
+        "name": "To Hit",
+        "modifier": "+30%"
+      },
+      {
+        "name": "Wall Crusher"
+      },
+      {
+        "name": "Poison Immunity"
+      },
+      {
+        "name": "Stoning Immunity"
+      },
+      {
+        "name": "First Strike"
+      }
+    ],
+    "name": "Colossus",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Colossus"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Death",
+    "rarity": "Very Rare",
+    "casting_cost": {
+      "mana": 600
+    },
+    "upkeep": {
+      "mana": 8
+    },
+    "research_cost": {
+      "research": 2250
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 3
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 9
+    },
+    "defense": 8,
+    "resist": 10,
+    "hits": 8,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+30%"
+      },
+      {
+        "name": "Poison Immunity"
+      },
+      {
+        "name": "Weapon Immunity"
+      },
+      {
+        "name": "Illusions Immunity"
+      },
+      {
+        "name": "Cold Immunity"
+      },
+      {
+        "name": "Death Immunity"
+      },
+      {
+        "name": "Armor Piercing"
+      },
+      {
+        "name": "First Strike"
+      },
+      {
+        "name": "Life Steal",
+        "strength": 4
+      }
+    ],
+    "name": "Death Knights",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Death_Knights"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Death",
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 14
+    },
+    "defense": 5,
+    "resist": 7,
+    "hits": 12,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Poison Immunity"
+      },
+      {
+        "name": "Weapon Immunity"
+      },
+      {
+        "name": "Missile Immunity"
+      },
+      {
+        "name": "Illusions Immunity"
+      },
+      {
+        "name": "Cold Immunity"
+      },
+      {
+        "name": "Death Immunity"
+      }
+    ],
+    "name": "Demon",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Demon"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Death",
+    "rarity": "Very Rare",
+    "casting_cost": {
+      "mana": 1000
+    },
+    "upkeep": {
+      "mana": 15
+    },
+    "research_cost": {
+      "research": 6000
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 20
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 10
+    },
+    "defense": 10,
+    "resist": 12,
+    "hits": 20,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 8
+      },
+      {
+        "name": "To Hit",
+        "modifier": "+30%"
+      },
+      {
+        "name": "Summon Demons",
+        "strength": 3
+      },
+      {
+        "name": "Poison Immunity"
+      },
+      {
+        "name": "Weapon Immunity"
+      },
+      {
+        "name": "Illusions Immunity"
+      },
+      {
+        "name": "Cold Immunity"
+      },
+      {
+        "name": "Death Immunity"
+      },
+      {
+        "name": "Cause Fear"
+      },
+      {
+        "name": "Life Steal",
+        "strength": 5
+      }
+    ],
+    "name": "Demon Lord",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Demon_Lord"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Sorcery",
+    "rarity": "Very Rare",
+    "casting_cost": {
+      "mana": 650
+    },
+    "upkeep": {
+      "mana": 17
+    },
+    "research_cost": {
+      "research": 1850
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 3
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 15
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 8
+    },
+    "defense": 8,
+    "resist": 10,
+    "hits": 20,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+30%"
+      },
+      {
+        "name": "Teleporting"
+      },
+      {
+        "name": "Wind Walking"
+      },
+      {
+        "name": "Caster",
+        "mana": 20
+      }
+    ],
+    "name": "Djinn",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Djinn"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Chaos",
+    "rarity": "Uncommon",
+    "casting_cost": {
+      "mana": 300
+    },
+    "upkeep": {
+      "mana": 8
+    },
+    "research_cost": {
+      "research": 620
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 4
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 10
+    },
+    "defense": 5,
+    "resist": 9,
+    "hits": 20,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Immolation"
+      }
+    ],
+    "name": "Doom Bat",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Doom_Bat"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Nature",
+    "rarity": "Rare",
+    "casting_cost": {
+      "mana": 60
+    },
+    "research_cost": {
+      "research": 1700
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 25
+    },
+    "defense": 4,
+    "resist": 8,
+    "hits": 30,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Wall Crusher"
+      },
+      {
+        "name": "Poison Immunity"
+      },
+      {
+        "name": "Stoning Immunity"
+      }
+    ],
+    "name": "Earth Elemental",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Earth_Elemental"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Chaos",
+    "rarity": "Rare",
+    "casting_cost": {
+      "mana": 550
+    },
+    "upkeep": {
+      "mana": 15
+    },
+    "research_cost": {
+      "research": 1300
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 3
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 9
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 9
+    },
+    "defense": 7,
+    "resist": 10,
+    "hits": 12,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+20%"
+      },
+      {
+        "name": "Caster",
+        "mana": 20
+      },
+      {
+        "name": "Fire Immunity"
+      }
+    ],
+    "name": "Efreet",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Efreet"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Chaos",
+    "rarity": "Common",
+    "casting_cost": {
+      "mana": 20
+    },
+    "research_cost": {
+      "research": 250
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 12
+    },
+    "defense": 4,
+    "resist": 6,
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "Poison Immunity"
+      },
+      {
+        "name": "Fire Immunity"
+      },
+      {
+        "name": "Stoning Immunity"
+      }
+    ],
+    "name": "Fire Elemental",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Fire_Elemental"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Chaos",
+    "rarity": "Uncommon",
+    "casting_cost": {
+      "mana": 150
+    },
+    "upkeep": {
+      "mana": 3
+    },
+    "research_cost": {
+      "research": 350
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 10
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Rock",
+      "strength": 10
+    },
+    "defense": 5,
+    "resist": 7,
+    "hits": 15,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 2
+      },
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Mountaineer"
+      },
+      {
+        "name": "Wall Crusher"
+      },
+      {
+        "name": "Fire Immunity"
+      }
+    ],
+    "name": "Fire Giant",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Fire_Giant"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Sorcery",
+    "rarity": "Common",
+    "casting_cost": {
+      "mana": 50
+    },
+    "upkeep": {
+      "mana": 5
+    },
+    "research_cost": {
+      "research": 60
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Water",
+      "speed": 2
+    },
+    "resist": 10,
+    "hits": 45,
+    "abilities": [
+      {
+        "name": "Poison Immunity"
+      },
+      {
+        "name": "Stoning Immunity"
+      },
+      {
+        "name": "Death Immunity"
+      }
+    ],
+    "name": "Floating Island",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Floating_Island"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Chaos",
+    "rarity": "Uncommon",
+    "casting_cost": {
+      "mana": 200
+    },
+    "upkeep": {
+      "mana": 5
+    },
+    "research_cost": {
+      "research": 500
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "defense": 8,
+    "resist": 7,
+    "hits": 4,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Poison Immunity"
+      },
+      {
+        "name": "Stoning Immunity"
+      }
+    ],
+    "name": "Gargoyles",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Gargoyles"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Death",
+    "rarity": "Common",
+    "casting_cost": {
+      "mana": 80
+    },
+    "upkeep": {
+      "mana": 1
+    },
+    "research_cost": {
+      "research": 130
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "defense": 3,
+    "resist": 6,
+    "hits": 3,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Create Undead"
+      },
+      {
+        "name": "Poison Immunity"
+      },
+      {
+        "name": "Illusions Immunity"
+      },
+      {
+        "name": "Cold Immunity"
+      },
+      {
+        "name": "Death Immunity"
+      },
+      {
+        "name": "Poison Touch",
+        "strength": 1
+      }
+    ],
+    "name": "Ghouls",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Ghouls"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Nature",
+    "rarity": "Uncommon",
+    "casting_cost": {
+      "mana": 200
+    },
+    "upkeep": {
+      "mana": 4
+    },
+    "research_cost": {
+      "research": 450
+    },
+    "figures": {
+      "figures": 2,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "defense": 3,
+    "resist": 7,
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Web Spell"
+      },
+      {
+        "name": "Poison Touch",
+        "strength": 4
+      }
+    ],
+    "name": "Giant Spiders",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Giant_Spiders"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Nature",
+    "rarity": "Rare",
+    "casting_cost": {
+      "mana": 600
+    },
+    "upkeep": {
+      "mana": 15
+    },
+    "research_cost": {
+      "research": 1400
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 8
+    },
+    "defense": 7,
+    "resist": 9,
+    "hits": 9,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+20%"
+      },
+      {
+        "name": "Stoning Gaze",
+        "strength": 2
+      }
+    ],
+    "name": "Gorgons",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Gorgons"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Chaos",
+    "rarity": "Very Rare",
+    "casting_cost": {
+      "mana": 900
+    },
+    "upkeep": {
+      "mana": 30
+    },
+    "research_cost": {
+      "research": 4500
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 30
+    },
+    "defense": 10,
+    "resist": 12,
+    "hits": 30,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+30%"
+      },
+      {
+        "name": "Fire Breath",
+        "strength": 30
+      }
+    ],
+    "name": "Great Drake",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Great_Drake"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Nature",
+    "rarity": "Very Rare",
+    "casting_cost": {
+      "mana": 1000
+    },
+    "upkeep": {
+      "mana": 20
+    },
+    "research_cost": {
+      "research": 5000
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 3,
+      "modified": true
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 25
+    },
+    "defense": 12,
+    "resist": 12,
+    "hits": 45,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+30%"
+      },
+      {
+        "name": "Teleporting"
+      },
+      {
+        "name": "Poison Touch",
+        "strength": 15
+      }
+    ],
+    "name": "Great Wyrm",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Great_Wyrm"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Life",
+    "rarity": "Common",
+    "casting_cost": {
+      "mana": 80
+    },
+    "upkeep": {
+      "mana": 1
+    },
+    "research_cost": {
+      "research": 220
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Water",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 10
+    },
+    "defense": 4,
+    "resist": 10,
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "Meld"
+      },
+      {
+        "name": "Non-Corporeal"
+      },
+      {
+        "name": "Resistance to All",
+        "strength": 1
+      }
+    ],
+    "name": "Guardian Spirit",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Guardian_Spirit"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Chaos",
+    "rarity": "Common",
+    "casting_cost": {
+      "mana": 40
+    },
+    "upkeep": {
+      "mana": 1
+    },
+    "research_cost": {
+      "research": 80
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "defense": 2,
+    "resist": 6,
+    "hits": 4,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Fire Breath",
+        "strength": 3
+      }
+    ],
+    "name": "Hell Hounds",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Hell_Hounds"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Chaos",
+    "rarity": "Very Rare",
+    "casting_cost": {
+      "mana": 650
+    },
+    "upkeep": {
+      "mana": 14
+    },
+    "research_cost": {
+      "research": 1850
+    },
+    "figures": {
+      "figures": 9,
+      "multi": true,
+      "modified": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 6
+    },
+    "defense": 4,
+    "resist": 11,
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Regeneration"
+      },
+      {
+        "name": "Fire Breath",
+        "strength": 5
+      }
+    ],
+    "name": "Hydra",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Hydra"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Arcane",
+    "casting_cost": {
+      "mana": 30
+    },
+    "upkeep": {
+      "mana": 1
+    },
+    "research_cost": {
+      "research": 20,
+      "modified": true
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Water",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 5
+    },
+    "defense": 4,
+    "resist": 8,
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "Meld"
+      },
+      {
+        "name": "Non-Corporeal"
+      }
+    ],
+    "name": "Magic Spirit",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Magic_Spirit"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Sorcery",
+    "rarity": "Common",
+    "casting_cost": {
+      "mana": 100
+    },
+    "upkeep": {
+      "mana": 2
+    },
+    "research_cost": {
+      "research": 220
+    },
+    "figures": {
+      "figures": 2,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "defense": 3,
+    "resist": 7,
+    "hits": 6,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "First Strike"
+      },
+      {
+        "name": "Poison Touch",
+        "strength": 4
+      }
+    ],
+    "name": "Nagas",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Nagas"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Death",
+    "rarity": "Uncommon",
+    "casting_cost": {
+      "mana": 250
+    },
+    "upkeep": {
+      "mana": 1
+    },
+    "research_cost": {
+      "research": 560
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 7
+    },
+    "defense": 3,
+    "resist": 8,
+    "hits": 10,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Invisibility"
+      },
+      {
+        "name": "Poison Immunity"
+      },
+      {
+        "name": "Illusions Immunity"
+      },
+      {
+        "name": "Cold Immunity"
+      },
+      {
+        "name": "Death Immunity"
+      },
+      {
+        "name": "Death Gaze",
+        "strength": 2
+      }
+    ],
+    "name": "Night Stalker",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Night_Stalker"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Sorcery",
+    "rarity": "Uncommon",
+    "casting_cost": {
+      "mana": 35
+    },
+    "research_cost": {
+      "research": 800
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Water",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 18
+    },
+    "resist": 8,
+    "hits": 20,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Non-Corporeal"
+      },
+      {
+        "name": "Poison Immunity"
+      },
+      {
+        "name": "Stoning Immunity"
+      },
+      {
+        "name": "Death Immunity"
+      },
+      {
+        "name": "Illusion"
+      }
+    ],
+    "name": "Phantom Beast",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Phantom_Beast"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Sorcery",
+    "rarity": "Common",
+    "casting_cost": {
+      "mana": 10
+    },
+    "research_cost": {
+      "research": 100
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Water",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "resist": 6,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Non-Corporeal"
+      },
+      {
+        "name": "Poison Immunity"
+      },
+      {
+        "name": "Stoning Immunity"
+      },
+      {
+        "name": "Death Immunity"
+      },
+      {
+        "name": "Illusion"
+      }
+    ],
+    "name": "Phantom Warriors",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Phantom_Warriors"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Death",
+    "rarity": "Uncommon",
+    "casting_cost": {
+      "mana": 325
+    },
+    "upkeep": {
+      "mana": 7
+    },
+    "research_cost": {
+      "research": 800
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 5
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 4
+    },
+    "defense": 4,
+    "resist": 8,
+    "hits": 5,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 8
+      },
+      {
+        "name": "To Hit",
+        "modifier": "+20%"
+      },
+      {
+        "name": "Plane Shift"
+      },
+      {
+        "name": "Non-Corporeal"
+      },
+      {
+        "name": "Regeneration"
+      },
+      {
+        "name": "Poison Immunity"
+      },
+      {
+        "name": "Weapon Immunity"
+      },
+      {
+        "name": "Illusions Immunity"
+      },
+      {
+        "name": "Cold Immunity"
+      },
+      {
+        "name": "Death Immunity"
+      }
+    ],
+    "name": "Shadow Demons",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Shadow_Demons"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Death",
+    "rarity": "Common",
+    "casting_cost": {
+      "mana": 25
+    },
+    "upkeep": {
+      "mana": 1
+    },
+    "research_cost": {
+      "research": 20
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "defense": 4,
+    "resist": 5,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Poison Immunity"
+      },
+      {
+        "name": "Missile Immunity"
+      },
+      {
+        "name": "Illusions Immunity"
+      },
+      {
+        "name": "Cold Immunity"
+      },
+      {
+        "name": "Death Immunity"
+      }
+    ],
+    "name": "Skeletons",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Skeletons"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Sorcery",
+    "rarity": "Very Rare",
+    "casting_cost": {
+      "mana": 1000
+    },
+    "research_cost": {
+      "research": 4500
+    },
+    "upkeep": {
+      "mana": 25
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 4
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 20
+    },
+    "defense": 10,
+    "resist": 14,
+    "hits": 25,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+30%"
+      },
+      {
+        "name": "Illusions Immunity"
+      },
+      {
+        "name": "Magic Immunity"
+      },
+      {
+        "name": "Lightning Breath",
+        "strength": 20
+      }
+    ],
+    "name": "Sky Drake",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Sky_Drake"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Nature",
+    "rarity": "Common",
+    "casting_cost": {
+      "mana": 100
+    },
+    "upkeep": {
+      "mana": 3
+    },
+    "research_cost": {
+      "research": 220
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 2
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 3
+    },
+    "defense": 2,
+    "resist": 8,
+    "hits": 1,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Forester"
+      }
+    ],
+    "name": "Sprites",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Sprites"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Nature",
+    "rarity": "Rare",
+    "casting_cost": {
+      "mana": 450
+    },
+    "upkeep": {
+      "mana": 9
+    },
+    "research_cost": {
+      "research": 1040
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 15
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Rock",
+      "strength": 15
+    },
+    "defense": 8,
+    "resist": 9,
+    "hits": 20,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 2
+      },
+      {
+        "name": "To Hit",
+        "modifier": "+20%"
+      },
+      {
+        "name": "Mountaineer"
+      },
+      {
+        "name": "Wall Crusher"
+      },
+      {
+        "name": "Poison Immunity"
+      },
+      {
+        "name": "Stoning Immunity"
+      }
+    ],
+    "name": "Stone Giant",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Stone_Giant"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Sorcery",
+    "rarity": "Rare",
+    "casting_cost": {
+      "mana": 500
+    },
+    "upkeep": {
+      "mana": 10
+    },
+    "research_cost": {
+      "research": 1200
+    },
+    "figures": {
+      "figures": 1,
+      "multi": false
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 12
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 10
+    },
+    "defense": 7,
+    "resist": 9,
+    "hits": 20,
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 4
+      },
+      {
+        "name": "To Hit",
+        "modifier": "+20%"
+      },
+      {
+        "name": "Wall Crusher"
+      },
+      {
+        "name": "Armor Piercing"
+      }
+    ],
+    "name": "Storm Giant",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Storm_Giant"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Torin",
+    "hero_class": "The Chosen",
+    "hero_type": "Champion",
+    "hiring_cost": "n/a",
+    "upkeep": {
+      "mana": 12
+    },
+    "requires": [
+      "Incarnation"
+    ],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 12,
+      "modified": true
+    },
+    "ranged": 8,
+    "resist": {
+      "value": 12,
+      "modified": true
+    },
+    "hits": {
+      "value": 12,
+      "modified": true
+    },
+    "item_slots": [
+      "Sword",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Leadership",
+        "super": true
+      },
+      {
+        "name": "Constitution"
+      },
+      {
+        "name": "Might",
+        "super": true
+      },
+      {
+        "name": "Prayermaster"
+      },
+      {
+        "name": "Caster",
+        "mana": 15
+      },
+      {
+        "name": "Missile Immunity"
+      },
+      {
+        "name": "Magic Immunity"
+      }
+    ],
+    "random_abilities": "2 (Any)",
+    "extra_spells": [
+      "Healing",
+      "Holy Armor",
+      "Lionheart]]\n<span style=\"font-size:90%\">Please read [[#Known Bugs|Known Bugs]], below.</span>"
+    ],
+    "name": "Torin the Chosen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Torin_the_Chosen"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Life",
+    "rarity": "Uncommon",
+    "casting_cost": {
+      "mana": 250
+    },
+    "upkeep": {
+      "mana": 5
+    },
+    "research_cost": {
+      "research": 560
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2,
+      "modified": true
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 5
+    },
+    "defense": 3,
+    "resist": 7,
+    "hits": 6,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+20%"
+      },
+      {
+        "name": "Teleporting"
+      },
+      {
+        "name": "Poison Immunity"
+      },
+      {
+        "name": "Resistance to All",
+        "strength": 2
+      }
+    ],
+    "name": "Unicorns",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Unicorns"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Nature",
+    "rarity": "Common",
+    "casting_cost": {
+      "mana": 70
+    },
+    "upkeep": {
+      "mana": 2
+    },
+    "research_cost": {
+      "research": 130
+    },
+    "figures": {
+      "figures": 2,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 7
+    },
+    "defense": 3,
+    "resist": 6,
+    "hits": 8,
+    "abilities": [
+      {
+        "name": "Forester"
+      }
+    ],
+    "name": "War Bears",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/War_Bears"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Death",
+    "upkeep": {
+      "mana": 5
+    },
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 5
+    },
+    "defense": 1,
+    "resist": 6,
+    "hits": 5,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Regeneration"
+      },
+      {
+        "name": "Poison Immunity"
+      },
+      {
+        "name": "Weapon Immunity"
+      },
+      {
+        "name": "Illusions Immunity"
+      },
+      {
+        "name": "Cold Immunity"
+      },
+      {
+        "name": "Death Immunity"
+      }
+    ],
+    "name": "Werewolves",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Werewolves"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Death",
+    "rarity": "Rare",
+    "casting_cost": {
+      "mana": 500
+    },
+    "upkeep": {
+      "mana": 5
+    },
+    "research_cost": {
+      "research": 1120
+    },
+    "figures": {
+      "figures": 4,
+      "multi": true
+    },
+    "movement": {
+      "type": "Air",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 7
+    },
+    "defense": 6,
+    "resist": 8,
+    "hits": 8,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+20%"
+      },
+      {
+        "name": "Non-Corporeal"
+      },
+      {
+        "name": "Poison Immunity"
+      },
+      {
+        "name": "Weapon Immunity"
+      },
+      {
+        "name": "Illusions Immunity"
+      },
+      {
+        "name": "Cold Immunity"
+      },
+      {
+        "name": "Death Immunity"
+      },
+      {
+        "name": "Life Steal",
+        "strength": 3
+      }
+    ],
+    "name": "Wraiths",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Wraiths"
+  },
+  {
+    "infobox_type": "Fantastic Unit",
+    "realm": "Death",
+    "upkeep": {},
+    "figures": {
+      "figures": 6,
+      "multi": true
+    },
+    "movement": {
+      "type": "Ground",
+      "speed": 1
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "defense": 3,
+    "resist": 3,
+    "hits": 3,
+    "abilities": [
+      {
+        "name": "To Hit",
+        "modifier": "+10%"
+      },
+      {
+        "name": "Poison Immunity"
+      },
+      {
+        "name": "Illusions Immunity"
+      },
+      {
+        "name": "Cold Immunity"
+      },
+      {
+        "name": "Death Immunity"
+      }
+    ],
+    "name": "Zombies",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Zombies"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Aerie",
+    "hero_class": "The Illusionist",
+    "hero_type": "Champion",
+    "hiring_cost": {
+      "gold": 500
+    },
+    "upkeep": {
+      "gold": 10
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 5
+    },
+    "defense": 4,
+    "resist": 6,
+    "hits": 5,
+    "item_slots": [
+      "Staff",
+      "Misc",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Caster",
+        "mana": 10
+      },
+      {
+        "name": "Missile Immunity"
+      },
+      {
+        "name": "Illusion"
+      }
+    ],
+    "random_abilities": "2 (Mage)",
+    "extra_spells": [
+      "Psionic Blast",
+      "Vertigo",
+      "Mind Storm"
+    ],
+    "name": "Aerie the Illusionist",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Aerie_the_Illusionist"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Alorra",
+    "hero_class": "The Elven Archer",
+    "hero_type": "Champion",
+    "hiring_cost": {
+      "gold": 500
+    },
+    "upkeep": {
+      "gold": 10
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 5
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Bow",
+      "strength": 8
+    },
+    "defense": 6,
+    "resist": 6,
+    "hits": 6,
+    "item_slots": [
+      "Bow",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 8
+      },
+      {
+        "name": "Blademaster"
+      },
+      {
+        "name": "Forester"
+      },
+      {
+        "name": "Caster",
+        "mana": 5
+      }
+    ],
+    "random_abilities": "3 (Any)",
+    "extra_spells": [
+      "Resist Magic",
+      "Flight"
+    ],
+    "name": "Alorra the Elven Archer",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Alorra_the_Elven_Archer"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Aureus",
+    "hero_class": "The Golden One",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 200
+    },
+    "upkeep": {
+      "gold": 4
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 6
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 6
+    },
+    "defense": 6,
+    "resist": 6,
+    "hits": 6,
+    "item_slots": [
+      "Sword",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Caster",
+        "mana": 5
+      }
+    ],
+    "random_abilities": "2 (Any)",
+    "name": "Aureus the Golden One",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Aureus_the_Golden_One"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "B'Shan",
+    "hero_class": "The Dervish",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 100
+    },
+    "upkeep": {
+      "gold": 0,
+      "modified": true
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Bow",
+      "strength": 4
+    },
+    "defense": 4,
+    "resist": 6,
+    "hits": 6,
+    "item_slots": [
+      "Bow",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 8
+      },
+      {
+        "name": "Noble"
+      }
+    ],
+    "random_abilities": "None",
+    "name": "B'Shan the Dervish",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/B'Shan_the_Dervish"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Bahgtru",
+    "hero_class": "The Orc Warrior",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 100
+    },
+    "upkeep": {
+      "gold": 2
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 6
+    },
+    "ranged": 4,
+    "resist": 6,
+    "hits": 8,
+    "item_slots": [
+      "Sword",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Thrown",
+        "strength": 3
+      },
+      {
+        "name": "Mountaineer"
+      }
+    ],
+    "random_abilities": "1 (Fighter)",
+    "name": "Bahgtru the Orc Warrior",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Bahgtru_the_Orc_Warrior"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Brax",
+    "hero_class": "The Dwarf",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 100
+    },
+    "upkeep": {
+      "gold": 2
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 5
+    },
+    "ranged": 4,
+    "resist": 10,
+    "hits": {
+      "value": 10,
+      "modified": true
+    },
+    "item_slots": [
+      "Sword",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Mountaineer"
+      },
+      {
+        "name": "Constitution"
+      }
+    ],
+    "random_abilities": "None",
+    "name": "Brax the Dwarf",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Brax_the_Dwarf"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Deth Stryke",
+    "hero_class": "The Swordsman",
+    "hero_type": "Champion",
+    "hiring_cost": {
+      "gold": 500
+    },
+    "upkeep": {
+      "gold": 10
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 6,
+      "modified": true
+    },
+    "ranged": 5,
+    "resist": 6,
+    "hits": {
+      "value": 10,
+      "modified": true
+    },
+    "item_slots": [
+      "Sword",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Leadership"
+      },
+      {
+        "name": "Legendary"
+      },
+      {
+        "name": "Armsmaster"
+      },
+      {
+        "name": "Constitution"
+      },
+      {
+        "name": "Might"
+      }
+    ],
+    "random_abilities": "1 (Fighter)",
+    "name": "Deth Stryke the Swordsman",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Deth_Stryke_the_Swordsman"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Elana",
+    "hero_class": "The Priestess",
+    "hero_type": "Champion",
+    "hiring_cost": {
+      "gold": 500
+    },
+    "upkeep": {
+      "value": "0",
+      "modified": true
+    },
+    "requires": [
+      "Spellbook"
+    ],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 2
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 8,
+      "modified": true
+    },
+    "defense": 5,
+    "resist": {
+      "value": 6,
+      "modified": true
+    },
+    "hits": 5,
+    "item_slots": [
+      "Staff",
+      "Misc",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Arcane Power"
+      },
+      {
+        "name": "Prayermaster",
+        "super": true
+      },
+      {
+        "name": "Charmed"
+      },
+      {
+        "name": "Noble"
+      },
+      {
+        "name": "Caster"
+      },
+      {
+        "name": "Healer"
+      },
+      {
+        "name": "Purify"
+      }
+    ],
+    "random_abilities": "None",
+    "extra_spells": [
+      "Dispel Evil",
+      "Healing",
+      "Prayer",
+      "Holy Word]]\n<span style=\"font-size:90%\">Please read [[#Known Bugs|Known Bugs]], below.</span>"
+    ],
+    "name": "Elana the Priestess",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Elana_the_Priestess"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Fang",
+    "hero_class": "The Draconian",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 200
+    },
+    "upkeep": {
+      "gold": 4
+    },
+    "requires": [],
+    "movement": {
+      "type": "Air",
+      "speed": 3
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 7,
+      "modified": true
+    },
+    "ranged": 5,
+    "resist": 6,
+    "hits": 8,
+    "item_slots": [
+      "Sword",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Fire Breath",
+        "strength": 5
+      },
+      {
+        "name": "Might"
+      }
+    ],
+    "random_abilities": "2 (Fighter)",
+    "name": "Fang the Draconian",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Fang_the_Draconian"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Greyfairer",
+    "hero_class": "The Druid",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 150
+    },
+    "upkeep": {
+      "gold": 3
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 8
+    },
+    "defense": 5,
+    "resist": 6,
+    "hits": 5,
+    "item_slots": [
+      "Staff",
+      "Misc",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Caster"
+      },
+      {
+        "name": "Scouting",
+        "strength": 3
+      },
+      {
+        "name": "Purify"
+      }
+    ],
+    "random_abilities": "None",
+    "extra_spells": [
+      "Web",
+      "Ice Bolt",
+      "Petrify"
+    ],
+    "name": "Greyfairer the Druid",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Greyfairer_the_Druid"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Gunther",
+    "hero_class": "The Barbarian",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 100
+    },
+    "upkeep": {
+      "gold": 2
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 5,
+      "modified": true
+    },
+    "ranged": 3,
+    "resist": 6,
+    "hits": 9,
+    "item_slots": [
+      "Sword",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Thrown",
+        "strength": 3
+      },
+      {
+        "name": "Might"
+      }
+    ],
+    "random_abilities": "None",
+    "name": "Gunther the Barbarian",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Gunther_the_Barbarian"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Jaer",
+    "hero_class": "The Wind Mage",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 200
+    },
+    "upkeep": {
+      "gold": 4
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2,
+      "modified": true
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 6
+    },
+    "defense": 5,
+    "resist": 6,
+    "hits": 5,
+    "item_slots": [
+      "Staff",
+      "Misc",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Caster"
+      },
+      {
+        "name": "Wind Walking"
+      },
+      {
+        "name": "Missile Immunity"
+      }
+    ],
+    "random_abilities": "1 (Mage)",
+    "extra_spells": [
+      "Guardian Wind",
+      "Word of Recall"
+    ],
+    "name": "Jaer the Wind Mage",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Jaer_the_Wind_Mage"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Malleus",
+    "hero_class": "The Magician",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 150
+    },
+    "upkeep": {
+      "gold": 3
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 8,
+      "modified": true
+    },
+    "defense": 5,
+    "resist": 10,
+    "hits": 5,
+    "item_slots": [
+      "Staff",
+      "Misc",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Arcane Power"
+      },
+      {
+        "name": "Caster",
+        "mana": 10
+      },
+      {
+        "name": "Missile Immunity"
+      }
+    ],
+    "random_abilities": "1 (Mage)",
+    "extra_spells": [
+      "Fire Bolt",
+      "Fireball",
+      "Flame Strike",
+      "Fire Elemental"
+    ],
+    "name": "Malleus the Magician",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Malleus_the_Magician"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Marcus",
+    "hero_class": "The Ranger",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 200
+    },
+    "upkeep": {
+      "gold": 4
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 6,
+      "modified": true
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Bow",
+      "strength": 5
+    },
+    "defense": 5,
+    "resist": 6,
+    "hits": 8,
+    "item_slots": [
+      "Bow",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 8
+      },
+      {
+        "name": "Might"
+      },
+      {
+        "name": "Caster",
+        "mana": 5
+      },
+      {
+        "name": "Scouting"
+      },
+      {
+        "name": "Pathfinding"
+      }
+    ],
+    "random_abilities": "None",
+    "extra_spells": [
+      "Resist Elements",
+      "Stone Skin"
+    ],
+    "name": "Marcus the Ranger",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Marcus_the_Ranger"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Morgana",
+    "hero_class": "The Witch",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 200
+    },
+    "upkeep": {
+      "gold": 4
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 8
+    },
+    "defense": 5,
+    "resist": {
+      "value": 6,
+      "modified": true
+    },
+    "hits": 5,
+    "item_slots": [
+      "Staff",
+      "Misc",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Charmed"
+      },
+      {
+        "name": "Caster",
+        "mana": 10
+      },
+      {
+        "name": "Missile Immunity"
+      }
+    ],
+    "random_abilities": "2 (Mage)",
+    "extra_spells": [
+      "Darkness",
+      "Possession",
+      "Black Prayer",
+      "Mana Leak]]\n<span style=\"font-size:90%\">Please read [[#Known Bugs|Known Bugs]], below.</span>"
+    ],
+    "name": "Morgana the Witch",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Morgana_the_Witch"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Mortu",
+    "hero_class": "The Black Knight",
+    "hero_type": "Champion",
+    "hiring_cost": {
+      "gold": 500
+    },
+    "upkeep": {
+      "gold": 10
+    },
+    "requires": [
+      "Spellbook"
+    ],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 9,
+      "modified": true
+    },
+    "ranged": 5,
+    "resist": 6,
+    "hits": {
+      "value": 10,
+      "modified": true
+    },
+    "item_slots": [
+      "Sword",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Legendary"
+      },
+      {
+        "name": "Blademaster"
+      },
+      {
+        "name": "Constitution"
+      },
+      {
+        "name": "Might"
+      },
+      {
+        "name": "Magic Immunity"
+      },
+      {
+        "name": "Armor Piercing"
+      },
+      {
+        "name": "First Strike"
+      }
+    ],
+    "random_abilities": "1 (Fighter)",
+    "name": "Mortu the Black Knight",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Mortu_the_Black_Knight"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Mystic X",
+    "hero_class": "The Unknown",
+    "hero_type": "Champion",
+    "hiring_cost": {
+      "gold": 300
+    },
+    "upkeep": {
+      "gold": 6
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 5
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 5
+    },
+    "defense": 4,
+    "resist": 10,
+    "hits": 8,
+    "item_slots": [
+      "SwordStaff",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Caster",
+        "mana": 5
+      }
+    ],
+    "random_abilities": "5 (Any)",
+    "name": "Mystic X the Unknown",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Mystic_X_the_Unknown"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Rakir",
+    "hero_class": "The Beastmaster",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 100
+    },
+    "upkeep": {
+      "gold": 2
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 5
+    },
+    "ranged": 4,
+    "resist": 6,
+    "hits": 7,
+    "item_slots": [
+      "Sword",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Caster",
+        "mana": 5
+      },
+      {
+        "name": "Scouting",
+        "strength": 3
+      },
+      {
+        "name": "Forester"
+      }
+    ],
+    "random_abilities": "None",
+    "extra_spells": [
+      "Resist Elements"
+    ],
+    "name": "Rakir the Beastmaster",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Rakir_the_Beastmaster"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Ravashack",
+    "hero_class": "The Necromancer",
+    "hero_type": "Champion",
+    "hiring_cost": {
+      "gold": 500
+    },
+    "upkeep": {
+      "gold": 10
+    },
+    "requires": [
+      "Spellbook"
+    ],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 7,
+      "modified": true
+    },
+    "defense": 5,
+    "resist": 6,
+    "hits": 5,
+    "item_slots": [
+      "Staff",
+      "Misc",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Arcane Power"
+      },
+      {
+        "name": "Caster"
+      },
+      {
+        "name": "Missile Immunity"
+      },
+      {
+        "name": "Life Steal"
+      }
+    ],
+    "random_abilities": "2 (Mage)",
+    "extra_spells": [
+      "Weakness",
+      "Black Sleep",
+      "Animate Dead",
+      "Wrack]]\n<span style=\"font-size:90%\">Please read [[#Known Bugs|Known Bugs]], below.</span>"
+    ],
+    "name": "Ravashack the Necromancer",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Ravashack_the_Necromancer"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Reywind",
+    "hero_class": "The Warrior Mage",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 150
+    },
+    "upkeep": {
+      "gold": 3
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 4
+    },
+    "defense": 4,
+    "resist": 6,
+    "hits": 7,
+    "item_slots": [
+      "SwordStaff",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Caster",
+        "mana": 5
+      }
+    ],
+    "random_abilities": "1 (Any)",
+    "extra_spells": [
+      "Flame Blade",
+      "Shatter",
+      "Eldritch Weapon"
+    ],
+    "name": "Reywind the Warrior Mage",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Reywind_the_Warrior_Mage"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Roland",
+    "hero_class": "The Paladin",
+    "hero_type": "Champion",
+    "hiring_cost": {
+      "gold": 500
+    },
+    "upkeep": {
+      "gold": 10
+    },
+    "requires": [
+      "Spellbook"
+    ],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 9,
+      "modified": true
+    },
+    "ranged": 5,
+    "resist": {
+      "value": 6,
+      "modified": true
+    },
+    "hits": 8,
+    "item_slots": [
+      "Sword",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Legendary"
+      },
+      {
+        "name": "Might",
+        "super": true
+      },
+      {
+        "name": "Prayermaster"
+      },
+      {
+        "name": "Healer"
+      },
+      {
+        "name": "Magic Immunity"
+      },
+      {
+        "name": "Armor Piercing"
+      },
+      {
+        "name": "First Strike"
+      }
+    ],
+    "random_abilities": "1 (Fighter)",
+    "name": "Roland the Paladin",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Roland_the_Paladin"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Serena",
+    "hero_class": "The Healer",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 100
+    },
+    "upkeep": {
+      "gold": 2
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 6
+    },
+    "defense": 5,
+    "resist": 7,
+    "hits": 5,
+    "item_slots": [
+      "Sword",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Caster"
+      },
+      {
+        "name": "Healer"
+      }
+    ],
+    "random_abilities": "1 (Mage)",
+    "extra_spells": [
+      "Healing"
+    ],
+    "name": "Serena the Healer",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Serena_the_Healer"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Shalla",
+    "hero_class": "The Amazon",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 300
+    },
+    "upkeep": {
+      "gold": 6
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 7,
+      "modified": true
+    },
+    "ranged": 4,
+    "resist": {
+      "value": 6,
+      "modified": true
+    },
+    "hits": 8,
+    "item_slots": [
+      "Sword",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Blademaster"
+      },
+      {
+        "name": "Might"
+      },
+      {
+        "name": "Charmed"
+      },
+      {
+        "name": "Thrown",
+        "strength": 4
+      }
+    ],
+    "random_abilities": "1 (Fighter)",
+    "name": "Shalla the Amazon",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Shalla_the_Amazon"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Shin Bo",
+    "hero_class": "The Ninja",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 300
+    },
+    "upkeep": {
+      "gold": 6
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 6
+    },
+    "ranged": 5,
+    "resist": 6,
+    "hits": 7,
+    "item_slots": [
+      "Sword",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Blademaster"
+      },
+      {
+        "name": "Invisibility"
+      }
+    ],
+    "random_abilities": "2 (Fighter)",
+    "name": "Shin Bo the Ninja",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Shin_Bo_the_Ninja"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Shuri",
+    "hero_class": "The Huntress",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 100
+    },
+    "upkeep": {
+      "gold": 2
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 5
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Bow",
+      "strength": 4
+    },
+    "defense": 3,
+    "resist": 6,
+    "hits": 7,
+    "item_slots": [
+      "Bow",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Ranged Attack",
+        "strength": 8
+      },
+      {
+        "name": "Blademaster"
+      },
+      {
+        "name": "Pathfinding"
+      }
+    ],
+    "random_abilities": "1 (Fighter)",
+    "name": "Shuri the Huntress",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Shuri_the_Huntress"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Sir Harold",
+    "hero_class": "The Knight",
+    "hero_type": "Champion",
+    "hiring_cost": {
+      "gold": 500
+    },
+    "upkeep": {
+      "gold": 0,
+      "modified": true
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 8
+    },
+    "ranged": 5,
+    "resist": 6,
+    "hits": {
+      "value": 9,
+      "modified": true
+    },
+    "item_slots": [
+      "Sword",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Leadership",
+        "super": true
+      },
+      {
+        "name": "Legendary",
+        "super": true
+      },
+      {
+        "name": "Constitution"
+      },
+      {
+        "name": "Noble"
+      }
+    ],
+    "random_abilities": "1 (Fighter)",
+    "name": "Sir Harold the Knight",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Sir_Harold_the_Knight"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Spyder",
+    "hero_class": "The Rogue",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 300
+    },
+    "upkeep": {
+      "gold": 6
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 7
+    },
+    "ranged": 5,
+    "resist": 6,
+    "hits": 8,
+    "item_slots": [
+      "Sword",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Leadership"
+      },
+      {
+        "name": "Legendary",
+        "super": true
+      }
+    ],
+    "random_abilities": "1 (Fighter)",
+    "name": "Spyder the Rogue",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Spyder_the_Rogue"
+  },
+  {
+    "infobox_type": "Spell",
+    "realm": "Arcane",
+    "spell_type": "Summoning Spell",
+    "casting_cost": {
+      "mana": 300
+    },
+    "research_cost": {
+      "research": 500
+    },
+    "effects": "Summons one non-[[Champion]] [[Hero]] to your [[Summoning Circle]]. The summoned Hero is chosen at random from all living, non-[[Champion]] Heroes whom are not currently in your employ.\n\nYou may freely hire or dismiss the summoned Hero. Summoned Heros do not request payment for hiring, but do have an [[Upkeep Cost]].",
+    "name": "Summon Hero",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Summon_Hero"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Taki",
+    "hero_class": "The War Monk",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 150
+    },
+    "upkeep": {
+      "gold": 3
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 6
+    },
+    "ranged": {
+      "value": 5,
+      "modified": true
+    },
+    "resist": 6,
+    "hits": 6,
+    "item_slots": [
+      "Sword",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Agility",
+        "super": true
+      }
+    ],
+    "random_abilities": "1 (Fighter)",
+    "name": "Taki the War Monk",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Taki_the_War_Monk"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Theria",
+    "hero_class": "The Thief",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 100
+    },
+    "upkeep": {
+      "gold": 2
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 5
+    },
+    "ranged": {
+      "value": 5,
+      "modified": true
+    },
+    "resist": {
+      "value": 6,
+      "modified": true
+    },
+    "hits": 7,
+    "item_slots": [
+      "Sword",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Agility"
+      },
+      {
+        "name": "Charmed"
+      }
+    ],
+    "random_abilities": "None",
+    "name": "Theria the Thief",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Theria_the_Thief"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Torin",
+    "hero_class": "The Chosen",
+    "hero_type": "Champion",
+    "hiring_cost": "n/a",
+    "upkeep": {
+      "mana": 12
+    },
+    "requires": [
+      "Incarnation"
+    ],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 12,
+      "modified": true
+    },
+    "ranged": 8,
+    "resist": {
+      "value": 12,
+      "modified": true
+    },
+    "hits": {
+      "value": 12,
+      "modified": true
+    },
+    "item_slots": [
+      "Sword",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Leadership",
+        "super": true
+      },
+      {
+        "name": "Constitution"
+      },
+      {
+        "name": "Might",
+        "super": true
+      },
+      {
+        "name": "Prayermaster"
+      },
+      {
+        "name": "Caster",
+        "mana": 15
+      },
+      {
+        "name": "Missile Immunity"
+      },
+      {
+        "name": "Magic Immunity"
+      }
+    ],
+    "random_abilities": "2 (Any)",
+    "extra_spells": [
+      "Healing",
+      "Holy Armor",
+      "Lionheart]]\n<span style=\"font-size:90%\">Please read [[#Known Bugs|Known Bugs]], below.</span>"
+    ],
+    "name": "Torin the Chosen",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Torin_the_Chosen"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Tumu",
+    "hero_class": "The Assassin",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 150
+    },
+    "upkeep": {
+      "gold": 3
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 3
+    },
+    "ranged": 5,
+    "resist": 6,
+    "hits": 6,
+    "item_slots": [
+      "Sword",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Blademaster"
+      },
+      {
+        "name": "Poison Touch",
+        "strength": 5
+      }
+    ],
+    "random_abilities": "1 (Fighter)",
+    "name": "Tumu the Assassin",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Tumu_the_Assassin"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Valana",
+    "hero_class": "The Bard",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 100
+    },
+    "upkeep": {
+      "gold": 2
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 4
+    },
+    "ranged": 5,
+    "resist": 6,
+    "hits": 6,
+    "item_slots": [
+      "Sword",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Leadership"
+      },
+      {
+        "name": "Caster",
+        "mana": 5
+      }
+    ],
+    "random_abilities": "None",
+    "extra_spells": [
+      "Confusion",
+      "Vertigo"
+    ],
+    "name": "Valana the Bard",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Valana_the_Bard"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Warrax",
+    "hero_class": "The Chaos Warrior",
+    "hero_type": "Champion",
+    "hiring_cost": {
+      "gold": 500
+    },
+    "upkeep": {
+      "gold": 10
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 8
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 8,
+      "modified": true
+    },
+    "defense": 5,
+    "resist": 9,
+    "hits": {
+      "value": 8,
+      "modified": true
+    },
+    "item_slots": [
+      "SwordStaff",
+      "Shield",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Constitution"
+      },
+      {
+        "name": "Arcane Power"
+      },
+      {
+        "name": "Caster",
+        "mana": 10
+      },
+      {
+        "name": "Armor Piercing"
+      }
+    ],
+    "random_abilities": "3 (Any)",
+    "name": "Warrax the Chaos Warrior",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Warrax_the_Chaos_Warrior"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Yramrag",
+    "hero_class": "The Warlock",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 300
+    },
+    "upkeep": {
+      "gold": 6
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 8
+    },
+    "defense": 5,
+    "resist": 10,
+    "hits": 5,
+    "item_slots": [
+      "Staff",
+      "Misc",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Caster",
+        "mana": 15
+      },
+      {
+        "name": "Missile Immunity"
+      }
+    ],
+    "random_abilities": "1 (Mage)",
+    "extra_spells": [
+      "Lightning Bolt",
+      "Doom Bolt",
+      "Warp Lightning"
+    ],
+    "name": "Yramrag the Warlock",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Yramrag_the_Warlock"
+  },
+  {
+    "infobox_type": "Hero",
+    "hero_name": "Zaldron",
+    "hero_class": "The Sage",
+    "hero_type": "Non-Champion",
+    "hiring_cost": {
+      "gold": 100
+    },
+    "upkeep": {
+      "gold": 2
+    },
+    "requires": [],
+    "movement": {
+      "type": "Ground",
+      "speed": 2
+    },
+    "melee": {
+      "type": "melee",
+      "damage_type": "Normal",
+      "strength": 1
+    },
+    "ranged": {
+      "type": "ranged",
+      "damage_type": "Magic",
+      "strength": 6
+    },
+    "defense": 4,
+    "resist": 6,
+    "hits": 5,
+    "item_slots": [
+      "Staff",
+      "Misc",
+      "Misc"
+    ],
+    "abilities": [
+      {
+        "name": "Sage"
+      },
+      {
+        "name": "Caster"
+      }
+    ],
+    "random_abilities": "None",
+    "extra_spells": [
+      "Counter Magic",
+      "Dispel Magic True"
+    ],
+    "name": "Zaldron the Sage",
+    "wiki_url": "https://masterofmagic.fandom.com/wiki/Zaldron_the_Sage"
+  }
+]
