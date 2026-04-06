@@ -1,0 +1,1624 @@
+The following is a list of all 33 town buildings, with complete prerequisite lists. Units produced are not listed in benefits.
+
+{| class="gradientable" style="font-size:100%" valign="top"
+|- class="caption"
+! colspan=8 style="background-color:#1e3122; text-align:center;"| '''Buildings'''
+|- class="firstrow"
+! width=120 colspan=2 | Building
+! Cost
+! Upkeep
+! width=150 | Prerequisites
+! Benefits
+|- valign=top
+| [[File:TownBuilding_Barracks.png|20px|link=Barracks]]
+| [[Barracks]]
+| 30
+|
+|
+|
+|- valign=top
+| [[File:TownBuilding_Armory.png|20px|link=Armory]]
+| [[Armory]]
+| 80
+| {{Gold|2}}
+| [[File:TownBuilding_Smithy.png|20px|link=Smithy]][[File:TownBuilding_Barracks.png|20px|link=Barracks]]
+|
+|- valign=top
+| [[File:TownBuilding_FightersGuild.png|20px|link=Fighters' Guild]]
+| [[Fighters' Guild]]
+| 200
+| {{Gold|3}}
+| [[File:TownBuilding_Smithy.png|20px|link=Smithy]][[File:TownBuilding_Barracks.png|20px|link=Barracks]][[File:TownBuilding_Armory.png|20px|link=Armory]]
+|All new [[Normal Unit|normal units]] starts with {{Exp|20}} Experience points ([[Experience Level|Regular Level]]).
+|- valign=top
+| [[File:TownBuilding_ArmorersGuild.png|20px|link=Armorers' Guild]]
+| [[Armorers' Guild]]
+| 350
+| {{Gold|4}}
+| [[File:TownBuilding_Smithy.png|20px|link=Smithy]][[File:TownBuilding_Barracks.png|20px|link=Barracks]][[File:TownBuilding_Armory.png|20px|link=Armory]][[File:TownBuilding_FightersGuild.png|20px|link=Fighters' Guild]]
+|
+|- valign=top
+| [[File:TownBuilding_WarCollege.png|20px|link=War College]]
+| [[War College]]
+| 500
+| {{Gold|5}}
+| [[File:TownBuilding_BuildersHall.png|20px|link=Builders' Hall]][[File:TownBuilding_Library.png|20px|link=Library]][[File:TownBuilding_SagesGuild.png|20px|link=Sages' Guild]][[File:TownBuilding_University.png|20px|link=University]][[File:TownBuilding_Smithy.png|20px|link=Smithy]][[File:TownBuilding_Barracks.png|20px|link=Barracks]][[File:TownBuilding_Armory.png|20px|link=Armory]][[File:TownBuilding_FightersGuild.png|20px|link=Fighters' Guild]][[File:TownBuilding_ArmorersGuild.png|20px|link=Armorers' Guild]]
+|All new [[Normal Unit|normal units]] starts with {{Exp|61}} Experience points ([[Experience Level|Veteran Level]]).
+|- valign=top
+| [[File:TownBuilding_Smithy.png|20px|link=Smithy]]
+| [[Smithy]]
+| 40
+| {{Gold|1}}
+|
+|
+|- valign=top
+| [[File:TownBuilding_Stables.png|20px|link=Stables]]
+| [[Stables]]
+| 80
+| {{Gold|2}}
+| [[File:TownBuilding_Smithy.png|20px|link=Smithy]]
+|
+|- valign=top
+| [[File:TownBuilding_AnimistsGuild.png|20px|link=Animists' Guild]]
+| [[Animists' Guild]]
+| 300
+| {{Gold|5}}
+| [[File:TownBuilding_BuildersHall.png|20px|link=Builders' Hall]][[File:TownBuilding_Shrine.png|20px|link=Shrine]][[File:TownBuilding_Temple.png|20px|link=Temple]][[File:TownBuilding_Smithy.png|20px|link=Smithy]][[File:TownBuilding_Stables.png|20px|link=Stables]]
+| [[Farmer]]s {{Food|x3}}, -1 [[Unrest]], stationed <br>troups heal 66.7% faster
+|- valign=top
+| [[File:TownBuilding_FantasticStable.png|20px|link=Fantastic Stable]]
+| [[Fantastic Stable]]
+| 600
+| {{Gold|6}}
+| [[File:TownBuilding_Smithy.png|20px|link=Smithy]][[File:TownBuilding_Barracks.png|20px|link=Barracks]][[File:TownBuilding_Armory.png|20px|link=Armory]][[File:TownBuilding_FightersGuild.png|20px|link=Fighters' Guild]][[File:TownBuilding_ArmorersGuild.png|20px|link=Armorers' Guild]][[File:TownBuilding_BuildersHall.png|20px|link=Builders' Hall]][[File:TownBuilding_Shrine.png|20px|link=Shrine]][[File:TownBuilding_Temple.png|20px|link=Temple]][[File:TownBuilding_Stables.png|20px|link=Stables]][[File:TownBuilding_AnimistsGuild.png|20px|link=Animists' Guild]]
+|
+|- valign=top
+| [[File:TownBuilding_ShipWrightsGuild.png|20px|link=Shipwrights' Guild]]
+| [[Shipwrights' Guild]]
+| 100
+| {{Gold|1}}
+| [[File:Terrain Arcanus Shore.png|20px|link=Shore]]
+|
+|- valign=top
+| [[File:TownBuilding_Shipyard.png|20px|link=Ship Yard]]
+| [[Ship Yard]]
+| 200
+| {{Gold|2}}
+| [[File:Terrain Arcanus Shore.png|20px|link=Shore]][[File:Terrain_Arcanus_Forest.png|20px|link=Forest]][[File:TownBuilding_Sawmill.png|20px|link=Sawmill]][[File:TownBuilding_ShipWrightsGuild.png|20px|link=Shipwrights' Guild]]
+|
+|- valign=top
+| [[File:TownBuilding_MaritimeGuild.png|20px|link=Maritime Guild]]
+| [[Maritime Guild]]
+| 400
+| {{Gold|4}}
+| [[File:Terrain Arcanus Shore.png|20px|link=Shore]][[File:TownBuilding_Smithy.png|20px|link=Smithy]][[File:TownBuilding_Barracks.png|20px|link=Barracks]][[File:TownBuilding_Armory.png|20px|link=Armory]][[File:Terrain_Arcanus_Forest.png|20px|link=Forest]][[File:TownBuilding_Sawmill.png|20px|link=Sawmill]][[File:TownBuilding_ShipWrightsGuild.png|20px|link=Shipwrights' Guild]][[File:TownBuilding_Shipyard.png|20px|link=Ship Yard]]
+|
+|- valign=top
+| [[File:TownBuilding_Sawmill.png|20px|link=Sawmill]]
+| [[Sawmill]]
+| 100
+| {{Gold|2}}
+| [[File:Terrain_Arcanus_Forest.png|20px|link=Forest]]
+| {{Production|+25%}}
+|- valign=top
+| [[File:TownBuilding_Library.png|20px|link=Library]]
+| [[Library]]
+| 60
+| {{Gold|1}}
+| [[File:TownBuilding_BuildersHall.png|20px|link=Builders' Hall]]
+| {{Research|+2}}
+|- valign=top
+| [[File:TownBuilding_SagesGuild.png|20px|link=Sages' Guild]]
+| [[Sages' Guild]]
+| 120
+| {{Gold|2}}
+| [[File:TownBuilding_BuildersHall.png|20px|link=Builders' Hall]][[File:TownBuilding_Library.png|20px|link=Library]]
+| {{Research|+3}}
+|- valign=top
+| [[File:TownBuilding_Oracle.png|20px|link=Oracle]]
+| [[Oracle]]
+| 500
+| {{Gold|4}}
+| [[File:TownBuilding_BuildersHall.png|20px|link=Builders' Hall]][[File:TownBuilding_Shrine.png|20px|link=Shrine]][[File:TownBuilding_Temple.png|20px|link=Temple]][[File:TownBuilding_Parthenon.png|20px|link=Parthenon]][[File:TownBuilding_Library.png|20px|link=Library]][[File:TownBuilding_SagesGuild.png|20px|link=Sages' Guild]][[File:TownBuilding_University.png|20px|link=University]]
+| Sight Range 4, -2 [[Unrest]]
+|- valign=top
+| [[File:TownBuilding_AlchemistsGuild.png|20px|link=Alchemists' Guild]]
+| [[Alchemists' Guild]]
+| 250
+| {{Gold|3}}
+| [[File:TownBuilding_BuildersHall.png|20px|link=Builders' Hall]][[File:TownBuilding_Library.png|20px|link=Library]][[File:TownBuilding_SagesGuild.png|20px|link=Sages' Guild]]
+| {{Power|+3}}, newly built troups have {{Melee|Magic|Magic Weapons}}
+|- valign=top
+| [[File:TownBuilding_University.png|20px|link=University]]
+| [[University]]
+| 300
+| {{Gold|3}}
+| [[File:TownBuilding_BuildersHall.png|20px|link=Builders' Hall]][[File:TownBuilding_Library.png|20px|link=Library]][[File:TownBuilding_SagesGuild.png|20px|link=Sages' Guild]]
+| {{Research|+5}}
+|- valign=top
+| [[File:TownBuilding_WizardsGuild.png|20px|link=Wizards' Guild]]
+| [[Wizards' Guild]]
+| 1000
+| {{Gold|5}} {{Power|3}}
+| [[File:TownBuilding_BuildersHall.png|20px|link=Builders' Hall]][[File:TownBuilding_Library.png|20px|link=Library]][[File:TownBuilding_SagesGuild.png|20px|link=Sages' Guild]][[File:TownBuilding_AlchemistsGuild.png|20px|link=Alchemists' Guild]][[File:TownBuilding_University.png|20px|link=University]]
+| {{Research|+8}}
+|- valign=top
+| [[File:TownBuilding_Shrine.png|20px|link=Shrine]]
+| [[Shrine]]
+| 100
+| {{Gold|1}}
+| [[File:TownBuilding_BuildersHall.png|20px|link=Builders' Hall]]
+| {{Power|+1}}, -1 [[Unrest]]
+|- valign=top
+| [[File:TownBuilding_Temple.png|20px|link=Temple]]
+| [[Temple]]
+| 200
+| {{Gold|2}}
+| [[File:TownBuilding_BuildersHall.png|20px|link=Builders' Hall]][[File:TownBuilding_Shrine.png|20px|link=Shrine]]
+| {{Power|+2}}, -1 [[Unrest]]
+|- valign=top
+| [[File:TownBuilding_Parthenon.png|20px|link=Parthenon]]
+| [[Parthenon]]
+| 400
+| {{Gold|3}}
+| [[File:TownBuilding_BuildersHall.png|20px|link=Builders' Hall]][[File:TownBuilding_Shrine.png|20px|link=Shrine]][[File:TownBuilding_Temple.png|20px|link=Temple]]
+| {{Power|+3}}, -1 [[Unrest]]
+|- valign=top
+| [[File:TownBuilding_Cathedral.png|20px|link=Cathedral]]
+| [[Cathedral]]
+| 800
+| {{Gold|4}}
+| [[File:TownBuilding_BuildersHall.png|20px|link=Builders' Hall]][[File:TownBuilding_Shrine.png|20px|link=Shrine]][[File:TownBuilding_Temple.png|20px|link=Temple]][[File:TownBuilding_Parthenon.png|20px|link=Parthenon]]
+| {{Power|+4}}, -1 [[Unrest]]
+|- valign=top
+| [[File:TownBuilding_Marketplace.png|20px|link=Marketplace]]
+| [[Marketplace]]
+| 100
+| {{Gold|1}}
+| [[File:TownBuilding_Smithy.png|20px|link=Smithy]]
+| {{Gold|+50%}}
+|- valign=top
+| [[File:TownBuilding_Bank.png|20px|link=Bank]]
+| [[Bank]]
+| 250
+| {{Gold|3}}
+| [[File:TownBuilding_Smithy.png|20px|link=Smithy]][[File:TownBuilding_Marketplace.png|20px|link=Marketplace]][[File:TownBuilding_BuildersHall.png|20px|link=Builders' Hall]][[File:TownBuilding_Library.png|20px|link=Library]][[File:TownBuilding_SagesGuild.png|20px|link=Sages' Guild]][[File:TownBuilding_University.png|20px|link=University]]
+| {{Gold|+50%}}
+|- valign=top
+| [[File:TownBuilding_MerchantsGuild.png|20px|link=Merchants' Guild]]
+| [[Merchants' Guild]]
+| 600
+| {{Gold|5}}
+| [[File:Terrain_Arcanus_Forest.png|20px|link=Forest]][[File:TownBuilding_Sawmill.png|20px|link=Sawmill]][[File:Terrain_Arcanus_Shore.png|20px|link=Shore]][[File:TownBuilding_ShipWrightsGuild.png|20px|link=Shipwrights' Guild]][[File:TownBuilding_Shipyard.png|20px|link=Ship Yard]][[File:TownBuilding_Smithy.png|20px|link=Smithy]][[File:TownBuilding_Marketplace.png|20px|link=Marketplace]][[File:TownBuilding_BuildersHall.png|20px|link=Builders' Hall]][[File:TownBuilding_Library.png|20px|link=Library]][[File:TownBuilding_SagesGuild.png|20px|link=Sages' Guild]][[File:TownBuilding_University.png|20px|link=University]][[File:TownBuilding_Bank.png|20px|link=Bank]]
+| {{Gold|+100%}}
+|- valign=top
+| [[File:TownBuilding_Granary.png|20px|link=Granary]]
+| [[Granary]]
+| 40
+| {{Gold|1}}
+| [[File:TownBuilding_BuildersHall.png|20px|link=Builders' Hall]]
+| {{Food|+2}}, +20 [[Population Growth]], <br>+2 [[Maximum Population]]
+|- valign=top
+| [[File:TownBuilding_FarmersMarket.png|20px|link=Farmers' Market]]
+| [[Farmers' Market]]
+| 100
+| {{Gold|2}}
+| [[File:TownBuilding_BuildersHall.png|20px|link=Builders' Hall]][[File:TownBuilding_Granary.png|20px|link=Granary]][[File:TownBuilding_Smithy.png|20px|link=Smithy]][[File:TownBuilding_Marketplace.png|20px|link=Marketplace]]
+| {{Food|+3}}, +30 [[Population Growth]], <br>+3 [[Maximum Population]]
+|- valign=top
+| [[File:TownBuilding_ForestersGuild.png|20px|link=Foresters' Guild]]
+| [[Foresters' Guild]]
+| 200
+| {{Gold|2}}
+| [[File:Terrain_Arcanus_Forest.png|20px|link=Forest]][[File:TownBuilding_Sawmill.png|20px|link=Sawmill]]
+| {{Food|+2}}, {{Production|+25%}}
+|- valign=top
+| [[File:TownBuilding_BuildersHall.png|20px|link=Builders' Hall]]
+| [[Builders' Hall]]
+| 60
+| {{Gold|1}}
+|
+|
+|- valign="top"
+| [[File:TownBuilding_MechaniciansGuild.png|20px|link=Mechanicians' Guild]]
+| [[Mechanicians' Guild]]
+| 600
+
+| {{Gold|5}}
+| [[File:Terrain_Arcanus_Hill.png|20px|link=Hill]]/[[File:Terrain_Arcanus_Mountain.png|20px|link=Mountain]]/[[File:Terrain_Arcanus_Volcano.png|20px|link=Volcano]][[File:TownBuilding_BuildersHall.png|20px|link=Builders' Hall]][[File:TownBuilding_MinersGuild.png|20px|link=Miners' Guild]][[File:TownBuilding_Library.png|20px|link=Library]][[File:TownBuilding_SagesGuild.png|20px|link=Sages' Guild]][[File:TownBuilding_University.png|20px|link=University]]
+| {{Production|+50%}}
+|- valign="top"
+| [[File:TownBuilding_MinersGuild.png|20px|link=Miners' Guild]]
+| [[Miners' Guild]]
+| 300
+| {{Gold|3}}
+| [[File:Terrain_Arcanus_Hill.png|20px|link=Hill]]/[[File:Terrain_Arcanus_Mountain.png|20px|link=Mountain]]/[[File:Terrain_Arcanus_Volcano.png|20px|link=Volcano]][[File:TownBuilding_BuildersHall.png|20px|link=Builders' Hall]]
+| [[Minerals]] +50%, {{Production|+50%}}
+|- valign="top"
+| [[File:TownBuilding_CityWalls.png|20px|link=City Walls]]
+| [[City Walls]]
+| 150
+| {{Gold|2}}
+| [[File:TownBuilding_BuildersHall.png|20px|link=Builders' Hall]]
+|Sight Range 3
+|}
+== Complete Table of Allowed and Required Buildings ==
+The following is a ''complete'' table of which buildings are one of:
+*<span style="background-color:#00ff00;">Directly Allowed by this building</span>
+*<span style="background-color:#008000;">Indirectly Allowed by this building</span>
+*<span style="background-color:#ff0000;">Directly Required by this building</span>
+*<span style="background-color:#800000;">Indirectly Required by this building</span>
+
+{| class="gradientable" style="font-size:90%" valign="top"
+|- valign="top"
+| [[Barracks]]
+| style="background-color:white;" |
+| style="background-color:#00ff00;" | [[Armory|A]]
+| style="background-color:#008000;" | [[Fighters' Guild|a]]
+| style="background-color:#008000;" | [[Armorers' Guild|a]]
+| style="background-color:#008000;" | [[War College|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#008000;" | [[Fantastic Stable|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#008000;" | [[Maritime Guild|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Armory]]
+| style="background-color:#ff0000;" | [[Barracks|R]]
+| style="background-color:white;" |
+| style="background-color:#00ff00;" | [[Fighters' Guild|A]]
+| style="background-color:#008000;" | [[Armorers' Guild|a]]
+| style="background-color:#008000;" | [[War College|a]]
+| style="background-color:#ff0000;" | [[Smithy|R]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#008000;" | [[Fantastic Stable|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#00ff00;" | [[Maritime Guild|A]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Fighters' Guild]]
+| style="background-color:#800000;" | [[Barracks|r]]
+| style="background-color:#ff0000;" | [[Armory|R]]
+| style="background-color:white;" |
+| style="background-color:#00ff00;" | [[Armorers' Guild|A]]
+| style="background-color:#008000;" | [[War College|a]]
+| style="background-color:#800000;" | [[Smithy|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#008000;" | [[Fantastic Stable|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Armorers' Guild]]
+| style="background-color:#800000;" | [[Barracks|r]]
+| style="background-color:#800000;" | [[Armory|r]]
+| style="background-color:#ff0000;" | [[Fighters' Guild|R]]
+| style="background-color:white;" |
+| style="background-color:#00ff00;" | [[War College|A]]
+| style="background-color:#800000;" | [[Smithy|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#00ff00;" | [[Fantastic Stable|A]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[War College]]
+| style="background-color:#800000;" | [[Barracks|r]]
+| style="background-color:#800000;" | [[Armory|r]]
+| style="background-color:#800000;" | [[Fighters' Guild|r]]
+| style="background-color:#ff0000;" | [[Armorers' Guild|R]]
+| style="background-color:white;" |
+| style="background-color:#800000;" | [[Smithy|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Library|r]]
+| style="background-color:#800000;" | [[Sages' Guild|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#ff0000;" | [[University|R]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Builders' Hall|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Smithy]]
+| style="background-color:#808080;" |
+| style="background-color:#00ff00;" | [[Armory|A]]
+| style="background-color:#008000;" | [[Fighters' Guild|a]]
+| style="background-color:#008000;" | [[Armorers' Guild|a]]
+| style="background-color:#008000;" | [[War College|a]]
+| style="background-color:white;" |
+| style="background-color:#00ff00;" | [[Stables|A]]
+| style="background-color:#008000;" | [[Animists' Guild|a]]
+| style="background-color:#008000;" | [[Fantastic Stable|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#008000;" | [[Maritime Guild|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#00ff00;" | [[Marketplace|A]]
+| style="background-color:#008000;" | [[Bank|a]]
+| style="background-color:#008000;" | [[Merchants' Guild|a]]
+| style="background-color:#808080;" |
+| style="background-color:#008000;" | [[Farmers' Market|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Stables]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#ff0000;" | [[Smithy|R]]
+| style="background-color:white;" |
+| style="background-color:#00ff00;" | [[Animists' Guild|A]]
+| style="background-color:#008000;" | [[Fantastic Stable|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Animists' Guild]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Smithy|r]]
+| style="background-color:#ff0000;" | [[Stables|R]]
+| style="background-color:white;" |
+| style="background-color:#00ff00;" | [[Fantastic Stable|A]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Shrine|r]]
+| style="background-color:#ff0000;" | [[Temple|R]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Builders' Hall|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Fantastic Stable]]
+| style="background-color:#800000;" | [[Barracks|r]]
+| style="background-color:#800000;" | [[Armory|r]]
+| style="background-color:#800000;" | [[Fighters' Guild|r]]
+| style="background-color:#ff0000;" | [[Armorers' Guild|R]]
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Smithy|r]]
+| style="background-color:#800000;" | [[Stables|r]]
+| style="background-color:#ff0000;" | [[Animists' Guild|R]]
+| style="background-color:white;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Shrine|r]]
+| style="background-color:#800000;" | [[Temple|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Builders' Hall|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Shipwrights' Guild]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:white;" |
+| style="background-color:#00ff00;" | [[Ship Yard|A]]
+| style="background-color:#008000;" | [[Maritime Guild|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#008000;" | [[Merchants' Guild|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:#ff0000;" | [[Shore|R]]
+|- valign="top"
+| [[Ship Yard]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#ff0000;" | [[Shipwrights' Guild|R]]
+| style="background-color:white;" |
+| style="background-color:#00ff00;" | [[Maritime Guild|A]]
+| style="background-color:#ff0000;" | [[Sawmill|R]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#00ff00;" | [[Merchants' Guild|A]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Forest|r]]
+| style="background-color:SaddleBrown;" |
+| style="background-color:#800000;" | [[Shore|r]]
+|- valign="top"
+| [[Maritime Guild]]
+| style="background-color:#800000;" | [[Barracks|r]]
+| style="background-color:#ff0000;" | [[Armory|R]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Smithy|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Shipwrights' Guild|r]]
+| style="background-color:#ff0000;" | [[Ship Yard|R]]
+| style="background-color:white;" |
+| style="background-color:#800000;" | [[Sawmill|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Forest|r]]
+| style="background-color:SaddleBrown;" |
+| style="background-color:#800000;" | [[Shore|r]]
+|- valign="top"
+| [[Sawmill]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#00ff00;" | [[Ship Yard|A]]
+| style="background-color:#008000;" | [[Maritime Guild|a]]
+| style="background-color:white;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#008000;" | [[Merchants' Guild|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#00ff00;" | [[Foresters' Guild|A]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#ff0000;" | [[Forest|R]]
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Library]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#008000;" | [[War College|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:white;" |
+| style="background-color:#00ff00;" | [[Sages' Guild|A]]
+| style="background-color:#008000;" | [[Oracle|a]]
+| style="background-color:#008000;" | [[Alchemists' Guild|a]]
+| style="background-color:#008000;" | [[University|a]]
+| style="background-color:#008000;" | [[Wizards' Guild|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#008000;" | [[Bank|a]]
+| style="background-color:#008000;" | [[Merchants' Guild|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#ff0000;" | [[Builders' Hall|R]]
+| style="background-color:#008000;" | [[Mechanicians' Guild|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Sages' Guild]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#008000;" | [[War College|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#ff0000;" | [[Library|R]]
+| style="background-color:white;" |
+| style="background-color:#008000;" | [[Oracle|a]]
+| style="background-color:#00ff00;" | [[Alchemists' Guild|A]]
+| style="background-color:#00ff00;" | [[University|A]]
+| style="background-color:#008000;" | [[Wizards' Guild|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#008000;" | [[Bank|a]]
+| style="background-color:#008000;" | [[Merchants' Guild|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Builders' Hall|r]]
+| style="background-color:#008000;" | [[Mechanicians' Guild|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Oracle]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Library|r]]
+| style="background-color:#800000;" | [[Sages' Guild|r]]
+| style="background-color:white;" |
+| style="background-color:#808080;" |
+| style="background-color:#ff0000;" | [[University|R]]
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Shrine|r]]
+| style="background-color:#800000;" | [[Temple|r]]
+| style="background-color:#ff0000;" | [[Parthenon|R]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Builders' Hall|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Alchemists' Guild]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Library|r]]
+| style="background-color:#ff0000;" | [[Sages' Guild|R]]
+| style="background-color:#808080;" |
+| style="background-color:white;" |
+| style="background-color:#808080;" |
+| style="background-color:#00ff00;" | [[Wizards' Guild|A]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Builders' Hall|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[University]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#00ff00;" | [[War College|A]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Library|r]]
+| style="background-color:#ff0000;" | [[Sages' Guild|R]]
+| style="background-color:#00ff00;" | [[Oracle|A]]
+| style="background-color:#808080;" |
+| style="background-color:white;" |
+| style="background-color:#00ff00;" | [[Wizards' Guild|A]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#00ff00;" | [[Bank|A]]
+| style="background-color:#008000;" | [[Merchants' Guild|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Builders' Hall|r]]
+| style="background-color:#00ff00;" | [[Mechanicians' Guild|A]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Wizards' Guild]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Library|r]]
+| style="background-color:#800000;" | [[Sages' Guild|r]]
+| style="background-color:#808080;" |
+| style="background-color:#ff0000;" | [[Alchemists' Guild|R]]
+| style="background-color:#ff0000;" | [[University|R]]
+| style="background-color:white;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Builders' Hall|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Shrine]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#008000;" | [[Animists' Guild|a]]
+| style="background-color:#008000;" | [[Fantastic Stable|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#008000;" | [[Oracle|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:white;" |
+| style="background-color:#00ff00;" | [[Temple|A]]
+| style="background-color:#008000;" | [[Parthenon|a]]
+| style="background-color:#008000;" | [[Cathedral|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#ff0000;" | [[Builders' Hall|R]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Temple]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#00ff00;" | [[Animists' Guild|A]]
+| style="background-color:#008000;" | [[Fantastic Stable|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#008000;" | [[Oracle|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#ff0000;" | [[Shrine|R]]
+| style="background-color:white;" |
+| style="background-color:#00ff00;" | [[Parthenon|A]]
+| style="background-color:#008000;" | [[Cathedral|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Builders' Hall|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Parthenon]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#00ff00;" | [[Oracle|A]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Shrine|r]]
+| style="background-color:#ff0000;" | [[Temple|R]]
+| style="background-color:white;" |
+| style="background-color:#00ff00;" | [[Cathedral|A]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Builders' Hall|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Cathedral]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Shrine|r]]
+| style="background-color:#800000;" | [[Temple|r]]
+| style="background-color:#ff0000;" | [[Parthenon|R]]
+| style="background-color:white;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Builders' Hall|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Marketplace]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#ff0000;" | [[Smithy|R]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:white;" |
+| style="background-color:#00ff00;" | [[Bank|A]]
+| style="background-color:#008000;" | [[Merchants' Guild|a]]
+| style="background-color:#808080;" |
+| style="background-color:#00ff00;" | [[Farmers' Market|A]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Bank]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Smithy|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Library|r]]
+| style="background-color:#800000;" | [[Sages' Guild|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#ff0000;" | [[University|R]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#ff0000;" | [[Marketplace|R]]
+| style="background-color:white;" |
+| style="background-color:#00ff00;" | [[Merchants' Guild|A]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Builders' Hall|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Merchants' Guild]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Smithy|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Shipwrights' Guild|r]]
+| style="background-color:#ff0000;" | [[Ship Yard|R]]
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Sawmill|r]]
+| style="background-color:#800000;" | [[Library|r]]
+| style="background-color:#800000;" | [[Sages' Guild|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[University|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Marketplace|r]]
+| style="background-color:#ff0000;" | [[Bank|R]]
+| style="background-color:white;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Builders' Hall|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Forest|r]]
+| style="background-color:SaddleBrown;" |
+| style="background-color:#800000;" | [[Shore|r]]
+|- valign="top"
+| [[Granary]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:white;" |
+| style="background-color:#00ff00;" | [[Farmers' Market|A]]
+| style="background-color:#808080;" |
+| style="background-color:#ff0000;" | [[Builders' Hall|R]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Farmers' Market]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Smithy|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#ff0000;" | [[Marketplace|R]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#ff0000;" | [[Granary|R]]
+| style="background-color:white;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Builders' Hall|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Foresters' Guild]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#ff0000;" | [[Sawmill|R]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:white;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Forest|r]]
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Builders' Hall]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#008000;" | [[War College|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#008000;" | [[Animists' Guild|a]]
+| style="background-color:#008000;" | [[Fantastic Stable|a]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#00ff00;" | [[Library|A]]
+| style="background-color:#008000;" | [[Sages' Guild|a]]
+| style="background-color:#008000;" | [[Oracle|a]]
+| style="background-color:#008000;" | [[Alchemists' Guild|a]]
+| style="background-color:#008000;" | [[University|a]]
+| style="background-color:#008000;" | [[Wizards' Guild|a]]
+| style="background-color:#00ff00;" | [[Shrine|A]]
+| style="background-color:#008000;" | [[Temple|a]]
+| style="background-color:#008000;" | [[Parthenon|a]]
+| style="background-color:#008000;" | [[Cathedral|a]]
+| style="background-color:#808080;" |
+| style="background-color:#008000;" | [[Bank|a]]
+| style="background-color:#008000;" | [[Merchants' Guild|a]]
+| style="background-color:#00ff00;" | [[Granary|A]]
+| style="background-color:#008000;" | [[Farmers' Market|a]]
+| style="background-color:#808080;" |
+| style="background-color:white;" |
+| style="background-color:#008000;" | [[Mechanicians' Guild|a]]
+| style="background-color:#00ff00;" | [[Miners' Guild|A]]
+| style="background-color:#00ff00;" | [[City Walls|A]]
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Mechanicians' Guild]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Library|r]]
+| style="background-color:#800000;" | [[Sages' Guild|r]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#ff0000;" | [[University|R]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#800000;" | [[Builders' Hall|r]]
+| style="background-color:white;" |
+| style="background-color:#ff0000;" | [[Miners' Guild|R]]
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:#800000;" | [[Hills|r]]
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[Miners' Guild]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#ff0000;" | [[Builders' Hall|R]]
+| style="background-color:#00ff00;" | [[Mechanicians' Guild|A]]
+| style="background-color:white;" |
+| style="background-color:#808080;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:#ff0000;" | [[Hills|R]]
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| [[City Walls]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:#ff0000;" | [[Builders' Hall|R]]
+| style="background-color:#808080;" |
+| style="background-color:#808080;" |
+| style="background-color:white;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+|- valign="top"
+| style="background-color:#452206;" | [[Forest]]
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:#008000;" | [[Ship Yard|a]]
+| style="background-color:#008000;" | [[Maritime Guild|a]]
+| style="background-color:#00ff00;" | [[Sawmill|A]]
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:#008000;" | [[Merchants' Guild|a]]
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:#008000;" | [[Foresters' Guild|a]]
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="visibility:hidden;" |
+| style="visibility:hidden;" |
+| style="visibility:hidden;" |
+|- valign="top"
+| style="background-color:#452206;" | [[Hill]] or [[Mountain]]
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:#008000;" | [[Mechanicians' Guild|a]]
+| style="background-color:#00ff00;" | [[Miners' Guild|A]]
+| style="background-color:SaddleBrown;" |
+| style="visibility:hidden;" |
+| style="visibility:hidden;" |
+| style="visibility:hidden;" |
+|- valign="top"
+| style="background-color:#452206;" | [[Shore]]
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:#00ff00;" | [[Shipwrights' Guild|A]]
+| style="background-color:#008000;" | [[Ship Yard|a]]
+| style="background-color:#008000;" | [[Maritime Guild|a]]
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:#008000;" | [[Merchants' Guild|a]]
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="background-color:SaddleBrown;" |
+| style="visibility:hidden;" |
+| style="visibility:hidden;" |
+| style="visibility:hidden;" |
+|}
+Brown squares in the above chart represent requirements related to terrain tiles. Note that unlike other indirect requirements, terrain tiles such as a [[Forest]]s may no longer be present in the town after a [[Sawmill]] has been constructed due to the effects of {{Nature|link = Change Terrain}} or {{Chaos|Raise Volcano}}, but this will not prevent follow-up buildings from being constructed - the requirement truly is indirect. The same is true of [[Hill]]s or [[Mountain]]s and the [[Miners' Guild]].
+
+[[Category:Lists]]

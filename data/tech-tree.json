@@ -1,0 +1,2369 @@
+{
+  "buildings": {
+    "Barracks": {
+      "cost": 30,
+      "upkeep": 0,
+      "requires": [],
+      "effects": "Enables basic military units",
+      "unlocks": [
+        "Armory",
+        "Fighters' Guild",
+        "Armorers' Guild",
+        "Maritime Guild",
+        "War College",
+        "Fantastic Stable"
+      ],
+      "available_to": [
+        "Barbarians",
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "Dwarves",
+        "Gnolls",
+        "Halflings",
+        "High Elves",
+        "High Men",
+        "Klackons",
+        "Lizardmen",
+        "Nomads",
+        "Orcs",
+        "Trolls"
+      ]
+    },
+    "Smithy": {
+      "cost": 40,
+      "upkeep": 1,
+      "requires": [],
+      "effects": "Enables Swordsmen; gates military and economic trees",
+      "unlocks": [
+        "Armory",
+        "Stables",
+        "Marketplace",
+        "Fighters' Guild",
+        "Bank",
+        "Animists' Guild",
+        "Armorers' Guild",
+        "Maritime Guild",
+        "War College",
+        "Fantastic Stable",
+        "Merchants' Guild",
+        "Farmers' Market"
+      ],
+      "available_to": [
+        "Barbarians",
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "Dwarves",
+        "Gnolls",
+        "Halflings",
+        "High Elves",
+        "High Men",
+        "Klackons",
+        "Lizardmen",
+        "Nomads",
+        "Orcs",
+        "Trolls"
+      ]
+    },
+    "Builders' Hall": {
+      "cost": 60,
+      "upkeep": 1,
+      "requires": [],
+      "effects": "Gates research, religious, and economic trees",
+      "unlocks": [
+        "Granary",
+        "Library",
+        "Shrine",
+        "Temple",
+        "Sages' Guild",
+        "City Walls",
+        "Alchemists' Guild",
+        "Bank",
+        "University",
+        "Animists' Guild",
+        "Parthenon",
+        "War College",
+        "Oracle",
+        "Fantastic Stable",
+        "Mechanicians' Guild",
+        "Merchants' Guild",
+        "Miners' Guild",
+        "Farmers' Market",
+        "Cathedral",
+        "Wizards' Guild"
+      ],
+      "available_to": [
+        "Barbarians",
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "Dwarves",
+        "Gnolls",
+        "Halflings",
+        "High Elves",
+        "High Men",
+        "Klackons",
+        "Lizardmen",
+        "Nomads",
+        "Orcs",
+        "Trolls"
+      ]
+    },
+    "Granary": {
+      "cost": 40,
+      "upkeep": 1,
+      "requires": [
+        "Builders' Hall"
+      ],
+      "effects": "+2 Food, +20 Pop Growth, +2 Max Pop",
+      "unlocks": [
+        "Farmers' Market"
+      ],
+      "available_to": [
+        "Barbarians",
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "Dwarves",
+        "Gnolls",
+        "Halflings",
+        "High Elves",
+        "High Men",
+        "Klackons",
+        "Lizardmen",
+        "Nomads",
+        "Orcs",
+        "Trolls"
+      ]
+    },
+    "Library": {
+      "cost": 60,
+      "upkeep": 1,
+      "requires": [
+        "Builders' Hall"
+      ],
+      "effects": "+2 Research",
+      "unlocks": [
+        "Sages' Guild",
+        "Alchemists' Guild",
+        "Bank",
+        "University",
+        "War College",
+        "Oracle",
+        "Merchants' Guild",
+        "Wizards' Guild"
+      ],
+      "available_to": [
+        "Barbarians",
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "Dwarves",
+        "Gnolls",
+        "Halflings",
+        "High Elves",
+        "High Men",
+        "Klackons",
+        "Lizardmen",
+        "Nomads",
+        "Orcs",
+        "Trolls"
+      ]
+    },
+    "Shrine": {
+      "cost": 100,
+      "upkeep": 1,
+      "requires": [
+        "Builders' Hall"
+      ],
+      "effects": "+1 Power, -1 Unrest",
+      "unlocks": [
+        "Temple",
+        "Animists' Guild",
+        "Parthenon",
+        "Oracle",
+        "Fantastic Stable",
+        "Cathedral"
+      ],
+      "available_to": [
+        "Barbarians",
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "Dwarves",
+        "Gnolls",
+        "Halflings",
+        "High Elves",
+        "High Men",
+        "Klackons",
+        "Lizardmen",
+        "Nomads",
+        "Orcs",
+        "Trolls"
+      ]
+    },
+    "Armory": {
+      "cost": 80,
+      "upkeep": 2,
+      "requires": [
+        "Smithy",
+        "Barracks"
+      ],
+      "effects": "Enables armored units",
+      "unlocks": [
+        "Fighters' Guild",
+        "Armorers' Guild",
+        "Maritime Guild",
+        "War College",
+        "Fantastic Stable"
+      ],
+      "available_to": [
+        "Barbarians",
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "Dwarves",
+        "Gnolls",
+        "Halflings",
+        "High Elves",
+        "High Men",
+        "Klackons",
+        "Lizardmen",
+        "Nomads",
+        "Orcs",
+        "Trolls"
+      ]
+    },
+    "Stables": {
+      "cost": 80,
+      "upkeep": 2,
+      "requires": [
+        "Smithy"
+      ],
+      "effects": "Enables cavalry",
+      "unlocks": [
+        "Animists' Guild",
+        "Fantastic Stable"
+      ],
+      "available_to": [
+        "Barbarians",
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "Gnolls",
+        "High Elves",
+        "High Men",
+        "Klackons",
+        "Lizardmen",
+        "Nomads",
+        "Orcs",
+        "Trolls"
+      ]
+    },
+    "Marketplace": {
+      "cost": 100,
+      "upkeep": 1,
+      "requires": [
+        "Smithy"
+      ],
+      "effects": "+50% Gold from surplus food",
+      "unlocks": [
+        "Bank",
+        "Merchants' Guild",
+        "Farmers' Market"
+      ],
+      "available_to": [
+        "Barbarians",
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "Dwarves",
+        "Gnolls",
+        "High Elves",
+        "High Men",
+        "Klackons",
+        "Lizardmen",
+        "Nomads",
+        "Orcs",
+        "Trolls"
+      ]
+    },
+    "Sawmill": {
+      "cost": 100,
+      "upkeep": 2,
+      "requires": [],
+      "terrain": [
+        "Forest"
+      ],
+      "effects": "+25% Production",
+      "unlocks": [
+        "Foresters' Guild",
+        "Ship Yard",
+        "Maritime Guild",
+        "Merchants' Guild"
+      ],
+      "available_to": [
+        "Barbarians",
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "Dwarves",
+        "Gnolls",
+        "Halflings",
+        "High Elves",
+        "High Men",
+        "Klackons",
+        "Nomads",
+        "Orcs",
+        "Trolls"
+      ]
+    },
+    "Shipwrights' Guild": {
+      "cost": 100,
+      "upkeep": 1,
+      "requires": [],
+      "terrain": [
+        "Shore"
+      ],
+      "effects": "Enables Trireme",
+      "unlocks": [
+        "Ship Yard",
+        "Maritime Guild",
+        "Merchants' Guild"
+      ],
+      "available_to": [
+        "Barbarians",
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "Dwarves",
+        "Gnolls",
+        "Halflings",
+        "High Elves",
+        "High Men",
+        "Klackons",
+        "Nomads",
+        "Orcs",
+        "Trolls"
+      ]
+    },
+    "Fighters' Guild": {
+      "cost": 200,
+      "upkeep": 3,
+      "requires": [
+        "Smithy",
+        "Barracks",
+        "Armory"
+      ],
+      "effects": "Units start at Regular; enables advanced units",
+      "unlocks": [
+        "Armorers' Guild",
+        "War College",
+        "Fantastic Stable"
+      ],
+      "available_to": [
+        "Barbarians",
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "Dwarves",
+        "Gnolls",
+        "Halflings",
+        "High Elves",
+        "High Men",
+        "Klackons",
+        "Lizardmen",
+        "Nomads",
+        "Orcs",
+        "Trolls"
+      ]
+    },
+    "Temple": {
+      "cost": 200,
+      "upkeep": 2,
+      "requires": [
+        "Builders' Hall",
+        "Shrine"
+      ],
+      "effects": "+2 Power, -1 Unrest",
+      "unlocks": [
+        "Animists' Guild",
+        "Parthenon",
+        "Oracle",
+        "Fantastic Stable",
+        "Cathedral"
+      ],
+      "available_to": [
+        "Barbarians",
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "Dwarves",
+        "Gnolls",
+        "Halflings",
+        "High Elves",
+        "High Men",
+        "Lizardmen",
+        "Nomads",
+        "Orcs",
+        "Trolls"
+      ]
+    },
+    "Foresters' Guild": {
+      "cost": 200,
+      "upkeep": 2,
+      "requires": [
+        "Sawmill"
+      ],
+      "terrain": [
+        "Forest"
+      ],
+      "effects": "+25% Production",
+      "unlocks": [],
+      "available_to": [
+        "Barbarians",
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "Dwarves",
+        "Gnolls",
+        "Halflings",
+        "High Elves",
+        "High Men",
+        "Klackons",
+        "Nomads",
+        "Orcs",
+        "Trolls"
+      ]
+    },
+    "Ship Yard": {
+      "cost": 200,
+      "upkeep": 2,
+      "requires": [
+        "Sawmill",
+        "Shipwrights' Guild"
+      ],
+      "terrain": [
+        "Shore",
+        "Forest"
+      ],
+      "effects": "Enables Galley",
+      "unlocks": [
+        "Maritime Guild",
+        "Merchants' Guild"
+      ],
+      "available_to": []
+    },
+    "Sages' Guild": {
+      "cost": 120,
+      "upkeep": 2,
+      "requires": [
+        "Builders' Hall",
+        "Library"
+      ],
+      "effects": "+3 Research",
+      "unlocks": [
+        "Alchemists' Guild",
+        "Bank",
+        "University",
+        "War College",
+        "Oracle",
+        "Merchants' Guild",
+        "Wizards' Guild"
+      ],
+      "available_to": [
+        "Barbarians",
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "Dwarves",
+        "Halflings",
+        "High Elves",
+        "High Men",
+        "Nomads",
+        "Orcs"
+      ]
+    },
+    "City Walls": {
+      "cost": 150,
+      "upkeep": 2,
+      "requires": [
+        "Builders' Hall"
+      ],
+      "effects": "Town defense, +1 defense to garrison",
+      "unlocks": [],
+      "available_to": [
+        "Barbarians",
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "Dwarves",
+        "Gnolls",
+        "Halflings",
+        "High Elves",
+        "High Men",
+        "Klackons",
+        "Lizardmen",
+        "Nomads",
+        "Orcs",
+        "Trolls"
+      ]
+    },
+    "Alchemists' Guild": {
+      "cost": 250,
+      "upkeep": 3,
+      "requires": [
+        "Builders' Hall",
+        "Library",
+        "Sages' Guild"
+      ],
+      "effects": "+3 Power; new units get Magic Weapons",
+      "unlocks": [
+        "Wizards' Guild"
+      ],
+      "available_to": [
+        "Barbarians",
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "Dwarves",
+        "Halflings",
+        "High Elves",
+        "High Men",
+        "Nomads",
+        "Orcs"
+      ]
+    },
+    "Bank": {
+      "cost": 250,
+      "upkeep": 3,
+      "requires": [
+        "Smithy",
+        "Marketplace",
+        "Builders' Hall",
+        "Library",
+        "Sages' Guild",
+        "University"
+      ],
+      "effects": "+50% Gold",
+      "unlocks": [
+        "Merchants' Guild"
+      ],
+      "available_to": [
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "High Elves",
+        "High Men",
+        "Nomads",
+        "Orcs"
+      ]
+    },
+    "University": {
+      "cost": 300,
+      "upkeep": 3,
+      "requires": [
+        "Builders' Hall",
+        "Library",
+        "Sages' Guild"
+      ],
+      "effects": "+5 Research",
+      "unlocks": [
+        "Bank",
+        "War College",
+        "Oracle",
+        "Merchants' Guild",
+        "Wizards' Guild"
+      ],
+      "available_to": [
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "High Elves",
+        "High Men",
+        "Nomads",
+        "Orcs"
+      ]
+    },
+    "Animists' Guild": {
+      "cost": 300,
+      "upkeep": 5,
+      "requires": [
+        "Builders' Hall",
+        "Shrine",
+        "Temple",
+        "Smithy",
+        "Stables"
+      ],
+      "effects": "3x Farmer food, -1 Unrest, garrison healing",
+      "unlocks": [
+        "Fantastic Stable"
+      ],
+      "available_to": [
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "High Elves",
+        "High Men",
+        "Nomads",
+        "Orcs",
+        "Trolls"
+      ]
+    },
+    "Armorers' Guild": {
+      "cost": 350,
+      "upkeep": 4,
+      "requires": [
+        "Smithy",
+        "Barracks",
+        "Armory",
+        "Fighters' Guild"
+      ],
+      "effects": "Enables Paladins and top-tier units",
+      "unlocks": [
+        "War College",
+        "Fantastic Stable"
+      ],
+      "available_to": [
+        "Barbarians",
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "Dwarves",
+        "High Elves",
+        "High Men",
+        "Klackons",
+        "Lizardmen",
+        "Nomads",
+        "Orcs",
+        "Trolls"
+      ]
+    },
+    "Parthenon": {
+      "cost": 400,
+      "upkeep": 3,
+      "requires": [
+        "Builders' Hall",
+        "Shrine",
+        "Temple"
+      ],
+      "effects": "+3 Power, -1 Unrest",
+      "unlocks": [
+        "Oracle",
+        "Cathedral"
+      ],
+      "available_to": [
+        "Barbarians",
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "Halflings",
+        "High Men",
+        "Nomads",
+        "Orcs",
+        "Trolls"
+      ]
+    },
+    "Maritime Guild": {
+      "cost": 400,
+      "upkeep": 4,
+      "requires": [
+        "Smithy",
+        "Barracks",
+        "Armory",
+        "Sawmill",
+        "Shipwrights' Guild",
+        "Ship Yard"
+      ],
+      "terrain": [
+        "Shore",
+        "Forest"
+      ],
+      "effects": "Enables Warship",
+      "unlocks": [],
+      "available_to": [
+        "Barbarians",
+        "High Men",
+        "Orcs"
+      ]
+    },
+    "War College": {
+      "cost": 500,
+      "upkeep": 5,
+      "requires": [
+        "Builders' Hall",
+        "Library",
+        "Sages' Guild",
+        "University",
+        "Smithy",
+        "Barracks",
+        "Armory",
+        "Fighters' Guild",
+        "Armorers' Guild"
+      ],
+      "effects": "Units start at Veteran",
+      "unlocks": [],
+      "available_to": [
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "High Elves",
+        "High Men",
+        "Nomads",
+        "Orcs"
+      ]
+    },
+    "Oracle": {
+      "cost": 500,
+      "upkeep": 4,
+      "requires": [
+        "Builders' Hall",
+        "Shrine",
+        "Temple",
+        "Parthenon",
+        "Library",
+        "Sages' Guild",
+        "University"
+      ],
+      "effects": "Sight Range 4, -2 Unrest",
+      "unlocks": [],
+      "available_to": [
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "High Men",
+        "Nomads",
+        "Orcs"
+      ]
+    },
+    "Fantastic Stable": {
+      "cost": 600,
+      "upkeep": 6,
+      "requires": [
+        "Smithy",
+        "Barracks",
+        "Armory",
+        "Fighters' Guild",
+        "Armorers' Guild",
+        "Builders' Hall",
+        "Shrine",
+        "Temple",
+        "Stables",
+        "Animists' Guild"
+      ],
+      "effects": "Enables race-specific top-tier units",
+      "unlocks": [],
+      "available_to": [
+        "Dark Elves",
+        "High Elves",
+        "Nomads",
+        "Orcs"
+      ]
+    },
+    "Mechanicians' Guild": {
+      "cost": 600,
+      "upkeep": 5,
+      "requires": [
+        "Builders' Hall",
+        "Miners' Guild"
+      ],
+      "terrain": [
+        "Hill"
+      ],
+      "effects": "+25% Production",
+      "unlocks": [],
+      "available_to": [
+        "Beastmen",
+        "Dark Elves",
+        "High Elves",
+        "High Men",
+        "Nomads",
+        "Orcs"
+      ]
+    },
+    "Merchants' Guild": {
+      "cost": 600,
+      "upkeep": 5,
+      "requires": [
+        "Sawmill",
+        "Shipwrights' Guild",
+        "Ship Yard",
+        "Smithy",
+        "Marketplace",
+        "Builders' Hall",
+        "Library",
+        "Sages' Guild",
+        "University",
+        "Bank"
+      ],
+      "terrain": [
+        "Shore",
+        "Forest"
+      ],
+      "effects": "+100% Gold",
+      "unlocks": [],
+      "available_to": [
+        "Dark Elves",
+        "Draconians",
+        "High Elves",
+        "High Men",
+        "Nomads",
+        "Orcs"
+      ]
+    },
+    "Miners' Guild": {
+      "cost": 300,
+      "upkeep": 3,
+      "requires": [
+        "Builders' Hall"
+      ],
+      "terrain": [
+        "Hill"
+      ],
+      "effects": "+50% Production from minerals",
+      "unlocks": [
+        "Mechanicians' Guild"
+      ],
+      "available_to": [
+        "Barbarians",
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "Dwarves",
+        "Gnolls",
+        "Halflings",
+        "High Elves",
+        "High Men",
+        "Klackons",
+        "Nomads",
+        "Orcs"
+      ]
+    },
+    "Farmers' Market": {
+      "cost": 100,
+      "upkeep": 2,
+      "requires": [
+        "Builders' Hall",
+        "Granary",
+        "Smithy",
+        "Marketplace"
+      ],
+      "effects": "+3 Food, +30 Pop Growth, +3 Max Pop",
+      "unlocks": [],
+      "available_to": [
+        "Barbarians",
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "Dwarves",
+        "Gnolls",
+        "Halflings",
+        "High Elves",
+        "High Men",
+        "Klackons",
+        "Lizardmen",
+        "Nomads",
+        "Orcs",
+        "Trolls"
+      ]
+    },
+    "Cathedral": {
+      "cost": 800,
+      "upkeep": 4,
+      "requires": [
+        "Builders' Hall",
+        "Shrine",
+        "Temple",
+        "Parthenon"
+      ],
+      "effects": "+4 Power, -1 Unrest",
+      "unlocks": [],
+      "available_to": [
+        "Beastmen",
+        "Draconians",
+        "Halflings",
+        "High Men",
+        "Nomads",
+        "Orcs",
+        "Trolls"
+      ]
+    },
+    "Wizards' Guild": {
+      "cost": 1000,
+      "upkeep": 5,
+      "requires": [
+        "Builders' Hall",
+        "Library",
+        "Sages' Guild",
+        "Alchemists' Guild",
+        "University"
+      ],
+      "effects": "+8 Research",
+      "unlocks": [],
+      "available_to": [
+        "Beastmen",
+        "Dark Elves",
+        "Draconians",
+        "High Elves",
+        "High Men",
+        "Orcs"
+      ]
+    }
+  },
+  "race_buildings": {
+    "Barbarians": [
+      "Alchemists' Guild",
+      "Armorers' Guild",
+      "Armory",
+      "Barracks",
+      "Builders' Hall",
+      "City Walls",
+      "Farmers' Market",
+      "Fighters' Guild",
+      "Foresters' Guild",
+      "Granary",
+      "Library",
+      "Maritime Guild",
+      "Marketplace",
+      "Miners' Guild",
+      "Parthenon",
+      "Sages' Guild",
+      "Sawmill",
+      "Shipwrights' Guild",
+      "Shipyard",
+      "Shrine",
+      "Smithy",
+      "Stables",
+      "Temple"
+    ],
+    "Beastmen": [
+      "Alchemists' Guild",
+      "Animists' Guild",
+      "Armorers' Guild",
+      "Armory",
+      "Bank",
+      "Barracks",
+      "Builders' Hall",
+      "Cathedral",
+      "City Walls",
+      "Farmers' Market",
+      "Fighters' Guild",
+      "Foresters' Guild",
+      "Granary",
+      "Library",
+      "Marketplace",
+      "Mechanicians' Guild",
+      "Miners' Guild",
+      "Oracle",
+      "Parthenon",
+      "Sages' Guild",
+      "Sawmill",
+      "Shipwrights' Guild",
+      "Shrine",
+      "Smithy",
+      "Stables",
+      "Temple",
+      "University",
+      "War College",
+      "Wizards' Guild"
+    ],
+    "Dark Elves": [
+      "Alchemists' Guild",
+      "Animists' Guild",
+      "Armorers' Guild",
+      "Armory",
+      "Bank",
+      "Barracks",
+      "Builders' Hall",
+      "City Walls",
+      "Fantastic Stable",
+      "Farmers' Market",
+      "Fighters' Guild",
+      "Foresters' Guild",
+      "Granary",
+      "Library",
+      "Marketplace",
+      "Mechanicians' Guild",
+      "Merchants' Guild",
+      "Miners' Guild",
+      "Oracle",
+      "Parthenon",
+      "Sages' Guild",
+      "Sawmill",
+      "Shipwrights' Guild",
+      "Shipyard",
+      "Shrine",
+      "Smithy",
+      "Stables",
+      "Temple",
+      "University",
+      "War College",
+      "Wizards' Guild"
+    ],
+    "Draconians": [
+      "Alchemists' Guild",
+      "Animists' Guild",
+      "Armorers' Guild",
+      "Armory",
+      "Bank",
+      "Barracks",
+      "Builders' Hall",
+      "Cathedral",
+      "City Walls",
+      "Farmers' Market",
+      "Fighters' Guild",
+      "Foresters' Guild",
+      "Granary",
+      "Library",
+      "Marketplace",
+      "Merchants' Guild",
+      "Miners' Guild",
+      "Oracle",
+      "Parthenon",
+      "Sages' Guild",
+      "Sawmill",
+      "Shipwrights' Guild",
+      "Shipyard",
+      "Shrine",
+      "Smithy",
+      "Stables",
+      "Temple",
+      "University",
+      "War College",
+      "Wizards' Guild"
+    ],
+    "Dwarves": [
+      "Alchemists' Guild",
+      "Armorers' Guild",
+      "Armory",
+      "Barracks",
+      "Builders' Hall",
+      "City Walls",
+      "Farmers' Market",
+      "Fighters' Guild",
+      "Foresters' Guild",
+      "Granary",
+      "Library",
+      "Marketplace",
+      "Miners' Guild",
+      "Sages' Guild",
+      "Sawmill",
+      "Shipwrights' Guild",
+      "Shrine",
+      "Smithy",
+      "Temple"
+    ],
+    "Gnolls": [
+      "Armory",
+      "Barracks",
+      "Builders' Hall",
+      "City Walls",
+      "Farmers' Market",
+      "Fighters' Guild",
+      "Foresters' Guild",
+      "Granary",
+      "Library",
+      "Marketplace",
+      "Miners' Guild",
+      "Sawmill",
+      "Shipwrights' Guild",
+      "Shipyard",
+      "Shrine",
+      "Smithy",
+      "Stables",
+      "Temple"
+    ],
+    "Halflings": [
+      "Alchemists' Guild",
+      "Armory",
+      "Barracks",
+      "Builders' Hall",
+      "Cathedral",
+      "City Walls",
+      "Farmers' Market",
+      "Fighters' Guild",
+      "Foresters' Guild",
+      "Granary",
+      "Library",
+      "Miners' Guild",
+      "Parthenon",
+      "Sages' Guild",
+      "Sawmill",
+      "Shipwrights' Guild",
+      "Shrine",
+      "Smithy",
+      "Temple"
+    ],
+    "High Elves": [
+      "Alchemists' Guild",
+      "Animists' Guild",
+      "Armorers' Guild",
+      "Armory",
+      "Bank",
+      "Barracks",
+      "Builders' Hall",
+      "City Walls",
+      "Fantastic Stable",
+      "Farmers' Market",
+      "Fighters' Guild",
+      "Foresters' Guild",
+      "Granary",
+      "Library",
+      "Marketplace",
+      "Mechanicians' Guild",
+      "Merchants' Guild",
+      "Miners' Guild",
+      "Sages' Guild",
+      "Sawmill",
+      "Shipwrights' Guild",
+      "Shipyard",
+      "Shrine",
+      "Smithy",
+      "Stables",
+      "Temple",
+      "University",
+      "War College",
+      "Wizards' Guild"
+    ],
+    "High Men": [
+      "Alchemists' Guild",
+      "Animists' Guild",
+      "Armorers' Guild",
+      "Armory",
+      "Bank",
+      "Barracks",
+      "Builders' Hall",
+      "Cathedral",
+      "City Walls",
+      "Farmers' Market",
+      "Fighters' Guild",
+      "Foresters' Guild",
+      "Granary",
+      "Library",
+      "Maritime Guild",
+      "Marketplace",
+      "Mechanicians' Guild",
+      "Merchants' Guild",
+      "Miners' Guild",
+      "Oracle",
+      "Parthenon",
+      "Sages' Guild",
+      "Sawmill",
+      "Shipwrights' Guild",
+      "Shipyard",
+      "Shrine",
+      "Smithy",
+      "Stables",
+      "Temple",
+      "University",
+      "War College",
+      "Wizards' Guild"
+    ],
+    "Klackons": [
+      "Armorers' Guild",
+      "Armory",
+      "Barracks",
+      "Builders' Hall",
+      "City Walls",
+      "Farmers' Market",
+      "Fighters' Guild",
+      "Foresters' Guild",
+      "Granary",
+      "Library",
+      "Marketplace",
+      "Miners' Guild",
+      "Sawmill",
+      "Shipwrights' Guild",
+      "Shrine",
+      "Smithy",
+      "Stables"
+    ],
+    "Lizardmen": [
+      "Armorers' Guild",
+      "Armory",
+      "Barracks",
+      "Builders' Hall",
+      "City Walls",
+      "Farmers' Market",
+      "Fighters' Guild",
+      "Granary",
+      "Library",
+      "Marketplace",
+      "Shrine",
+      "Smithy",
+      "Stables",
+      "Temple"
+    ],
+    "Nomads": [
+      "Alchemists' Guild",
+      "Animists' Guild",
+      "Armorers' Guild",
+      "Armory",
+      "Bank",
+      "Barracks",
+      "Builders' Hall",
+      "Cathedral",
+      "City Walls",
+      "Fantastic Stable",
+      "Farmers' Market",
+      "Fighters' Guild",
+      "Foresters' Guild",
+      "Granary",
+      "Library",
+      "Marketplace",
+      "Mechanicians' Guild",
+      "Merchants' Guild",
+      "Miners' Guild",
+      "Oracle",
+      "Parthenon",
+      "Sages' Guild",
+      "Sawmill",
+      "Shipwrights' Guild",
+      "Shipyard",
+      "Shrine",
+      "Smithy",
+      "Stables",
+      "Temple",
+      "University",
+      "War College"
+    ],
+    "Orcs": [
+      "Alchemists' Guild",
+      "Animists' Guild",
+      "Armorers' Guild",
+      "Armory",
+      "Bank",
+      "Barracks",
+      "Builders' Hall",
+      "Cathedral",
+      "City Walls",
+      "Fantastic Stable",
+      "Farmers' Market",
+      "Fighters' Guild",
+      "Foresters' Guild",
+      "Granary",
+      "Library",
+      "Maritime Guild",
+      "Marketplace",
+      "Mechanicians' Guild",
+      "Merchants' Guild",
+      "Miners' Guild",
+      "Oracle",
+      "Parthenon",
+      "Sages' Guild",
+      "Sawmill",
+      "Shipwrights' Guild",
+      "Shipyard",
+      "Shrine",
+      "Smithy",
+      "Stables",
+      "Temple",
+      "University",
+      "War College",
+      "Wizards' Guild"
+    ],
+    "Trolls": [
+      "Animists' Guild",
+      "Armorers' Guild",
+      "Armory",
+      "Barracks",
+      "Builders' Hall",
+      "Cathedral",
+      "City Walls",
+      "Farmers' Market",
+      "Fighters' Guild",
+      "Foresters' Guild",
+      "Granary",
+      "Library",
+      "Marketplace",
+      "Parthenon",
+      "Sawmill",
+      "Shipwrights' Guild",
+      "Shrine",
+      "Smithy",
+      "Stables",
+      "Temple"
+    ]
+  },
+  "race_units": {
+    "Draconians": [
+      {
+        "name": "Air Ship",
+        "requires": [
+          "Ship Yard"
+        ],
+        "build_cost": {
+          "production": 200
+        }
+      },
+      {
+        "name": "Doom Drakes",
+        "requires": [
+          "Barracks",
+          "Stables"
+        ],
+        "build_cost": {
+          "production": 160
+        }
+      },
+      {
+        "name": "Draconian Bowmen",
+        "requires": [
+          "Barracks",
+          "Sawmill"
+        ],
+        "build_cost": {
+          "production": 45
+        }
+      },
+      {
+        "name": "Draconian Engineers",
+        "requires": [
+          "Builders' Hall"
+        ],
+        "build_cost": {
+          "production": 100
+        }
+      },
+      {
+        "name": "Draconian Halberdiers",
+        "requires": [
+          "Armory"
+        ],
+        "build_cost": {
+          "production": 100
+        }
+      },
+      {
+        "name": "Draconian Magicians",
+        "requires": [
+          "Wizards' Guild"
+        ],
+        "build_cost": {
+          "production": 180
+        }
+      },
+      {
+        "name": "Draconian Settlers",
+        "requires": [],
+        "build_cost": {
+          "production": 150
+        }
+      },
+      {
+        "name": "Draconian Shamans",
+        "requires": [
+          "Shrine"
+        ],
+        "build_cost": {
+          "production": 75
+        }
+      },
+      {
+        "name": "Draconian Spearmen",
+        "requires": [],
+        "build_cost": {
+          "production": 25
+        }
+      },
+      {
+        "name": "Draconian Swordsmen",
+        "requires": [
+          "Barracks",
+          "Smithy"
+        ],
+        "build_cost": {
+          "production": 50
+        }
+      }
+    ],
+    "Barbarians": [
+      {
+        "name": "Barbarian Bowmen",
+        "requires": [
+          "Barracks",
+          "Sawmill"
+        ],
+        "build_cost": {
+          "production": 30
+        }
+      },
+      {
+        "name": "Barbarian Shamans",
+        "requires": [
+          "Shrine"
+        ],
+        "build_cost": {
+          "production": 50
+        }
+      },
+      {
+        "name": "Barbarian Spearmen",
+        "requires": [],
+        "build_cost": {
+          "production": 15
+        }
+      },
+      {
+        "name": "Barbarian Swordsmen",
+        "requires": [
+          "Barracks",
+          "Smithy"
+        ],
+        "build_cost": {
+          "production": 30
+        }
+      },
+      {
+        "name": "Berserkers",
+        "requires": [
+          "Armorers' Guild"
+        ],
+        "build_cost": {
+          "production": 120
+        }
+      },
+      {
+        "name": "Galley",
+        "requires": [
+          "Shipyard"
+        ],
+        "build_cost": {
+          "production": 100
+        }
+      },
+      {
+        "name": "Warship",
+        "requires": [
+          "Maritime Guild"
+        ],
+        "build_cost": {
+          "production": 160
+        }
+      }
+    ],
+    "Barbarian": [
+      {
+        "name": "Barbarian Cavalry",
+        "requires": [
+          "Barracks",
+          "Stables"
+        ],
+        "build_cost": {
+          "production": 60
+        }
+      },
+      {
+        "name": "Barbarian Settlers",
+        "requires": [],
+        "build_cost": {
+          "production": 60
+        }
+      }
+    ],
+    "Beastmen": [
+      {
+        "name": "Beastmen Bowmen",
+        "requires": [
+          "Barracks",
+          "Sawmill"
+        ],
+        "build_cost": {
+          "production": 60
+        }
+      },
+      {
+        "name": "Beastmen Engineers",
+        "requires": [
+          "Builders' Hall"
+        ],
+        "build_cost": {
+          "production": 60
+        }
+      },
+      {
+        "name": "Beastmen Halberdiers",
+        "requires": [
+          "Armory"
+        ],
+        "build_cost": {
+          "production": 80
+        }
+      },
+      {
+        "name": "Beastmen Magicians",
+        "requires": [
+          "Wizards' Guild"
+        ],
+        "build_cost": {
+          "production": 180
+        }
+      },
+      {
+        "name": "Beastmen Priests",
+        "requires": [
+          "Parthenon"
+        ],
+        "build_cost": {
+          "production": 150
+        }
+      },
+      {
+        "name": "Beastmen Settlers",
+        "requires": [],
+        "build_cost": {
+          "production": 120
+        }
+      },
+      {
+        "name": "Beastmen Spearmen",
+        "requires": [],
+        "build_cost": {
+          "production": 20
+        }
+      },
+      {
+        "name": "Beastmen Swordsmen",
+        "requires": [
+          "Barracks",
+          "Smithy"
+        ],
+        "build_cost": {
+          "production": 40
+        }
+      },
+      {
+        "name": "Centaurs",
+        "requires": [
+          "Barracks",
+          "Stables"
+        ],
+        "build_cost": {
+          "production": 100
+        }
+      },
+      {
+        "name": "Manticores",
+        "requires": [
+          "Barracks",
+          "Animists' Guild"
+        ],
+        "build_cost": {
+          "production": 160
+        }
+      },
+      {
+        "name": "Minotaurs",
+        "requires": [
+          "Armorers' Guild"
+        ],
+        "build_cost": {
+          "production": 200
+        }
+      }
+    ],
+    "High Elves": [
+      {
+        "name": "Catapult",
+        "requires": [
+          "Mechanicians' Guild"
+        ],
+        "build_cost": {
+          "production": 100
+        }
+      },
+      {
+        "name": "Elven Lords",
+        "requires": [
+          "Armorers' Guild"
+        ],
+        "build_cost": {
+          "production": 160
+        }
+      },
+      {
+        "name": "High Elf Cavalry",
+        "requires": [
+          "Barracks",
+          "Stables"
+        ],
+        "build_cost": {
+          "production": 60
+        }
+      },
+      {
+        "name": "High Elf Halberdiers",
+        "requires": [
+          "Armory"
+        ],
+        "build_cost": {
+          "production": 60
+        }
+      },
+      {
+        "name": "High Elf Magicians",
+        "requires": [
+          "Wizards' Guild"
+        ],
+        "build_cost": {
+          "production": 180
+        }
+      },
+      {
+        "name": "High Elf Settlers",
+        "requires": [],
+        "build_cost": {
+          "production": 90
+        }
+      },
+      {
+        "name": "High Elf Spearmen",
+        "requires": [],
+        "build_cost": {
+          "production": 15
+        }
+      },
+      {
+        "name": "High Elf Swordsmen",
+        "requires": [
+          "Barracks",
+          "Smithy"
+        ],
+        "build_cost": {
+          "production": 30
+        }
+      },
+      {
+        "name": "Longbowmen",
+        "requires": [
+          "Barracks",
+          "Sawmill"
+        ],
+        "build_cost": {
+          "production": 80
+        }
+      },
+      {
+        "name": "Pegasai",
+        "requires": [
+          "Fantastic Stable"
+        ],
+        "build_cost": {
+          "production": 160
+        }
+      }
+    ],
+    "Dark Elves": [
+      {
+        "name": "Dark Elf Cavalry",
+        "requires": [
+          "Barracks",
+          "Stables"
+        ],
+        "build_cost": {
+          "production": 100
+        }
+      },
+      {
+        "name": "Dark Elf Halberdiers",
+        "requires": [
+          "Armory"
+        ],
+        "build_cost": {
+          "production": 100
+        }
+      },
+      {
+        "name": "Dark Elf Priests",
+        "requires": [
+          "Parthenon"
+        ],
+        "build_cost": {
+          "production": 200
+        }
+      },
+      {
+        "name": "Dark Elf Settlers",
+        "requires": [],
+        "build_cost": {
+          "production": 150
+        }
+      },
+      {
+        "name": "Dark Elf Spearmen",
+        "requires": [],
+        "build_cost": {
+          "production": 25
+        }
+      },
+      {
+        "name": "Dark Elf Swordsmen",
+        "requires": [
+          "Barracks",
+          "Smithy"
+        ],
+        "build_cost": {
+          "production": 50
+        }
+      },
+      {
+        "name": "Nightblades",
+        "requires": [
+          "Fighters' Guild"
+        ],
+        "build_cost": {
+          "production": 120
+        }
+      },
+      {
+        "name": "Nightmares",
+        "requires": [
+          "Fantastic Stable"
+        ],
+        "build_cost": {
+          "production": 160
+        }
+      },
+      {
+        "name": "Warlocks",
+        "requires": [
+          "Wizards' Guild"
+        ],
+        "build_cost": {
+          "production": 240
+        }
+      }
+    ],
+    "Lizardmen": [
+      {
+        "name": "Dragon Turtle",
+        "requires": [
+          "Armorers' Guild",
+          "Stables"
+        ],
+        "build_cost": {
+          "production": 100
+        }
+      },
+      {
+        "name": "Javelineers",
+        "requires": [
+          "Fighters' Guild"
+        ],
+        "build_cost": {
+          "production": 80
+        }
+      },
+      {
+        "name": "Lizardmen Halberdiers",
+        "requires": [
+          "Armory"
+        ],
+        "build_cost": {
+          "production": 40
+        }
+      },
+      {
+        "name": "Lizardmen Settlers",
+        "requires": [],
+        "build_cost": {
+          "production": 120
+        }
+      },
+      {
+        "name": "Lizardmen Shamans",
+        "requires": [
+          "Shrine"
+        ],
+        "build_cost": {
+          "production": 60
+        }
+      },
+      {
+        "name": "Lizardmen Spearmen",
+        "requires": [],
+        "build_cost": {
+          "production": 10
+        }
+      },
+      {
+        "name": "Lizardmen Swordsmen",
+        "requires": [
+          "Barracks",
+          "Smithy"
+        ],
+        "build_cost": {
+          "production": 20
+        }
+      },
+      {
+        "name": "Trireme",
+        "requires": [
+          "Shipwrights' Guild"
+        ],
+        "build_cost": {
+          "production": 60
+        }
+      }
+    ],
+    "Dwarves": [
+      {
+        "name": "Dwarf Engineers",
+        "requires": [
+          "Builders' Hall"
+        ],
+        "build_cost": {
+          "production": 40
+        }
+      },
+      {
+        "name": "Dwarf Halberdiers",
+        "requires": [
+          "Armory"
+        ],
+        "build_cost": {
+          "production": 100
+        }
+      },
+      {
+        "name": "Dwarf Settlers",
+        "requires": [],
+        "build_cost": {
+          "production": 150
+        }
+      },
+      {
+        "name": "Dwarf Swordsmen",
+        "requires": [
+          "Barracks",
+          "Smithy"
+        ],
+        "build_cost": {
+          "production": 50
+        }
+      },
+      {
+        "name": "Golem",
+        "requires": [
+          "Armorers' Guild"
+        ],
+        "build_cost": {
+          "production": 200
+        }
+      },
+      {
+        "name": "Hammerhands",
+        "requires": [
+          "Fighters' Guild"
+        ],
+        "build_cost": {
+          "production": 160
+        }
+      },
+      {
+        "name": "Steam Cannon",
+        "requires": [
+          "Miners' Guild"
+        ],
+        "build_cost": {
+          "production": 180
+        }
+      }
+    ],
+    "Gnolls": [
+      {
+        "name": "Gnoll Bowmen",
+        "requires": [
+          "Barracks",
+          "Sawmill"
+        ],
+        "build_cost": {
+          "production": 30
+        }
+      },
+      {
+        "name": "Gnoll Halberdiers",
+        "requires": [
+          "Armory"
+        ],
+        "build_cost": {
+          "production": 40
+        }
+      },
+      {
+        "name": "Gnoll Settlers",
+        "requires": [],
+        "build_cost": {
+          "production": 60
+        }
+      },
+      {
+        "name": "Gnoll Spearmen",
+        "requires": [],
+        "build_cost": {
+          "production": 10
+        }
+      },
+      {
+        "name": "Gnoll Swordsmen",
+        "requires": [
+          "Barracks",
+          "Smithy"
+        ],
+        "build_cost": {
+          "production": 20
+        }
+      },
+      {
+        "name": "Wolf Riders",
+        "requires": [
+          "Barracks",
+          "Stables"
+        ],
+        "build_cost": {
+          "production": 100
+        }
+      }
+    ],
+    "Nomads": [
+      {
+        "name": "Griffins",
+        "requires": [
+          "Fantastic Stable"
+        ],
+        "build_cost": {
+          "production": 200
+        }
+      },
+      {
+        "name": "Horsebowmen",
+        "requires": [
+          "Barracks",
+          "Stables"
+        ],
+        "build_cost": {
+          "production": 60
+        }
+      },
+      {
+        "name": "Nomad Bowmen",
+        "requires": [
+          "Barracks",
+          "Sawmill"
+        ],
+        "build_cost": {
+          "production": 30
+        }
+      },
+      {
+        "name": "Nomad Pikemen",
+        "requires": [
+          "Fighters' Guild"
+        ],
+        "build_cost": {
+          "production": 80
+        }
+      },
+      {
+        "name": "Nomad Settlers",
+        "requires": [],
+        "build_cost": {
+          "production": 60
+        }
+      },
+      {
+        "name": "Nomad Spearmen",
+        "requires": [],
+        "build_cost": {
+          "production": 10
+        }
+      },
+      {
+        "name": "Nomad Swordsmen",
+        "requires": [
+          "Barracks",
+          "Smithy"
+        ],
+        "build_cost": {
+          "production": 20
+        }
+      },
+      {
+        "name": "Rangers",
+        "requires": [
+          "Barracks",
+          "Animists' Guild"
+        ],
+        "build_cost": {
+          "production": 120
+        }
+      }
+    ],
+    "Halflings": [
+      {
+        "name": "Halfling Bowmen",
+        "requires": [
+          "Barracks",
+          "Sawmill"
+        ],
+        "build_cost": {
+          "production": 45
+        }
+      },
+      {
+        "name": "Halfling Settlers",
+        "requires": [],
+        "build_cost": {
+          "production": 90
+        }
+      },
+      {
+        "name": "Halfling Shamans",
+        "requires": [
+          "Shrine"
+        ],
+        "build_cost": {
+          "production": 75
+        }
+      },
+      {
+        "name": "Halfling Spearmen",
+        "requires": [],
+        "build_cost": {
+          "production": 15
+        }
+      },
+      {
+        "name": "Halfling Swordsmen",
+        "requires": [
+          "Barracks",
+          "Smithy"
+        ],
+        "build_cost": {
+          "production": 30
+        }
+      },
+      {
+        "name": "Slingers",
+        "requires": [
+          "Armory"
+        ],
+        "build_cost": {
+          "production": 100
+        }
+      }
+    ],
+    "High Men": [
+      {
+        "name": "High Men Bowmen",
+        "requires": [
+          "Barracks",
+          "Sawmill"
+        ],
+        "build_cost": {
+          "production": 30
+        }
+      },
+      {
+        "name": "High Men Cavalry",
+        "requires": [
+          "Barracks",
+          "Stables"
+        ],
+        "build_cost": {
+          "production": 40
+        }
+      },
+      {
+        "name": "High Men Engineers",
+        "requires": [
+          "Builders' Hall"
+        ],
+        "build_cost": {
+          "production": 40
+        }
+      },
+      {
+        "name": "High Men Magicians",
+        "requires": [
+          "Wizards' Guild"
+        ],
+        "build_cost": {
+          "production": 120
+        }
+      },
+      {
+        "name": "High Men Pikemen",
+        "requires": [
+          "Fighters' Guild"
+        ],
+        "build_cost": {
+          "production": 80
+        }
+      },
+      {
+        "name": "High Men Priests",
+        "requires": [
+          "Parthenon"
+        ],
+        "build_cost": {
+          "production": 100
+        }
+      },
+      {
+        "name": "High Men Settlers",
+        "requires": [],
+        "build_cost": {
+          "production": 60
+        }
+      },
+      {
+        "name": "High Men Spearmen",
+        "requires": [],
+        "build_cost": {
+          "production": 10
+        }
+      },
+      {
+        "name": "High Men Swordsmen",
+        "requires": [
+          "Barracks",
+          "Smithy"
+        ],
+        "build_cost": {
+          "production": 20
+        }
+      },
+      {
+        "name": "Nomad Priests",
+        "requires": [
+          "Parthenon"
+        ],
+        "build_cost": {
+          "production": 100
+        }
+      },
+      {
+        "name": "Paladins",
+        "requires": [
+          "Armorers' Guild",
+          "Cathedral"
+        ],
+        "build_cost": {
+          "production": 200
+        }
+      }
+    ],
+    "Klackons": [
+      {
+        "name": "Klackon Engineers",
+        "requires": [
+          "Builders' Hall"
+        ],
+        "build_cost": {
+          "production": 80
+        }
+      },
+      {
+        "name": "Klackon Halberdiers",
+        "requires": [
+          "Armory"
+        ],
+        "build_cost": {
+          "production": 80
+        }
+      },
+      {
+        "name": "Klackon Settlers",
+        "requires": [],
+        "build_cost": {
+          "production": 120
+        }
+      },
+      {
+        "name": "Klackon Spearmen",
+        "requires": [],
+        "build_cost": {
+          "production": 20
+        }
+      },
+      {
+        "name": "Klackon Swordsmen",
+        "requires": [
+          "Barracks",
+          "Smithy"
+        ],
+        "build_cost": {
+          "production": 40
+        }
+      },
+      {
+        "name": "Stag Beetle",
+        "requires": [
+          "Armorers' Guild",
+          "Stables"
+        ],
+        "build_cost": {
+          "production": 160
+        }
+      }
+    ],
+    "Orcs": [
+      {
+        "name": "Orc Bowmen",
+        "requires": [
+          "Barracks",
+          "Sawmill"
+        ],
+        "build_cost": {
+          "production": 30
+        }
+      },
+      {
+        "name": "Orc Cavalry",
+        "requires": [
+          "Barracks",
+          "Stables"
+        ],
+        "build_cost": {
+          "production": 40
+        }
+      },
+      {
+        "name": "Orc Engineers",
+        "requires": [
+          "Builders' Hall"
+        ],
+        "build_cost": {
+          "production": 40
+        }
+      },
+      {
+        "name": "Orc Halberdiers",
+        "requires": [
+          "Armory"
+        ],
+        "build_cost": {
+          "production": 40
+        }
+      },
+      {
+        "name": "Orc Magicians",
+        "requires": [
+          "Wizards' Guild"
+        ],
+        "build_cost": {
+          "production": 120
+        }
+      },
+      {
+        "name": "Orc Settlers",
+        "requires": [],
+        "build_cost": {
+          "production": 60
+        }
+      },
+      {
+        "name": "Orc Shamans",
+        "requires": [
+          "Shrine"
+        ],
+        "build_cost": {
+          "production": 60
+        }
+      },
+      {
+        "name": "Orc Spearmen",
+        "requires": [],
+        "build_cost": {
+          "production": 10
+        }
+      },
+      {
+        "name": "Orc Swordsmen",
+        "requires": [
+          "Barracks",
+          "Smithy"
+        ],
+        "build_cost": {
+          "production": 20
+        }
+      },
+      {
+        "name": "Wyvern Riders",
+        "requires": [
+          "Fantastic Stable"
+        ],
+        "build_cost": {
+          "production": 200
+        }
+      }
+    ],
+    "Trolls": [
+      {
+        "name": "Troll Halberdiers",
+        "requires": [
+          "Armory"
+        ],
+        "build_cost": {
+          "production": 120
+        }
+      },
+      {
+        "name": "Troll Settlers",
+        "requires": [],
+        "build_cost": {
+          "production": 180
+        }
+      },
+      {
+        "name": "Troll Shamans",
+        "requires": [
+          "Shrine"
+        ],
+        "build_cost": {
+          "production": 180
+        }
+      },
+      {
+        "name": "Troll Spearmen",
+        "requires": [],
+        "build_cost": {
+          "production": 30
+        }
+      },
+      {
+        "name": "Troll Swordsmen",
+        "requires": [
+          "Barracks",
+          "Smithy"
+        ],
+        "build_cost": {
+          "production": 60
+        }
+      }
+    ],
+    "Troll": [
+      {
+        "name": "War Mammoths",
+        "requires": [
+          "Armorers' Guild",
+          "Stables"
+        ],
+        "build_cost": {
+          "production": 240
+        }
+      },
+      {
+        "name": "War Trolls",
+        "requires": [
+          "Fighters' Guild"
+        ],
+        "build_cost": {
+          "production": 160
+        }
+      }
+    ]
+  }
+}
